@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<levelinfo>
+
+	<!--사령부 -->
+	<building id="HQ" subId="EM_HQ">
+		<level level="1" cost="22" coolTime="20" value="1200" />
+		<level level="2" cost="46" coolTime="25" value="1205" />
+		<level level="3" cost="74" coolTime="41" value="1210" />
+		<level level="4" cost="106" coolTime="68" value="1214" />
+		<level level="5" cost="140" coolTime="106" value="1219" />
+		<level level="6" cost="178" coolTime="155" value="1224" />
+		<level level="7" cost="218" coolTime="214" value="1229" />
+		<level level="8" cost="262" coolTime="284" value="1234" />
+		<level level="9" cost="310" coolTime="365" value="1238" />
+		<level level="10" cost="360" coolTime="457" value="1243" />
+
+		<level level="11" cost="414" coolTime="560" value="1248" />
+		<level level="12" cost="470" coolTime="673" value="1253" />
+		<level level="13" cost="530" coolTime="797" value="1258" />
+		<level level="14" cost="594" coolTime="932" value="1262" />
+		<level level="15" cost="660" coolTime="1078" value="1267" />
+		<level level="16" cost="730" coolTime="1235" value="1272" />
+		<level level="17" cost="802" coolTime="1402" value="1277" />
+		<level level="18" cost="878" coolTime="1580" value="1282" />
+		<level level="19" cost="958" coolTime="1769" value="1286" />
+		<level level="20" cost="1040" coolTime="1969" value="1291" />
+
+		<level level="21" cost="1126" coolTime="2180" value="1296" />
+		<level level="22" cost="1214" coolTime="2401" value="1301" />
+		<level level="23" cost="1306" coolTime="2633" value="1306" />
+		<level level="24" cost="1402" coolTime="2876" value="1310" />
+		<level level="25" cost="1500" coolTime="3130" value="1315" />
+		<level level="26" cost="1602" coolTime="3395" value="1320" />
+		<level level="27" cost="1706" coolTime="3670" value="1325" />
+		<level level="28" cost="1814" coolTime="3956" value="1330" />
+		<level level="29" cost="1926" coolTime="4253" value="1334" />
+		<level level="30" cost="2040" coolTime="4561" value="1339" />
+
+		<level level="31" cost="2158" coolTime="4880" value="1344" />
+		<level level="32" cost="2278" coolTime="5209" value="1349" />
+		<level level="33" cost="2402" coolTime="5549" value="1354" />
+		<level level="34" cost="2530" coolTime="5900" value="1358" />
+		<level level="35" cost="2660" coolTime="6262" value="1363" />
+		<level level="36" cost="2794" coolTime="6635" value="1368" />
+		<level level="37" cost="2930" coolTime="7018" value="1373" />
+		<level level="38" cost="3070" coolTime="7412" value="1378" />
+		<level level="39" cost="3214" coolTime="7817" value="1382" />
+		<level level="40" cost="3360" coolTime="8233" value="1387" />
+
+		<level level="41" cost="3510" coolTime="8660" value="1392" />
+		<level level="42" cost="3662" coolTime="9097" value="1397" />
+		<level level="43" cost="3818" coolTime="9545" value="1402" />
+		<level level="44" cost="3978" coolTime="10004" value="1406" />
+		<level level="45" cost="4140" coolTime="10474" value="1411" />
+		<level level="46" cost="4306" coolTime="10955" value="1416" />
+		<level level="47" cost="4474" coolTime="11446" value="1421" />
+		<level level="48" cost="4646" coolTime="11948" value="1426" />
+		<level level="49" cost="4822" coolTime="12461" value="1430" />
+		<level level="50" cost="5000" coolTime="12974" value="1435" />
+	</building>
+
+	<!--훈련소 -->
+	<building id="TrainingCamp" subId="EM_TrainingCamp">
+		<level level="1" cost="11" coolTime="5" value="-0.4" />
+		<level level="2" cost="23" coolTime="6" value="-0.8" />
+		<level level="3" cost="37" coolTime="10" value="-1.2" />
+		<level level="4" cost="53" coolTime="17" value="-1.6" />
+		<level level="5" cost="70" coolTime="26" value="-2" />
+		<level level="6" cost="89" coolTime="38" value="-2.4" />
+		<level level="7" cost="109" coolTime="53" value="-2.8" />
+		<level level="8" cost="131" coolTime="70" value="-3.2" />
+		<level level="9" cost="155" coolTime="90" value="-3.6" />
+		<level level="10" cost="180" coolTime="113" value="-4" />
+
+		<level level="11" cost="207" coolTime="138" value="-4.4" />
+		<level level="12" cost="235" coolTime="166" value="-4.8" />
+		<level level="13" cost="265" coolTime="197" value="-5.2" />
+		<level level="14" cost="297" coolTime="230" value="-5.6" />
+		<level level="15" cost="330" coolTime="266" value="-6" />
+		<level level="16" cost="365" coolTime="305" value="-6.4" />
+		<level level="17" cost="401" coolTime="346" value="-6.8" />
+		<level level="18" cost="439" coolTime="390" value="-7.2" />
+		<level level="19" cost="479" coolTime="437" value="-7.6" />
+		<level level="20" cost="520" coolTime="486" value="-8" />
+
+		<level level="21" cost="563" coolTime="538" value="-8.4" />
+		<level level="22" cost="607" coolTime="593" value="-8.8" />
+		<level level="23" cost="653" coolTime="650" value="-9.2" />
+		<level level="24" cost="701" coolTime="710" value="-9.6" />
+		<level level="25" cost="750" coolTime="773" value="-10" />
+		<level level="26" cost="801" coolTime="838" value="-10.4" />
+		<level level="27" cost="853" coolTime="906" value="-10.8" />
+		<level level="28" cost="907" coolTime="977" value="-11.2" />
+		<level level="29" cost="963" coolTime="1050" value="-11.6" />
+		<level level="30" cost="1020" coolTime="1126" value="-12" />
+
+		<level level="31" cost="1079" coolTime="1205" value="-12.4" />
+		<level level="32" cost="1139" coolTime="1286" value="-12.8" />
+		<level level="33" cost="1201" coolTime="1370" value="-13.2" />
+		<level level="34" cost="1265" coolTime="1457" value="-13.6" />
+		<level level="35" cost="1330" coolTime="1546" value="-14" />
+		<level level="36" cost="1397" coolTime="1638" value="-14.4" />
+		<level level="37" cost="1465" coolTime="1733" value="-14.8" />
+		<level level="38" cost="1535" coolTime="1830" value="-15.2" />
+		<level level="39" cost="1607" coolTime="1930" value="-15.6" />
+		<level level="40" cost="1680" coolTime="2033" value="-16" />
+
+		<level level="41" cost="1755" coolTime="2138" value="-16.4" />
+		<level level="42" cost="1831" coolTime="2246" value="-16.8" />
+		<level level="43" cost="1909" coolTime="2357" value="-17.2" />
+		<level level="44" cost="1989" coolTime="2470" value="-17.6" />
+		<level level="45" cost="2070" coolTime="2586" value="-18" />
+		<level level="46" cost="2153" coolTime="2705" value="-18.4" />
+		<level level="47" cost="2237" coolTime="2826" value="-18.8" />
+		<level level="48" cost="2323" coolTime="2950" value="-19.2" />
+		<level level="49" cost="2411" coolTime="3077" value="-19.6" />
+		<level level="50" cost="2500" coolTime="3204" value="-20" />
+	</building>
+
+	<!--기계공장 -->
+	<building id="MachineFactory" subId="EM_MachineFactory">
+		<level level="1" cost="11" coolTime="10" value="-0.4" />
+		<level level="2" cost="23" coolTime="13" value="-0.8" />
+		<level level="3" cost="37" coolTime="21" value="-1.2" />
+		<level level="4" cost="53" coolTime="35" value="-1.6" />
+		<level level="5" cost="70" coolTime="54" value="-2" />
+		<level level="6" cost="89" coolTime="79" value="-2.4" />
+		<level level="7" cost="109" coolTime="109" value="-2.8" />
+		<level level="8" cost="131" coolTime="145" value="-3.2" />
+		<level level="9" cost="155" coolTime="186" value="-3.6" />
+		<level level="10" cost="180" coolTime="233" value="-4" />
+
+		<level level="11" cost="207" coolTime="285" value="-4.4" />
+		<level level="12" cost="235" coolTime="343" value="-4.8" />
+		<level level="13" cost="265" coolTime="406" value="-5.2" />
+		<level level="14" cost="297" coolTime="475" value="-5.6" />
+		<level level="15" cost="330" coolTime="549" value="-6" />
+		<level level="16" cost="365" coolTime="629" value="-6.4" />
+		<level level="17" cost="401" coolTime="714" value="-6.8" />
+		<level level="18" cost="439" coolTime="805" value="-7.2" />
+		<level level="19" cost="479" coolTime="901" value="-7.6" />
+		<level level="20" cost="520" coolTime="1003" value="-8" />
+
+		<level level="21" cost="563" coolTime="1110" value="-8.4" />
+		<level level="22" cost="607" coolTime="1223" value="-8.8" />
+		<level level="23" cost="653" coolTime="1341" value="-9.2" />
+		<level level="24" cost="701" coolTime="1465" value="-9.6" />
+		<level level="25" cost="750" coolTime="1594" value="-10" />
+		<level level="26" cost="801" coolTime="1729" value="-10.4" />
+		<level level="27" cost="853" coolTime="1869" value="-10.8" />
+		<level level="28" cost="907" coolTime="2015" value="-11.2" />
+		<level level="29" cost="963" coolTime="2166" value="-11.6" />
+		<level level="30" cost="1020" coolTime="2323" value="-12" />
+
+		<level level="31" cost="1079" coolTime="2485" value="-12.4" />
+		<level level="32" cost="1139" coolTime="2653" value="-12.8" />
+		<level level="33" cost="1201" coolTime="2826" value="-13.2" />
+		<level level="34" cost="1265" coolTime="3005" value="-13.6" />
+		<level level="35" cost="1330" coolTime="3189" value="-14" />
+		<level level="36" cost="1397" coolTime="3379" value="-14.4" />
+		<level level="37" cost="1465" coolTime="3574" value="-14.8" />
+		<level level="38" cost="1535" coolTime="3775" value="-15.2" />
+		<level level="39" cost="1607" coolTime="3981" value="-15.6" />
+		<level level="40" cost="1680" coolTime="4193" value="-16" />
+
+		<level level="41" cost="1755" coolTime="4410" value="-16.4" />
+		<level level="42" cost="1831" coolTime="4633" value="-16.8" />
+		<level level="43" cost="1909" coolTime="4861" value="-17.2" />
+		<level level="44" cost="1989" coolTime="5095" value="-17.6" />
+		<level level="45" cost="2070" coolTime="5334" value="-18" />
+		<level level="46" cost="2153" coolTime="5579" value="-18.4" />
+		<level level="47" cost="2237" coolTime="5829" value="-18.8" />
+		<level level="48" cost="2323" coolTime="6085" value="-19.2" />
+		<level level="49" cost="2411" coolTime="6346" value="-19.6" />
+		<level level="50" cost="2500" coolTime="6607" value="-20" />
+	</building>
+
+
+	<!--################################################################## -->
+	<!--공통 Building -->
+	<!--장군부 -->
+	<building id="common_GeneralPart">
+		<level level="1" cost="32" coolTime="30" value="-0.2" />
+		<level level="2" cost="70" coolTime="38" value="-0.4" />
+		<level level="3" cost="112" coolTime="62" value="-0.6" />
+		<level level="4" cost="158" coolTime="102" value="-0.8" />
+		<level level="5" cost="210" coolTime="158" value="-1" />
+		<level level="6" cost="266" coolTime="230" value="-1.2" />
+		<level level="7" cost="328" coolTime="318" value="-1.4" />
+		<level level="8" cost="394" coolTime="422" value="-1.6" />
+		<level level="9" cost="464" coolTime="542" value="-1.8" />
+		<level level="10" cost="540" coolTime="678" value="-2" />
+
+		<level level="11" cost="620" coolTime="830" value="-2.2" />
+		<level level="12" cost="706" coolTime="998" value="-2.4" />
+		<level level="13" cost="796" coolTime="1182" value="-2.6" />
+		<level level="14" cost="890" coolTime="1382" value="-2.8" />
+		<level level="15" cost="990" coolTime="1598" value="-3" />
+		<level level="16" cost="1094" coolTime="1830" value="-3.2" />
+		<level level="17" cost="1204" coolTime="2078" value="-3.4" />
+		<level level="18" cost="1318" coolTime="2342" value="-3.6" />
+		<level level="19" cost="1436" coolTime="2622" value="-3.8" />
+		<level level="20" cost="1560" coolTime="2918" value="-4" />
+
+		<level level="21" cost="1688" coolTime="3230" value="-4.2" />
+		<level level="22" cost="1822" coolTime="3558" value="-4.4" />
+		<level level="23" cost="1960" coolTime="3902" value="-4.6" />
+		<level level="24" cost="2102" coolTime="4262" value="-4.8" />
+		<level level="25" cost="2250" coolTime="4638" value="-5" />
+		<level level="26" cost="2402" coolTime="5030" value="-5.2" />
+		<level level="27" cost="2560" coolTime="5438" value="-5.4" />
+		<level level="28" cost="2722" coolTime="5862" value="-5.6" />
+		<level level="29" cost="2888" coolTime="6302" value="-5.8" />
+		<level level="30" cost="3060" coolTime="6758" value="-6" />
+
+		<level level="31" cost="3236" coolTime="7230" value="-6.2" />
+		<level level="32" cost="3418" coolTime="7718" value="-6.4" />
+		<level level="33" cost="3604" coolTime="8222" value="-6.6" />
+		<level level="34" cost="3794" coolTime="8742" value="-6.8" />
+		<level level="35" cost="3990" coolTime="9278" value="-7" />
+		<level level="36" cost="4190" coolTime="9830" value="-7.2" />
+		<level level="37" cost="4396" coolTime="10398" value="-7.4" />
+		<level level="38" cost="4606" coolTime="10982" value="-7.6" />
+		<level level="39" cost="4820" coolTime="11582" value="-7.8" />
+		<level level="40" cost="5040" coolTime="12198" value="-8" />
+
+		<level level="41" cost="5264" coolTime="12830" value="-8.2" />
+		<level level="42" cost="5494" coolTime="13478" value="-8.4" />
+		<level level="43" cost="5728" coolTime="14142" value="-8.6" />
+		<level level="44" cost="5966" coolTime="14822" value="-8.8" />
+		<level level="45" cost="6210" coolTime="15518" value="-9" />
+		<level level="46" cost="6458" coolTime="16230" value="-9.2" />
+		<level level="47" cost="6712" coolTime="16958" value="-9.4" />
+		<level level="48" cost="6970" coolTime="17702" value="-9.6" />
+		<level level="49" cost="7232" coolTime="18462" value="-9.8" />
+		<level level="50" cost="7500" coolTime="19222" value="-10" />
+	</building>
+
+	<!--참모부 -->
+	<building id="common_StaffPart">
+		<level level="1" cost="32" coolTime="30" value="-0.2" />
+		<level level="2" cost="70" coolTime="38" value="-0.4" />
+		<level level="3" cost="112" coolTime="62" value="-0.6" />
+		<level level="4" cost="158" coolTime="102" value="-0.8" />
+		<level level="5" cost="210" coolTime="158" value="-1" />
+		<level level="6" cost="266" coolTime="230" value="-1.2" />
+		<level level="7" cost="328" coolTime="318" value="-1.4" />
+		<level level="8" cost="394" coolTime="422" value="-1.6" />
+		<level level="9" cost="464" coolTime="542" value="-1.8" />
+		<level level="10" cost="540" coolTime="678" value="-2" />
+
+		<level level="11" cost="620" coolTime="830" value="-2.2" />
+		<level level="12" cost="706" coolTime="998" value="-2.4" />
+		<level level="13" cost="796" coolTime="1182" value="-2.6" />
+		<level level="14" cost="890" coolTime="1382" value="-2.8" />
+		<level level="15" cost="990" coolTime="1598" value="-3" />
+		<level level="16" cost="1094" coolTime="1830" value="-3.2" />
+		<level level="17" cost="1204" coolTime="2078" value="-3.4" />
+		<level level="18" cost="1318" coolTime="2342" value="-3.6" />
+		<level level="19" cost="1436" coolTime="2622" value="-3.8" />
+		<level level="20" cost="1560" coolTime="2918" value="-4" />
+
+		<level level="21" cost="1688" coolTime="3230" value="-4.2" />
+		<level level="22" cost="1822" coolTime="3558" value="-4.4" />
+		<level level="23" cost="1960" coolTime="3902" value="-4.6" />
+		<level level="24" cost="2102" coolTime="4262" value="-4.8" />
+		<level level="25" cost="2250" coolTime="4638" value="-5" />
+		<level level="26" cost="2402" coolTime="5030" value="-5.2" />
+		<level level="27" cost="2560" coolTime="5438" value="-5.4" />
+		<level level="28" cost="2722" coolTime="5862" value="-5.6" />
+		<level level="29" cost="2888" coolTime="6302" value="-5.8" />
+		<level level="30" cost="3060" coolTime="6758" value="-6" />
+
+		<level level="31" cost="3236" coolTime="7230" value="-6.2" />
+		<level level="32" cost="3418" coolTime="7718" value="-6.4" />
+		<level level="33" cost="3604" coolTime="8222" value="-6.6" />
+		<level level="34" cost="3794" coolTime="8742" value="-6.8" />
+		<level level="35" cost="3990" coolTime="9278" value="-7" />
+		<level level="36" cost="4190" coolTime="9830" value="-7.2" />
+		<level level="37" cost="4396" coolTime="10398" value="-7.4" />
+		<level level="38" cost="4606" coolTime="10982" value="-7.6" />
+		<level level="39" cost="4820" coolTime="11582" value="-7.8" />
+		<level level="40" cost="5040" coolTime="12198" value="-8" />
+
+		<level level="41" cost="5264" coolTime="12830" value="-8.2" />
+		<level level="42" cost="5494" coolTime="13478" value="-8.4" />
+		<level level="43" cost="5728" coolTime="14142" value="-8.6" />
+		<level level="44" cost="5966" coolTime="14822" value="-8.8" />
+		<level level="45" cost="6210" coolTime="15518" value="-9" />
+		<level level="46" cost="6458" coolTime="16230" value="-9.2" />
+		<level level="47" cost="6712" coolTime="16958" value="-9.4" />
+		<level level="48" cost="6970" coolTime="17702" value="-9.6" />
+		<level level="49" cost="7232" coolTime="18462" value="-9.8" />
+		<level level="50" cost="7500" coolTime="19222" value="-10" />
+	</building>
+
+	<!--캠프 -->
+	<building id="common_Camp">
+		<level level="1" cost="194" coolTime="45" value="10" />
+		<level level="2" cost="664" coolTime="270" value="20" />
+		<level level="3" cost="1334" coolTime="745" value="30" />
+		<level level="4" cost="2204" coolTime="1470" value="40" />
+		<level level="5" cost="3274" coolTime="2445" value="50" />
+		<level level="6" cost="4544" coolTime="3670" value="60" />
+		<level level="7" cost="6014" coolTime="5145" value="70" />
+		<level level="8" cost="7684" coolTime="6870" value="80" />
+		<level level="9" cost="9554" coolTime="8845" value="90" />
+		<level level="10" cost="11624" coolTime="11068" value="100" />
+	</building>
+
+	<!--생산공장 -->
+	<building id="common_Factory">
+		<level level="1" cost="8" coolTime="7" value="-0.4" />
+		<level level="2" cost="16" coolTime="9" value="-0.8" />
+		<level level="3" cost="26" coolTime="15" value="-1.2" />
+		<level level="4" cost="37" coolTime="25" value="-1.6" />
+		<level level="5" cost="49" coolTime="39" value="-2" />
+		<level level="6" cost="62" coolTime="57" value="-2.4" />
+		<level level="7" cost="76" coolTime="79" value="-2.8" />
+		<level level="8" cost="92" coolTime="105" value="-3.2" />
+		<level level="9" cost="108" coolTime="135" value="-3.6" />
+		<level level="10" cost="126" coolTime="169" value="-4" />
+
+		<level level="11" cost="145" coolTime="207" value="-4.4" />
+		<level level="12" cost="165" coolTime="249" value="-4.8" />
+		<level level="13" cost="186" coolTime="295" value="-5.2" />
+		<level level="14" cost="208" coolTime="345" value="-5.6" />
+		<level level="15" cost="231" coolTime="399" value="-6" />
+		<level level="16" cost="255" coolTime="457" value="-6.4" />
+		<level level="17" cost="281" coolTime="519" value="-6.8" />
+		<level level="18" cost="307" coolTime="585" value="-7.2" />
+		<level level="19" cost="335" coolTime="655" value="-7.6" />
+		<level level="20" cost="364" coolTime="729" value="-8" />
+
+		<level level="21" cost="394" coolTime="807" value="-8.4" />
+		<level level="22" cost="425" coolTime="889" value="-8.8" />
+		<level level="23" cost="457" coolTime="975" value="-9.2" />
+		<level level="24" cost="491" coolTime="1065" value="-9.6" />
+		<level level="25" cost="525" coolTime="1159" value="-10" />
+		<level level="26" cost="561" coolTime="1257" value="-10.4" />
+		<level level="27" cost="597" coolTime="1359" value="-10.8" />
+		<level level="28" cost="635" coolTime="1465" value="-11.2" />
+		<level level="29" cost="674" coolTime="1575" value="-11.6" />
+		<level level="30" cost="714" coolTime="1689" value="-12" />
+
+		<level level="31" cost="755" coolTime="1807" value="-12.4" />
+		<level level="32" cost="797" coolTime="1929" value="-12.8" />
+		<level level="33" cost="841" coolTime="2055" value="-13.2" />
+		<level level="34" cost="885" coolTime="2185" value="-13.6" />
+		<level level="35" cost="931" coolTime="2319" value="-14" />
+		<level level="36" cost="978" coolTime="2457" value="-14.4" />
+		<level level="37" cost="1026" coolTime="2599" value="-14.8" />
+		<level level="38" cost="1075" coolTime="2745" value="-15.2" />
+		<level level="39" cost="1125" coolTime="2895" value="-15.6" />
+		<level level="40" cost="1176" coolTime="3049" value="-16" />
+
+		<level level="41" cost="1228" coolTime="3207" value="-16.4" />
+		<level level="42" cost="1282" coolTime="3369" value="-16.8" />
+		<level level="43" cost="1336" coolTime="3535" value="-17.2" />
+		<level level="44" cost="1392" coolTime="3705" value="-17.6" />
+		<level level="45" cost="1449" coolTime="3879" value="-18" />
+		<level level="46" cost="1507" coolTime="4057" value="-18.4" />
+		<level level="47" cost="1566" coolTime="4239" value="-18.8" />
+		<level level="48" cost="1626" coolTime="4425" value="-19.2" />
+		<level level="49" cost="1688" coolTime="4615" value="-19.6" />
+		<level level="50" cost="1750" coolTime="4805" value="-20" />
+	</building>
+
+	<!--창고 -->
+	<building id="common_Depot">
+		<level level="1" cost="194" coolTime="45" value="10000" />
+		<level level="2" cost="664" coolTime="270" value="20000" />
+		<level level="3" cost="1334" coolTime="745" value="30000" />
+		<level level="4" cost="2204" coolTime="1470" value="40000" />
+		<level level="5" cost="3274" coolTime="2445" value="50000" />
+		<level level="6" cost="4544" coolTime="3670" value="60000" />
+		<level level="7" cost="6014" coolTime="5145" value="70000" />
+		<level level="8" cost="7684" coolTime="6870" value="80000" />
+		<level level="9" cost="9554" coolTime="8845" value="90000" />
+		<level level="10" cost="11624" coolTime="11068" value="100000" />
+	</building>
+
+	<!--병원 -->
+	<building id="common_Hospital">
+		<level level="1" cost="4" coolTime="4" value="-0.4" />
+		<level level="2" cost="9" coolTime="5" value="-0.8" />
+		<level level="3" cost="15" coolTime="8" value="-1.2" />
+		<level level="4" cost="21" coolTime="13" value="-1.6" />
+		<level level="5" cost="28" coolTime="20" value="-2" />
+		<level level="6" cost="36" coolTime="29" value="-2.4" />
+		<level level="7" cost="44" coolTime="40" value="-2.8" />
+		<level level="8" cost="52" coolTime="53" value="-3.2" />
+		<level level="9" cost="62" coolTime="68" value="-3.6" />
+		<level level="10" cost="72" coolTime="85" value="-4" />
+
+		<level level="11" cost="83" coolTime="104" value="-4.4" />
+		<level level="12" cost="94" coolTime="125" value="-4.8" />
+		<level level="13" cost="106" coolTime="148" value="-5.2" />
+		<level level="14" cost="119" coolTime="173" value="-5.6" />
+		<level level="15" cost="132" coolTime="200" value="-6" />
+		<level level="16" cost="146" coolTime="229" value="-6.4" />
+		<level level="17" cost="160" coolTime="260" value="-6.8" />
+		<level level="18" cost="176" coolTime="293" value="-7.2" />
+		<level level="19" cost="192" coolTime="328" value="-7.6" />
+		<level level="20" cost="208" coolTime="365" value="-8" />
+
+		<level level="21" cost="225" coolTime="404" value="-8.4" />
+		<level level="22" cost="243" coolTime="445" value="-8.8" />
+		<level level="23" cost="261" coolTime="488" value="-9.2" />
+		<level level="24" cost="280" coolTime="533" value="-9.6" />
+		<level level="25" cost="300" coolTime="580" value="-10" />
+		<level level="26" cost="320" coolTime="629" value="-10.4" />
+		<level level="27" cost="341" coolTime="680" value="-10.8" />
+		<level level="28" cost="363" coolTime="733" value="-11.2" />
+		<level level="29" cost="385" coolTime="788" value="-11.6" />
+		<level level="30" cost="408" coolTime="845" value="-12" />
+
+		<level level="31" cost="432" coolTime="904" value="-12.4" />
+		<level level="32" cost="456" coolTime="965" value="-12.8" />
+		<level level="33" cost="480" coolTime="1028" value="-13.2" />
+		<level level="34" cost="506" coolTime="1093" value="-13.6" />
+		<level level="35" cost="532" coolTime="1160" value="-14" />
+		<level level="36" cost="559" coolTime="1229" value="-14.4" />
+		<level level="37" cost="586" coolTime="1300" value="-14.8" />
+		<level level="38" cost="614" coolTime="1373" value="-15.2" />
+		<level level="39" cost="643" coolTime="1448" value="-15.6" />
+		<level level="40" cost="672" coolTime="1525" value="-16" />
+
+		<level level="41" cost="702" coolTime="1604" value="-16.4" />
+		<level level="42" cost="732" coolTime="1685" value="-16.8" />
+		<level level="43" cost="764" coolTime="1768" value="-17.2" />
+		<level level="44" cost="796" coolTime="1853" value="-17.6" />
+		<level level="45" cost="828" coolTime="1940" value="-18" />
+		<level level="46" cost="861" coolTime="2029" value="-18.4" />
+		<level level="47" cost="895" coolTime="2120" value="-18.8" />
+		<level level="48" cost="929" coolTime="2213" value="-19.2" />
+		<level level="49" cost="964" coolTime="2308" value="-19.6" />
+		<level level="50" cost="1000" coolTime="2403" value="-20" />
+	</building>
+
+	<!--주점 -->
+	<building id="common_Pub">
+		<level level="1" cost="1716" coolTime="1735" value="6" />
+		<level level="2" cost="7076" coolTime="11995" value="7" />
+		<level level="3" cost="15636" coolTime="33055" value="8" />
+		<level level="4" cost="27396" coolTime="64915" value="9" />
+		<level level="5" cost="42356" coolTime="107564" value="10" />
+	</building>
+
+	<!--연구소 -->
+	<building id="common_Laboratory">
+		<level level="1" cost="16" coolTime="15" value="1" />
+		<level level="2" cost="35" coolTime="19" value="2" />
+		<level level="3" cost="56" coolTime="31" value="3" />
+		<level level="4" cost="79" coolTime="51" value="4" />
+		<level level="5" cost="105" coolTime="79" value="5" />
+		<level level="6" cost="133" coolTime="115" value="6" />
+		<level level="7" cost="164" coolTime="159" value="7" />
+		<level level="8" cost="197" coolTime="211" value="8" />
+		<level level="9" cost="232" coolTime="271" value="9" />
+		<level level="10" cost="270" coolTime="339" value="10" />
+
+		<level level="11" cost="310" coolTime="415" value="11" />
+		<level level="12" cost="353" coolTime="499" value="12" />
+		<level level="13" cost="398" coolTime="591" value="13" />
+		<level level="14" cost="445" coolTime="691" value="14" />
+		<level level="15" cost="495" coolTime="799" value="15" />
+		<level level="16" cost="547" coolTime="915" value="16" />
+		<level level="17" cost="602" coolTime="1039" value="17" />
+		<level level="18" cost="659" coolTime="1171" value="18" />
+		<level level="19" cost="718" coolTime="1311" value="19" />
+		<level level="20" cost="780" coolTime="1459" value="20" />
+
+		<level level="21" cost="844" coolTime="1615" value="21" />
+		<level level="22" cost="911" coolTime="1779" value="22" />
+		<level level="23" cost="980" coolTime="1951" value="23" />
+		<level level="24" cost="1051" coolTime="2131" value="24" />
+		<level level="25" cost="1125" coolTime="2319" value="25" />
+		<level level="26" cost="1201" coolTime="2515" value="26" />
+		<level level="27" cost="1280" coolTime="2719" value="27" />
+		<level level="28" cost="1361" coolTime="2931" value="28" />
+		<level level="29" cost="1444" coolTime="3151" value="29" />
+		<level level="30" cost="1530" coolTime="3379" value="30" />
+
+		<level level="31" cost="1618" coolTime="3615" value="31" />
+		<level level="32" cost="1709" coolTime="3859" value="32" />
+		<level level="33" cost="1802" coolTime="4111" value="33" />
+		<level level="34" cost="1897" coolTime="4371" value="34" />
+		<level level="35" cost="1995" coolTime="4639" value="35" />
+		<level level="36" cost="2095" coolTime="4915" value="36" />
+		<level level="37" cost="2198" coolTime="5199" value="37" />
+		<level level="38" cost="2303" coolTime="5491" value="38" />
+		<level level="39" cost="2410" coolTime="5791" value="39" />
+		<level level="40" cost="2520" coolTime="6099" value="40" />
+
+		<level level="41" cost="2632" coolTime="6415" value="41" />
+		<level level="42" cost="2747" coolTime="6739" value="42" />
+		<level level="43" cost="2864" coolTime="7071" value="43" />
+		<level level="44" cost="2983" coolTime="7411" value="44" />
+		<level level="45" cost="3105" coolTime="7759" value="45" />
+		<level level="46" cost="3229" coolTime="8115" value="46" />
+		<level level="47" cost="3356" coolTime="8479" value="47" />
+		<level level="48" cost="3485" coolTime="8851" value="48" />
+		<level level="49" cost="3616" coolTime="9231" value="49" />
+		<level level="50" cost="3750" coolTime="9611" value="50" />
+	</building>
+
+
+</levelinfo>

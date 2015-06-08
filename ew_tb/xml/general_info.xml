@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<general_info>
+	<levels>
+		<level level="1" req_exp="0" activity_max="33" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="2"></level>
+                <level level="2" req_exp="1037" activity_max="36" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="3"></level>
+                <level level="3" req_exp="4648" activity_max="39" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="4"></level>
+                <level level="4" req_exp="12140" activity_max="42" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="5"></level>
+                <level level="5" req_exp="24715" activity_max="45" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="6"></level>
+                <level level="6" req_exp="43506" activity_max="48" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="7"></level>
+                <level level="7" req_exp="69595" activity_max="51" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="8"></level>
+                <level level="8" req_exp="104028" activity_max="54" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="9"></level>
+                <level level="9" req_exp="147816" activity_max="57" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="10"></level>
+                <level level="10" req_exp="201945" activity_max="60" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="20" item_storage_slot_cap="8"
+                        building_count_max="11"></level>
+                <level level="11" req_exp="267377" activity_max="63" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="12"></level>
+                <level level="12" req_exp="345055" activity_max="66" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="13"></level>
+                <level level="13" req_exp="435904" activity_max="69" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="14"></level>
+                <level level="14" req_exp="540832" activity_max="72" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="15"></level>
+                <level level="15" req_exp="660733" activity_max="75" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="16"></level>
+                <level level="16" req_exp="796488" activity_max="78" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="17" req_exp="948967" activity_max="81" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="18" req_exp="1119027" activity_max="84" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="19" req_exp="1307515" activity_max="87" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="20" req_exp="1515269" activity_max="90" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="30" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="21" req_exp="1743118" activity_max="93" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="22" req_exp="1991882" activity_max="96" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="23" req_exp="2262374" activity_max="99" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="24" req_exp="2555398" activity_max="102" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="25" req_exp="2871752" activity_max="105" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="26" req_exp="3212227" activity_max="108" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="27" req_exp="3577607" activity_max="111" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="28" req_exp="3968671" activity_max="114" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="29" req_exp="4386191" activity_max="117" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+                <level level="30" req_exp="4830934" activity_max="120" gold_capacity="100000"
+                        honor_capacity="10000" officer_hired_max="40" item_storage_slot_cap="8"
+                        building_count_max="17"></level>
+	</levels>
+</general_info>

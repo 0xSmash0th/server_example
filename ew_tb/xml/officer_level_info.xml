@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<officer_info>
+	<levels>
+                <level level="1" officer_command="300" req_exp="0"></level>
+                <level level="2" officer_command="310" req_exp="1031"></level>
+                <level level="3" officer_command="320" req_exp="3946"></level>
+                <level level="4" officer_command="330" req_exp="9302"></level>
+                <level level="5" officer_command="340" req_exp="17548"></level>
+                <level level="6" officer_command="350" req_exp="29072"></level>
+                <level level="7" officer_command="360" req_exp="44221"></level>
+                <level level="8" officer_command="370" req_exp="63311"></level>
+                <level level="9" officer_command="380" req_exp="86635"></level>
+                <level level="10" officer_command="390" req_exp="114466"></level>
+                <level level="11" officer_command="400" req_exp="147062"></level>
+                <level level="12" officer_command="410" req_exp="184667"></level>
+                <level level="13" officer_command="420" req_exp="227515"></level>
+                <level level="14" officer_command="430" req_exp="275829"></level>
+                <level level="15" officer_command="440" req_exp="329824"></level>
+                <level level="16" officer_command="450" req_exp="389706"></level>
+                <level level="17" officer_command="460" req_exp="455675"></level>
+                <level level="18" officer_command="470" req_exp="527924"></level>
+                <level level="19" officer_command="480" req_exp="606641"></level>
+                <level level="20" officer_command="490" req_exp="692008"></level>
+                <level level="21" officer_command="500" req_exp="784203"></level>
+                <level level="22" officer_command="510" req_exp="883398"></level>
+                <level level="23" officer_command="520" req_exp="989762"></level>
+                <level level="24" officer_command="530" req_exp="1103460"></level>
+                <level level="25" officer_command="540" req_exp="1224653"></level>
+                <level level="26" officer_command="550" req_exp="1353499"></level>
+                <level level="27" officer_command="560" req_exp="1490153"></level>
+                <level level="28" officer_command="570" req_exp="1634766"></level>
+                <level level="29" officer_command="580" req_exp="1787487"></level>
+                <level level="30" officer_command="590" req_exp="1948462"></level>
+	</levels>
+</officer_info>

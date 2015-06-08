@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+id : int
+cl_name_index : int
+cl_desc_index1 : int
+cl_desc_index2 : int
+cl_row : int - 위치할 행
+cl_column : int - 위치할 열
+quest_id : int - unlock 조건 quest id
+level : int
+type : int
+     [1 시간, 2 비용, 3 보상, 4 행동력]
+effect : string (ex : "1^8^15") 여러개일 경우 '^'로 구분하여 나열
+     [1 건설시간, 
+      2 장교치료 시간, 
+      3 아이템 생산시간,
+      4 병사 생산시간, 
+      5 차량 생산시간, 
+      6 건설비용, 
+      7 장교고용 비용, 
+      8 장교치료 비용, 
+      9 아이템 생산 비용, 
+      10 병사 고용 비용, 
+      11 차량생산 비용, 
+      12 세금징수량, 
+      13 전부 보상량, 
+      14 아이템 보상확률, 
+      15 행동력회복량]
+measures : int
+     [1(num), 2(percent)]
+values : string (ex : "-1^10^-10")
+
+-->
+<skillinfo>
+  <!--##################################################################-->
+  <!--시간-->
+
+  <!--건설 속도1 훈장-->
+  <skill id="0" cl_name_index="2000" cl_desc_index1="2050" cl_desc_index2="104" 
+         cl_row="1" cl_column="1" quest_id="0" type="1">
+    <level level="1" >
+      <effect id="1" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--장교치료 속도1 훈장-->
+  <skill id="1" cl_name_index="2001" cl_desc_index1="2051" cl_desc_index2="1395" 
+         cl_row="1" cl_column="2" quest_id="0" type="1">
+    <level level="1" >
+      <effect id="2" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  
+  <!--아이템생산 속도1 훈장-->
+  <skill id="2" cl_name_index="2002" cl_desc_index1="2052" cl_desc_index2="1395"
+         cl_row="1" cl_column="3" quest_id="0" type="1">
+    <level level="1" >
+      <effect id="3" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--병사훈련 속도1 훈장-->
+  <skill id="3" cl_name_index="2003" cl_desc_index1="2053" cl_desc_index2="1395"
+         cl_row="1" cl_column="4" quest_id="0" type="1">
+    <level level="1" >
+      <effect id="4" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--전차생산 속도1 훈장-->
+  <skill id="4" cl_name_index="2004" cl_desc_index1="2054" cl_desc_index2="1395"
+         cl_row="2" cl_column="1" quest_id="0" type="1">
+    <level level="1" >
+      <effect id="5" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--건설 비용1 훈장-->
+  <skill id="5" cl_name_index="2005" cl_desc_index1="2055" cl_desc_index2="1395"
+         cl_row="2" cl_column="2" quest_id="0" type="2">
+    <level level="1" >
+      <effect id="6" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--장교고용 비용1 훈장-->
+  <skill id="6" cl_name_index="2006" cl_desc_index1="2056" cl_desc_index2="1395"
+         cl_row="2" cl_column="3" quest_id="0" type="2">
+    <level level="1" >
+      <effect id="7" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--장교치료 비용1 훈장-->
+  <skill id="7" cl_name_index="2007" cl_desc_index1="2057" cl_desc_index2="1395"
+         cl_row="2" cl_column="4" quest_id="0" type="2">
+    <level level="1" >
+      <effect id="8" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--아이템생산 비용1 훈장-->
+  <skill id="8" cl_name_index="2008" cl_desc_index1="2058" cl_desc_index2="1395"
+         cl_row="3" cl_column="1" quest_id="0" type="2">
+    <level level="1" >
+      <effect id="9" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--병사훈련 비용1 훈장-->
+  <skill id="9" cl_name_index="2009" cl_desc_index1="2059" cl_desc_index2="1395"
+         cl_row="3" cl_column="2" quest_id="0" type="2">
+    <level level="1" >
+      <effect id="10" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--차량생산 비용1 훈장-->
+  <skill id="10" cl_name_index="2010" cl_desc_index1="2060" cl_desc_index2="1395"
+         cl_row="3" cl_column="3" quest_id="0" type="2">
+    <level level="1" >
+      <effect id="11" measure="2" value="-10"/>
+    </level>
+  </skill>
+  
+  <!--세금 보상1 훈장-->
+  <skill id="11" cl_name_index="2011" cl_desc_index1="2061" cl_desc_index2="1392"
+         cl_row="3" cl_column="4" quest_id="0" type="3">
+    <level level="1" >
+      <effect id="12" measure="2" value="10"/>
+    </level>
+  </skill>
+  
+  <!--전투 보상1 훈장-->
+  <skill id="12" cl_name_index="2012" cl_desc_index1="2062" cl_desc_index2="1392"
+         cl_row="4" cl_column="1" quest_id="0" type="3">
+    <level level="1" >
+      <effect id="13" measure="2" value="10"/>
+    </level>
+  </skill>
+  
+  <!--아이템 보상1 훈장-->
+  <skill id="13" cl_name_index="2013" cl_desc_index1="2063" cl_desc_index2="1392"
+         cl_row="4" cl_column="2" quest_id="0" type="3">
+    <level level="1" >
+      <effect id="14" measure="2" value="5"/>
+    </level>
+  </skill>
+  
+  <!--행동력 회복1 훈장-->
+  <skill id="14" cl_name_index="2014" cl_desc_index1="2064" cl_desc_index2="1390"
+         cl_row="4" cl_column="3" quest_id="0" type="4">
+    <level level="1" >
+      <effect id="15" measure="1" value="1"/>
+    </level>
+  </skill>
+
+
+</skillinfo>

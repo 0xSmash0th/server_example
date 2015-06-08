@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- type : int - 분류 [1(buff), 2(debuff)] type="" measure : int - value적용 
+	단위 [0(nothing), 1(num), 2(percent), 3(second)] -->
+<buffinfo>
+
+	<!--자체회복 -->
+	<buff id="1" type="1" measure="2" value_power="5" duration="2"
+		cl_name_index="2100" cl_desc_index="2150" cl_icon="" ef_invoke="0" />
+
+	<!--방어 타입 무시 -->
+	<buff id="2" type="1" measure="2" value_power="50" duration="2"
+		cl_name_index="2101" cl_desc_index="2151" cl_icon="" ef_invoke="0" />
+
+	<!--공격속도 증가 -->
+	<buff id="3" type="1" measure="1" value_power="50" duration="2"
+		cl_name_index="2102" cl_desc_index="2152" cl_icon="" ef_invoke="0" />
+
+	<!--방어력 증가 -->
+	<buff id="4" type="1" measure="2" value_power="10" duration="2"
+		cl_name_index="2103" cl_desc_index="2153" cl_icon="" ef_invoke="0" />
+
+	<!--위장 -->
+	<buff id="5" type="1" measure="0" value_power="0" duration="2"
+		cl_name_index="2104" cl_desc_index="2154" cl_icon="" ef_invoke="0" />
+
+	<!--공격력 증가 -->
+	<buff id="6" type="1" measure="2" value_power="10" duration="2"
+		cl_name_index="2105" cl_desc_index="2155" cl_icon="" ef_invoke="0" />
+
+	<!--회복 효과 증가 -->
+	<buff id="7" type="1" measure="2" value_power="5" duration="2"
+		cl_name_index="2106" cl_desc_index="2156" cl_icon="" ef_invoke="0" />
+
+	<!--수리 효과 증가 -->
+	<buff id="8" type="1" measure="2" value_power="5" duration="2"
+		cl_name_index="2107" cl_desc_index="2157" cl_icon="" ef_invoke="0" />
+
+	<!--집중 -->
+	<buff id="9" type="1" measure="2" value_power="3" duration="2"
+		cl_name_index="2108" cl_desc_index="2158" cl_icon="" ef_invoke="0" />
+
+	<!--광신 -->
+	<buff id="10" type="1" measure="2" value_power="10" duration="2"
+		cl_name_index="2109" cl_desc_index="2159" cl_icon="" ef_invoke="0" />
+
+	<!--효과 면역 -->
+	<buff id="11" type="1" measure="0" value_power="0" duration="2"
+		cl_name_index="2110" cl_desc_index="2160" cl_icon="" ef_invoke="0" />
+
+	<!--공격속도 감소 -->
+	<buff id="12" type="2" measure="1" value_power="-50" duration="2"
+		cl_name_index="2111" cl_desc_index="2161" cl_icon="" ef_invoke="0" />
+
+	<!--발화 -->
+	<buff id="13" type="2" measure="2" value_power="0" duration="3"
+		cl_name_index="2112" cl_desc_index="2162" cl_icon="" ef_invoke="0" />
+
+	<!--중독 -->
+	<buff id="14" type="2" measure="2" value_power="0" duration="3"
+		cl_name_index="2113" cl_desc_index="2163" cl_icon="" ef_invoke="0" />
+
+	<!--출혈 -->
+	<buff id="15" type="2" measure="2" value_power="0" duration="3"
+		cl_name_index="2114" cl_desc_index="2164" cl_icon="" ef_invoke="0" />
+
+	<!--공격력 감소 -->
+	<buff id="16" type="2" measure="2" value_power="-10" duration="2"
+		cl_name_index="2115" cl_desc_index="2165" cl_icon="" ef_invoke="0" />
+
+	<!--스턴 -->
+	<buff id="17" type="2" measure="2" value_power="0" duration="2"
+		cl_name_index="2116" cl_desc_index="2166" cl_icon="" ef_invoke="0" />
+
+	<!--도주 -->
+	<buff id="18" type="2" measure="1" value_power="-1" duration="2"
+		cl_name_index="2117" cl_desc_index="2167" cl_icon="" ef_invoke="0" />
+
+	<!--방어력 감소 -->
+	<buff id="19" type="2" measure="2" value_power="-10" duration="2"
+		cl_name_index="2118" cl_desc_index="2168" cl_icon="" ef_invoke="0" />
+
+
+
+
+</buffinfo>

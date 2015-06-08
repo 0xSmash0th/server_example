@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<reward_info>
+	<reward_group reward_group_id="1001">
+		<reward reward_id="1" reward_group_id="1001" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="240" value_max="260"
+			req_rank="A"></reward>
+		<reward reward_id="2" reward_group_id="1001" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="180" value_max="200"
+			req_rank="B"></reward>
+		<reward reward_id="3" reward_group_id="1001" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="120" value_max="140"
+			req_rank="C"></reward>
+		<reward reward_id="4" reward_group_id="1001" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="90" value_max="110"
+			req_rank="D"></reward>
+		<reward reward_id="5" reward_group_id="1001" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="60" value_max="80"
+			req_rank="E"></reward>
+		<reward reward_id="6" reward_group_id="1001" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="30" value_max="50"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1002">
+		<reward reward_id="7" reward_group_id="1002" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="480" value_max="500"
+			req_rank="A"></reward>
+		<reward reward_id="8" reward_group_id="1002" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="360" value_max="380"
+			req_rank="B"></reward>
+		<reward reward_id="9" reward_group_id="1002" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="240" value_max="260"
+			req_rank="C"></reward>
+		<reward reward_id="10" reward_group_id="1002" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="180" value_max="200"
+			req_rank="D"></reward>
+		<reward reward_id="11" reward_group_id="1002" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="120" value_max="140"
+			req_rank="E"></reward>
+		<reward reward_id="12" reward_group_id="1002" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="60" value_max="80"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1003">
+		<reward reward_id="13" reward_group_id="1003" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="720" value_max="740"
+			req_rank="A"></reward>
+		<reward reward_id="14" reward_group_id="1003" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="540" value_max="560"
+			req_rank="B"></reward>
+		<reward reward_id="15" reward_group_id="1003" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="360" value_max="380"
+			req_rank="C"></reward>
+		<reward reward_id="16" reward_group_id="1003" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="270" value_max="290"
+			req_rank="D"></reward>
+		<reward reward_id="17" reward_group_id="1003" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="180" value_max="200"
+			req_rank="E"></reward>
+		<reward reward_id="18" reward_group_id="1003" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="90" value_max="110"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1004">
+		<reward reward_id="19" reward_group_id="1004" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="960" value_max="980"
+			req_rank="A"></reward>
+		<reward reward_id="20" reward_group_id="1004" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="720" value_max="740"
+			req_rank="B"></reward>
+		<reward reward_id="21" reward_group_id="1004" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="480" value_max="500"
+			req_rank="C"></reward>
+		<reward reward_id="22" reward_group_id="1004" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="360" value_max="380"
+			req_rank="D"></reward>
+		<reward reward_id="23" reward_group_id="1004" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="240" value_max="260"
+			req_rank="E"></reward>
+		<reward reward_id="24" reward_group_id="1004" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="120" value_max="140"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1005">
+		<reward reward_id="25" reward_group_id="1005" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1200" value_max="1220"
+			req_rank="A"></reward>
+		<reward reward_id="26" reward_group_id="1005" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="900" value_max="920"
+			req_rank="B"></reward>
+		<reward reward_id="27" reward_group_id="1005" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="600" value_max="620"
+			req_rank="C"></reward>
+		<reward reward_id="28" reward_group_id="1005" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="450" value_max="470"
+			req_rank="D"></reward>
+		<reward reward_id="29" reward_group_id="1005" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="300" value_max="320"
+			req_rank="E"></reward>
+		<reward reward_id="30" reward_group_id="1005" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="150" value_max="170"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1006">
+		<reward reward_id="31" reward_group_id="1006" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1440" value_max="1460"
+			req_rank="A"></reward>
+		<reward reward_id="32" reward_group_id="1006" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1080" value_max="1100"
+			req_rank="B"></reward>
+		<reward reward_id="33" reward_group_id="1006" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="720" value_max="740"
+			req_rank="C"></reward>
+		<reward reward_id="34" reward_group_id="1006" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="540" value_max="560"
+			req_rank="D"></reward>
+		<reward reward_id="35" reward_group_id="1006" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="360" value_max="380"
+			req_rank="E"></reward>
+		<reward reward_id="36" reward_group_id="1006" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="180" value_max="200"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1007">
+		<reward reward_id="37" reward_group_id="1007" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1680" value_max="1700"
+			req_rank="A"></reward>
+		<reward reward_id="38" reward_group_id="1007" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1260" value_max="1280"
+			req_rank="B"></reward>
+		<reward reward_id="39" reward_group_id="1007" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="840" value_max="860"
+			req_rank="C"></reward>
+		<reward reward_id="40" reward_group_id="1007" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="630" value_max="650"
+			req_rank="D"></reward>
+		<reward reward_id="41" reward_group_id="1007" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="420" value_max="440"
+			req_rank="E"></reward>
+		<reward reward_id="42" reward_group_id="1007" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="210" value_max="230"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1008">
+		<reward reward_id="43" reward_group_id="1008" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1920" value_max="1940"
+			req_rank="A"></reward>
+		<reward reward_id="44" reward_group_id="1008" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1440" value_max="1460"
+			req_rank="B"></reward>
+		<reward reward_id="45" reward_group_id="1008" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="960" value_max="980"
+			req_rank="C"></reward>
+		<reward reward_id="46" reward_group_id="1008" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="720" value_max="740"
+			req_rank="D"></reward>
+		<reward reward_id="47" reward_group_id="1008" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="480" value_max="500"
+			req_rank="E"></reward>
+		<reward reward_id="48" reward_group_id="1008" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="240" value_max="260"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1009">
+		<reward reward_id="49" reward_group_id="1009" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="2160" value_max="2180"
+			req_rank="A"></reward>
+		<reward reward_id="50" reward_group_id="1009" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1620" value_max="1640"
+			req_rank="B"></reward>
+		<reward reward_id="51" reward_group_id="1009" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1080" value_max="1100"
+			req_rank="C"></reward>
+		<reward reward_id="52" reward_group_id="1009" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="810" value_max="830"
+			req_rank="D"></reward>
+		<reward reward_id="53" reward_group_id="1009" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="540" value_max="560"
+			req_rank="E"></reward>
+		<reward reward_id="54" reward_group_id="1009" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="270" value_max="290"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1010">
+		<reward reward_id="55" reward_group_id="1010" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="2400" value_max="2420"
+			req_rank="A"></reward>
+		<reward reward_id="56" reward_group_id="1010" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1800" value_max="1820"
+			req_rank="B"></reward>
+		<reward reward_id="57" reward_group_id="1010" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1200" value_max="1220"
+			req_rank="C"></reward>
+		<reward reward_id="58" reward_group_id="1010" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="900" value_max="920"
+			req_rank="D"></reward>
+		<reward reward_id="59" reward_group_id="1010" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="600" value_max="620"
+			req_rank="E"></reward>
+		<reward reward_id="60" reward_group_id="1010" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="300" value_max="320"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1011">
+		<reward reward_id="61" reward_group_id="1011" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="2640" value_max="2660"
+			req_rank="A"></reward>
+		<reward reward_id="62" reward_group_id="1011" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1980" value_max="2000"
+			req_rank="B"></reward>
+		<reward reward_id="63" reward_group_id="1011" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1320" value_max="1340"
+			req_rank="C"></reward>
+		<reward reward_id="64" reward_group_id="1011" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="990" value_max="1010"
+			req_rank="D"></reward>
+		<reward reward_id="65" reward_group_id="1011" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="660" value_max="680"
+			req_rank="E"></reward>
+		<reward reward_id="66" reward_group_id="1011" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="330" value_max="350"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1012">
+		<reward reward_id="67" reward_group_id="1012" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="2880" value_max="2900"
+			req_rank="A"></reward>
+		<reward reward_id="68" reward_group_id="1012" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="2160" value_max="2180"
+			req_rank="B"></reward>
+		<reward reward_id="69" reward_group_id="1012" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1440" value_max="1460"
+			req_rank="C"></reward>
+		<reward reward_id="70" reward_group_id="1012" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1080" value_max="1100"
+			req_rank="D"></reward>
+		<reward reward_id="71" reward_group_id="1012" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="720" value_max="740"
+			req_rank="E"></reward>
+		<reward reward_id="72" reward_group_id="1012" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="360" value_max="380"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1013">
+		<reward reward_id="73" reward_group_id="1013" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="3120" value_max="3140"
+			req_rank="A"></reward>
+		<reward reward_id="74" reward_group_id="1013" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="2340" value_max="2360"
+			req_rank="B"></reward>
+		<reward reward_id="75" reward_group_id="1013" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1560" value_max="1580"
+			req_rank="C"></reward>
+		<reward reward_id="76" reward_group_id="1013" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1170" value_max="1190"
+			req_rank="D"></reward>
+		<reward reward_id="77" reward_group_id="1013" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="780" value_max="800"
+			req_rank="E"></reward>
+		<reward reward_id="78" reward_group_id="1013" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="390" value_max="410"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1014">
+		<reward reward_id="79" reward_group_id="1014" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="3360" value_max="3380"
+			req_rank="A"></reward>
+		<reward reward_id="80" reward_group_id="1014" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="2520" value_max="2540"
+			req_rank="B"></reward>
+		<reward reward_id="81" reward_group_id="1014" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1680" value_max="1700"
+			req_rank="C"></reward>
+		<reward reward_id="82" reward_group_id="1014" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1260" value_max="1280"
+			req_rank="D"></reward>
+		<reward reward_id="83" reward_group_id="1014" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="840" value_max="860"
+			req_rank="E"></reward>
+		<reward reward_id="84" reward_group_id="1014" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="420" value_max="440"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="1015">
+		<reward reward_id="85" reward_group_id="1015" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="3600" value_max="3620"
+			req_rank="A"></reward>
+		<reward reward_id="86" reward_group_id="1015" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="2700" value_max="2720"
+			req_rank="B"></reward>
+		<reward reward_id="87" reward_group_id="1015" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1800" value_max="1820"
+			req_rank="C"></reward>
+		<reward reward_id="88" reward_group_id="1015" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="1350" value_max="1370"
+			req_rank="D"></reward>
+		<reward reward_id="89" reward_group_id="1015" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="900" value_max="920"
+			req_rank="E"></reward>
+		<reward reward_id="90" reward_group_id="1015" combat_type="Annihilation War"
+			reward_type="Gold" value_id="None" value_min="450" value_max="470"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2001">
+		<reward reward_id="91" reward_group_id="2001" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="600" value_max="620"
+			req_rank="A"></reward>
+		<reward reward_id="92" reward_group_id="2001" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="450" value_max="470"
+			req_rank="B"></reward>
+		<reward reward_id="93" reward_group_id="2001" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="300" value_max="320"
+			req_rank="C"></reward>
+		<reward reward_id="94" reward_group_id="2001" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="225" value_max="245"
+			req_rank="D"></reward>
+		<reward reward_id="95" reward_group_id="2001" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="150" value_max="170"
+			req_rank="E"></reward>
+		<reward reward_id="96" reward_group_id="2001" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="75" value_max="95"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2002">
+		<reward reward_id="97" reward_group_id="2002" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1040" value_max="1060"
+			req_rank="A"></reward>
+		<reward reward_id="98" reward_group_id="2002" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="780" value_max="800"
+			req_rank="B"></reward>
+		<reward reward_id="99" reward_group_id="2002" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="520" value_max="540"
+			req_rank="C"></reward>
+		<reward reward_id="100" reward_group_id="2002" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="390" value_max="410"
+			req_rank="D"></reward>
+		<reward reward_id="101" reward_group_id="2002" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="260" value_max="280"
+			req_rank="E"></reward>
+		<reward reward_id="102" reward_group_id="2002" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="130" value_max="150"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2003">
+		<reward reward_id="103" reward_group_id="2003" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1480" value_max="1500"
+			req_rank="A"></reward>
+		<reward reward_id="104" reward_group_id="2003" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1110" value_max="1130"
+			req_rank="B"></reward>
+		<reward reward_id="105" reward_group_id="2003" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="740" value_max="760"
+			req_rank="C"></reward>
+		<reward reward_id="106" reward_group_id="2003" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="555" value_max="575"
+			req_rank="D"></reward>
+		<reward reward_id="107" reward_group_id="2003" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="370" value_max="390"
+			req_rank="E"></reward>
+		<reward reward_id="108" reward_group_id="2003" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="185" value_max="205"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2004">
+		<reward reward_id="109" reward_group_id="2004" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1920" value_max="1940"
+			req_rank="A"></reward>
+		<reward reward_id="110" reward_group_id="2004" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1440" value_max="1460"
+			req_rank="B"></reward>
+		<reward reward_id="111" reward_group_id="2004" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="960" value_max="980"
+			req_rank="C"></reward>
+		<reward reward_id="112" reward_group_id="2004" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="720" value_max="740"
+			req_rank="D"></reward>
+		<reward reward_id="113" reward_group_id="2004" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="480" value_max="500"
+			req_rank="E"></reward>
+		<reward reward_id="114" reward_group_id="2004" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="240" value_max="260"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2005">
+		<reward reward_id="115" reward_group_id="2005" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2360" value_max="2380"
+			req_rank="A"></reward>
+		<reward reward_id="116" reward_group_id="2005" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1770" value_max="1790"
+			req_rank="B"></reward>
+		<reward reward_id="117" reward_group_id="2005" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1180" value_max="1200"
+			req_rank="C"></reward>
+		<reward reward_id="118" reward_group_id="2005" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="885" value_max="905"
+			req_rank="D"></reward>
+		<reward reward_id="119" reward_group_id="2005" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="590" value_max="610"
+			req_rank="E"></reward>
+		<reward reward_id="120" reward_group_id="2005" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="295" value_max="315"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2006">
+		<reward reward_id="121" reward_group_id="2006" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2800" value_max="2820"
+			req_rank="A"></reward>
+		<reward reward_id="122" reward_group_id="2006" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2100" value_max="2120"
+			req_rank="B"></reward>
+		<reward reward_id="123" reward_group_id="2006" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1400" value_max="1420"
+			req_rank="C"></reward>
+		<reward reward_id="124" reward_group_id="2006" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1050" value_max="1070"
+			req_rank="D"></reward>
+		<reward reward_id="125" reward_group_id="2006" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="700" value_max="720"
+			req_rank="E"></reward>
+		<reward reward_id="126" reward_group_id="2006" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="350" value_max="370"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2007">
+		<reward reward_id="127" reward_group_id="2007" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="3240" value_max="3260"
+			req_rank="A"></reward>
+		<reward reward_id="128" reward_group_id="2007" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2430" value_max="2450"
+			req_rank="B"></reward>
+		<reward reward_id="129" reward_group_id="2007" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1620" value_max="1640"
+			req_rank="C"></reward>
+		<reward reward_id="130" reward_group_id="2007" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1215" value_max="1235"
+			req_rank="D"></reward>
+		<reward reward_id="131" reward_group_id="2007" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="810" value_max="830"
+			req_rank="E"></reward>
+		<reward reward_id="132" reward_group_id="2007" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="405" value_max="425"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2008">
+		<reward reward_id="133" reward_group_id="2008" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="3680" value_max="3700"
+			req_rank="A"></reward>
+		<reward reward_id="134" reward_group_id="2008" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2760" value_max="2780"
+			req_rank="B"></reward>
+		<reward reward_id="135" reward_group_id="2008" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1840" value_max="1860"
+			req_rank="C"></reward>
+		<reward reward_id="136" reward_group_id="2008" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1380" value_max="1400"
+			req_rank="D"></reward>
+		<reward reward_id="137" reward_group_id="2008" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="920" value_max="940"
+			req_rank="E"></reward>
+		<reward reward_id="138" reward_group_id="2008" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="460" value_max="480"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2009">
+		<reward reward_id="139" reward_group_id="2009" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="4120" value_max="4140"
+			req_rank="A"></reward>
+		<reward reward_id="140" reward_group_id="2009" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="3090" value_max="3110"
+			req_rank="B"></reward>
+		<reward reward_id="141" reward_group_id="2009" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2060" value_max="2080"
+			req_rank="C"></reward>
+		<reward reward_id="142" reward_group_id="2009" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1545" value_max="1565"
+			req_rank="D"></reward>
+		<reward reward_id="143" reward_group_id="2009" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1030" value_max="1050"
+			req_rank="E"></reward>
+		<reward reward_id="144" reward_group_id="2009" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="515" value_max="535"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2010">
+		<reward reward_id="145" reward_group_id="2010" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="4560" value_max="4580"
+			req_rank="A"></reward>
+		<reward reward_id="146" reward_group_id="2010" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="3420" value_max="3440"
+			req_rank="B"></reward>
+		<reward reward_id="147" reward_group_id="2010" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2280" value_max="2300"
+			req_rank="C"></reward>
+		<reward reward_id="148" reward_group_id="2010" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1710" value_max="1730"
+			req_rank="D"></reward>
+		<reward reward_id="149" reward_group_id="2010" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1140" value_max="1160"
+			req_rank="E"></reward>
+		<reward reward_id="150" reward_group_id="2010" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="570" value_max="590"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2011">
+		<reward reward_id="151" reward_group_id="2011" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="5000" value_max="5020"
+			req_rank="A"></reward>
+		<reward reward_id="152" reward_group_id="2011" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="3750" value_max="3770"
+			req_rank="B"></reward>
+		<reward reward_id="153" reward_group_id="2011" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2500" value_max="2520"
+			req_rank="C"></reward>
+		<reward reward_id="154" reward_group_id="2011" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1875" value_max="1895"
+			req_rank="D"></reward>
+		<reward reward_id="155" reward_group_id="2011" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1250" value_max="1270"
+			req_rank="E"></reward>
+		<reward reward_id="156" reward_group_id="2011" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="625" value_max="645"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2012">
+		<reward reward_id="157" reward_group_id="2012" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="5440" value_max="5460"
+			req_rank="A"></reward>
+		<reward reward_id="158" reward_group_id="2012" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="4080" value_max="4100"
+			req_rank="B"></reward>
+		<reward reward_id="159" reward_group_id="2012" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2720" value_max="2740"
+			req_rank="C"></reward>
+		<reward reward_id="160" reward_group_id="2012" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2040" value_max="2060"
+			req_rank="D"></reward>
+		<reward reward_id="161" reward_group_id="2012" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1360" value_max="1380"
+			req_rank="E"></reward>
+		<reward reward_id="162" reward_group_id="2012" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="680" value_max="700"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2013">
+		<reward reward_id="163" reward_group_id="2013" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="5880" value_max="5900"
+			req_rank="A"></reward>
+		<reward reward_id="164" reward_group_id="2013" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="4410" value_max="4430"
+			req_rank="B"></reward>
+		<reward reward_id="165" reward_group_id="2013" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2940" value_max="2960"
+			req_rank="C"></reward>
+		<reward reward_id="166" reward_group_id="2013" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2205" value_max="2225"
+			req_rank="D"></reward>
+		<reward reward_id="167" reward_group_id="2013" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1470" value_max="1490"
+			req_rank="E"></reward>
+		<reward reward_id="168" reward_group_id="2013" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="735" value_max="755"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2014">
+		<reward reward_id="169" reward_group_id="2014" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="6320" value_max="6340"
+			req_rank="A"></reward>
+		<reward reward_id="170" reward_group_id="2014" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="4740" value_max="4760"
+			req_rank="B"></reward>
+		<reward reward_id="171" reward_group_id="2014" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="3160" value_max="3180"
+			req_rank="C"></reward>
+		<reward reward_id="172" reward_group_id="2014" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2370" value_max="2390"
+			req_rank="D"></reward>
+		<reward reward_id="173" reward_group_id="2014" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1580" value_max="1600"
+			req_rank="E"></reward>
+		<reward reward_id="174" reward_group_id="2014" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="790" value_max="810"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="2015">
+		<reward reward_id="175" reward_group_id="2015" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="6760" value_max="6780"
+			req_rank="A"></reward>
+		<reward reward_id="176" reward_group_id="2015" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="5070" value_max="5090"
+			req_rank="B"></reward>
+		<reward reward_id="177" reward_group_id="2015" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="3380" value_max="3400"
+			req_rank="C"></reward>
+		<reward reward_id="178" reward_group_id="2015" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="2535" value_max="2555"
+			req_rank="D"></reward>
+		<reward reward_id="179" reward_group_id="2015" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="1690" value_max="1710"
+			req_rank="E"></reward>
+		<reward reward_id="180" reward_group_id="2015" combat_type="Annihilation War"
+			reward_type="EXP" value_id="None" value_min="845" value_max="865"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="3001">
+		<reward reward_id="181" reward_group_id="3001" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="60" value_max="80"
+			req_rank="A"></reward>
+		<reward reward_id="182" reward_group_id="3001" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="50" value_max="70"
+			req_rank="B"></reward>
+		<reward reward_id="183" reward_group_id="3001" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="40" value_max="60"
+			req_rank="C"></reward>
+		<reward reward_id="184" reward_group_id="3001" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="30" value_max="50"
+			req_rank="D"></reward>
+		<reward reward_id="185" reward_group_id="3001" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="20" value_max="40"
+			req_rank="E"></reward>
+		<reward reward_id="186" reward_group_id="3001" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="10" value_max="30"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="3002">
+		<reward reward_id="187" reward_group_id="3002" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="80" value_max="100"
+			req_rank="A"></reward>
+		<reward reward_id="188" reward_group_id="3002" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="70" value_max="90"
+			req_rank="B"></reward>
+		<reward reward_id="189" reward_group_id="3002" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="60" value_max="80"
+			req_rank="C"></reward>
+		<reward reward_id="190" reward_group_id="3002" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="50" value_max="70"
+			req_rank="D"></reward>
+		<reward reward_id="191" reward_group_id="3002" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="40" value_max="60"
+			req_rank="E"></reward>
+		<reward reward_id="192" reward_group_id="3002" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="30" value_max="50"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="3003">
+		<reward reward_id="193" reward_group_id="3003" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="100" value_max="120"
+			req_rank="A"></reward>
+		<reward reward_id="194" reward_group_id="3003" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="90" value_max="110"
+			req_rank="B"></reward>
+		<reward reward_id="195" reward_group_id="3003" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="80" value_max="100"
+			req_rank="C"></reward>
+		<reward reward_id="196" reward_group_id="3003" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="70" value_max="90"
+			req_rank="D"></reward>
+		<reward reward_id="197" reward_group_id="3003" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="60" value_max="80"
+			req_rank="E"></reward>
+		<reward reward_id="198" reward_group_id="3003" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="50" value_max="70"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="3004">
+		<reward reward_id="199" reward_group_id="3004" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="120" value_max="140"
+			req_rank="A"></reward>
+		<reward reward_id="200" reward_group_id="3004" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="110" value_max="130"
+			req_rank="B"></reward>
+		<reward reward_id="201" reward_group_id="3004" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="100" value_max="120"
+			req_rank="C"></reward>
+		<reward reward_id="202" reward_group_id="3004" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="90" value_max="110"
+			req_rank="D"></reward>
+		<reward reward_id="203" reward_group_id="3004" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="80" value_max="100"
+			req_rank="E"></reward>
+		<reward reward_id="204" reward_group_id="3004" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="70" value_max="90"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="3005">
+		<reward reward_id="205" reward_group_id="3005" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="140" value_max="160"
+			req_rank="A"></reward>
+		<reward reward_id="206" reward_group_id="3005" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="130" value_max="150"
+			req_rank="B"></reward>
+		<reward reward_id="207" reward_group_id="3005" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="120" value_max="140"
+			req_rank="C"></reward>
+		<reward reward_id="208" reward_group_id="3005" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="110" value_max="130"
+			req_rank="D"></reward>
+		<reward reward_id="209" reward_group_id="3005" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="100" value_max="120"
+			req_rank="E"></reward>
+		<reward reward_id="210" reward_group_id="3005" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="90" value_max="110"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="3006">
+		<reward reward_id="211" reward_group_id="3006" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="160" value_max="180"
+			req_rank="A"></reward>
+		<reward reward_id="212" reward_group_id="3006" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="150" value_max="170"
+			req_rank="B"></reward>
+		<reward reward_id="213" reward_group_id="3006" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="140" value_max="160"
+			req_rank="C"></reward>
+		<reward reward_id="214" reward_group_id="3006" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="130" value_max="150"
+			req_rank="D"></reward>
+		<reward reward_id="215" reward_group_id="3006" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="120" value_max="140"
+			req_rank="E"></reward>
+		<reward reward_id="216" reward_group_id="3006" combat_type="Annihilation War"
+			reward_type="Honor_Point" value_id="None" value_min="110" value_max="130"
+			req_rank="F"></reward>
+	</reward_group>
+	<reward_group reward_group_id="10001">
+		<reward reward_id="217" reward_group_id="10001" combat_type="Occupy War"
+			reward_type="Honor_Point" value_id="None" value_min="20" value_max="40"
+			req_rank="None"></reward>
+	</reward_group>
+	<reward_group reward_group_id="101">
+		<reward reward_id="218" reward_group_id="101" combat_type="legion War"
+			reward_type="Honor_Point" value_id="None" value_min="40" value_max="80"
+			req_rank="None"></reward>
+	</reward_group>
+
+</reward_info>

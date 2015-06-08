@@ -1,0 +1,17 @@
+
+# default: on
+# description: rabbitmqchk
+service rabbitmqchk
+{
+        disable = no
+        flags = REUSE
+        socket_type = stream
+        port = 9201
+        wait = no
+        user = rabbitmq
+        server = /usr/bin/rabbitmq-check
+        log_on_failure += USERID
+        only_from = 0.0.0.0/0
+        per_source = UNLIMITED
+}
+

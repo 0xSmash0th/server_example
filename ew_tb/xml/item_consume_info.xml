@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<item_consume_info>
+	<item_consumes>
+		<item_consume id="331101" name="초급 훈련 교본" image="ico_item_U_officerExp_01"
+			line_up="1" force="3" type="3" class="1" measure="정수" value="10"
+			cost_gold="" cost_honor="" cost_star="" sell_gold="0" limit_owned="1"
+			limit_overlap="99" format_text="장교가 [%d] 경험치를 얻습니다."></item_consume>
+		<item_consume id="331102" name="중급 훈련 교본" image="ico_item_U_officerExp_02"
+			line_up="2" force="3" type="3" class="1" measure="정수" value="100"
+			cost_gold="" cost_honor="" cost_star="" sell_gold="0" limit_owned="1"
+			limit_overlap="99" format_text="장교가 [%d] 경험치를 얻습니다."></item_consume>
+		<item_consume id="331103" name="상급 훈련 교본" image="ico_item_U_officerExp_03"
+			line_up="3" force="3" type="3" class="1" measure="정수" value="1000"
+			cost_gold="" cost_honor="" cost_star="" sell_gold="0" limit_owned="1"
+			limit_overlap="99" format_text="장교가 [%d] 경험치를 얻습니다."></item_consume>
+		<item_consume id="331201" name="밧데리" image="ico_item_U_battery"
+			line_up="4" force="3" type="3" class="2" measure="정수" value="10"
+			cost_gold="" cost_honor="" cost_star="" sell_gold="0" limit_owned="1"
+			limit_overlap="99" format_text="행동력이 [%d] 만큼 회복됩니다."></item_consume>
+	</item_consumes>
+</item_consume_info>

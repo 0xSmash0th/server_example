@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+force : [1 (Allies), 2 (Empire)]
+type : [1 (human), 2 (tank)]
+line of fire : [1 (Close 근접), 
+                2 (DirectShot 직사), 
+                3 (CurvedShot 곡사), 
+                4 (Special 특수), 
+                5 (Sudden 기습)]
+blocking : [1 (Nothing),
+            2 (Partial),
+            3 (Entire)
+weapon : [1 = Bullet, //사격
+          2 = Bomb,   //폭파.
+          3 = Frame,  //화염.
+          4 = Piercing,   //저격.
+          5 = ArmouredBullet,//특수.
+          6 = Heal,
+          7 = Rapair,]
+armor : [1 = Infantry,    //보병.
+         2 = Mechanic,   //차량.
+         3 = Light,  //라이트.
+         4 = Medium, //헤비.
+  *heal or repair unit은 영향받지 않음
+hitArea : [1 = Single, //단일.
+          2 = Row,    //가로줄.
+          3 = Column, //세로줄.
+          4 = Cross, //십자열.
+          5 = SideEnemy //상대 전체]
+          6 = All     //전체
+          7 = SideOur //아군 전체]
+type_major : [1 보병, 2 전차, 3 특수]      
+
+전투 effect
+      efUnitType="효과 타입 1 : human, 2 : tank" 
+      efShotName="공격 효과 이름" 
+      efShotTime="공격 효과 시작 후 피격 효과 가 시작되기까지의 시간 갭" 
+      efShotPosX="공격 효과 x 좌표" 
+      efShotPosY="공격 효과 Y 좌표"
+      efHitName="피격 효과 이름" 
+      efHitTime="피격 효과 지속시간 : 피격 대상이 여럿일 경우 이 시간을 두고 순차적으로 효과 발생
+      efHitPosX="피격 효과 x 좌표" 
+      efHitPosY="피격 효과 Y 좌표"
+      efRepeat="효과 반복 횟수"
+      efShaking="피격 대상 shaking 횟수"
+      * 피격효과 발동 후 피해량 text발생 시점은 efHitTime - 0.5sec 와 같이 효과가 끝나기 전 일정시간에 발생하도록 한다.
+      * 피격효과가 각 유닛마다 다른 좌표에서 발생하도록 하는 부분은 시간 관계상 일단 보류
+      efShakingDelay="hit후 shaking이 시작 될 때까지의 딜레이"
+
+  <unit id="ID값" cl_prefab="prefab 이름" cl_name_index="name 문자열 번호" cl_sprname="sprite 이름" cl_facename="portrait 이름"
+        force="진영" type="병력 타입" line_of_fire="공격타입" blocking="엄폐 타입"  weapon="데미지 타입" armor="방어타입"
+        morale="50" range_min="최소 사거리" range_max="최대 사거리" offense_min="최소 공격력" offense_max="최대 공격력" health="70" turnSpeed="450"
+        hitArea="타격 영역" type_major="1" cost_command="지휘력 소모" req_level="레벨제한" req_building="건물제한" cost_money="100" cost_honor="0" cost_time="10"
+        
+        efUnitType="1" efShotName="eff_gunfire_01" efShotTime="0.5" efShotPosX="228" efShotPosY="70"
+        efHitName="eff_gunhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="90"
+        efShaking="10" efShakingAmount="5" efCamShakingShot="0" efCamShakingShotAmount="0" efCamShakingHit="0" efCamShakingHitAmount="0"
+        sprbattle="공격 예비동작 sprite name" sprshot="공격 sprite name" sprhit="피격 sprite name" 
+        sprshotCount="공격 sprite 갯수. sprshot에 1부터 붙여서 사용한다. ex) 4이고 sprshot이 A이면 A1, A2, A3, A4 이름의 sprite를 사용"
+        />
+-->
+<unitinfo>
+
+  <!--##################################################################-->
+  <!--연합군 Allies-->
+
+<!--라이플맨-->
+  <unit id="1" cl_prefab="Rifleman" cl_name_index="600" cl_sprname="Unit_alliance_rippleman_idle" cl_facename="Port_alli_unit_rippleman"
+        force="1" type="1" line_of_fire="2" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="2" offense_min="16" offense_max="34" health="40" turnSpeed="400"
+        hitArea="1" type_major="1" cost_command="1" req_level="1" req_building="1007" cost_money="3" cost_honor="0" cost_time="1"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_01" efShotTime="0.3^0.5^0.5" efShotPosX="162" efShotPosY="75"
+        efHitNameHuman="eff_gunhit_01" efHitNameTank="eff_gunhit_01" efHitTime="0.3^0.5^0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="5" efShakingAmount="7" efCamShakingShot="3" efCamShakingShotAmount="3" efCamShakingHit="3" efCamShakingHitAmount="3"
+        efShakingDelay="0.1" efCamShakingHitDelay="0.1" efDeadName="" 
+        sprbattle="Unit_alliance_rippleman_battleidle" sprshot="Unit_alliance_rippleman_shot" sprhit="Unit_alliance_rippleman_hitdie"
+        sprshotFrames="1^2^3^4" sprshotSpeed="0.042"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="2" obtain_EXP="3" obtain_honor="0"
+         />
+  <!--레인저-->
+  <unit id="2" cl_prefab="Ranger" cl_name_index="603" cl_sprname="Unit_alliance_ranger_idle" cl_facename="Port_alli_unit_ranger"
+        force="1" type="1" line_of_fire="2" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="2" offense_min="74" offense_max="136" health="144" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="3" req_level="3" req_building="1007" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_01" efShotTime="0.3^0.5^0.3^0.5" efShotPosX="156" efShotPosY="63"
+        efHitNameHuman="eff_gunhit_01" efHitNameTank="eff_gunhit_01" efHitTime="0.3^0.5^0.3^0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="5" efShakingAmount="7" efCamShakingShot="3" efCamShakingShotAmount="3" efCamShakingHit="3" efCamShakingHitAmount="3"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_alliance_ranger_battleidle" sprshot="Unit_alliance_ranger_shot" sprhit="Unit_alliance_ranger_hitdie"
+        sprshotFrames="1^2^3^4" sprshotSpeed="0.042"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--기관총수-->
+  <unit id="3" cl_prefab="Machinegun" cl_name_index="601" cl_sprname="Unit_alliance_machinegun_idle" cl_facename="Port_alli_unit_machinegun"
+        force="1" type="1" line_of_fire="1" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="1" offense_min="8" offense_max="19" health="80" turnSpeed="500"
+        hitArea="2" type_major="1" cost_command="2" req_level="4" req_building="1007" cost_money="6" cost_honor="0" cost_time="2"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_02" efShotTime="0.5" efShotPosX="209" efShotPosY="91"
+        efHitNameHuman="eff_gunhit_02" efHitNameTank="eff_gunhit_02" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="35" efShakingAmount="15" efCamShakingShot="15" efCamShakingShotAmount="4" efCamShakingHit="15" efCamShakingHitAmount="5"
+        efShakingDelay="0.1" efCamShakingHitDelay="0.1" efDeadName="" 
+        sprbattle="Unit_alliance_machinegun_battleidle" sprshot="Unit_alliance_machinegun_shot" sprhit="Unit_alliance_machinegun_hitdie"
+        sprshotFrames="1^2^3^4^5^6^5^6^5^6^5^6^5^6^5^6^5^6^5^6^7^8^9^10" sprshotSpeed="0.08"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="4" obtain_EXP="6" obtain_honor="0"
+         />
+  <!--박격포-->
+  <unit id="4" cl_prefab="Mortar" cl_name_index="602" cl_sprname="Unit_alliance_mortar_idle" cl_facename="Port_alli_unit_mortar"
+        force="1" type="1" line_of_fire="4" blocking="1"  weapon="2" armor="1"
+        morale="50" range_min="2" range_max="3" offense_min="42" offense_max="98" health="80" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="2" req_level="4" req_building="1007" cost_money="12" cost_honor="0" cost_time="4"
+
+
+        
+        efUnitType="1" efShotName="eff_mortarfire_01" efShotTime="0.5" efShotPosX="126" efShotPosY="68"
+        efHitNameHuman="eff_mortarhit_01" efHitNameTank="eff_mortarhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="128"
+        efShaking="10" efShakingAmount="35" efCamShakingShot="5" efCamShakingShotAmount="15" efCamShakingHit="15" efCamShakingHitAmount="35"
+        efShakingDelay="0.16" efCamShakingHitDelay="0.16" efDeadName="" 
+        sprbattle="Unit_alliance_mortar_battleidle" sprshot="Unit_alliance_mortar_shot" sprhit="Unit_alliance_mortar_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^10^11^12" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="4" obtain_EXP="6" obtain_honor="0"
+         />
+  <!--라이플맨(칼빈)-->
+  <unit id="5" cl_prefab="RiflemanCarbine" cl_name_index="605" cl_sprname="Unit_alliance_calbine_rippleman_idle" cl_facename="Port_alli_unit_calbine"
+        force="1" type="1" line_of_fire="2" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="2" offense_min="42" offense_max="63" health="80" turnSpeed="400"
+        hitArea="1" type_major="1" cost_command="2" req_level="10" req_building="1007" cost_money="12" cost_honor="0" cost_time="4"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_01" efShotTime="0.3^0.3^0.5" efShotPosX="168" efShotPosY="67"
+        efHitNameHuman="eff_gunhit_01" efHitNameTank="eff_gunhit_01" efHitTime="0.3^0.3^0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="5" efShakingAmount="7" efCamShakingShot="3" efCamShakingShotAmount="3" efCamShakingHit="3" efCamShakingHitAmount="3"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_alliance_calbine_rippleman_battleidle" sprshot="Unit_alliance_calbine_rippleman_shot" sprhit="Unit_alliance_calbine_rippleman_hitdie"
+        sprshotFrames="1^2^3^4" sprshotSpeed="0.042"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="4" obtain_EXP="6" obtain_honor="0"
+         />
+  <!--대전차포병-->
+  <unit id="6" cl_prefab="AntitankInfantry" cl_name_index="607" cl_sprname="Unit_alliance_antitank_rippleman_idle" cl_facename="Port_alli_unit_antitank"
+        force="1" type="1" line_of_fire="2" blocking="1"  weapon="2" armor="1"
+        morale="50" range_min="1" range_max="2" offense_min="80" offense_max="140" health="120" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="3" req_level="6" req_building="1007" cost_money="18" cost_honor="0" cost_time="6"
+
+
+        
+        efUnitType="1" efShotName="eff_bazuka_01" efShotTime="0.5" efShotPosX="153" efShotPosY="75"
+        efHitNameHuman="eff_bazukahit_01" efHitNameTank="eff_bazukahit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="10" efShakingAmount="15" efCamShakingShot="7" efCamShakingShotAmount="10" efCamShakingHit="15" efCamShakingHitAmount="20"
+        efShakingDelay="0.24" efCamShakingHitDelay="0.24" efDeadName="" 
+        sprbattle="Unit_alliance_antitank_rippleman_battleidle" sprshot="Unit_alliance_antitank_rippleman_shot" sprhit="Unit_alliance_antitank_rippleman_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^10^11" sprshotSpeed="0.06"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--레인저(톰슨)-->
+  <unit id="7" cl_prefab="RangerThompson" cl_name_index="606" cl_sprname="Unit_alliance_thompson_ranger_idle" cl_facename="Port_alli_unit_thompson"
+        force="1" type="1" line_of_fire="2" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="1" offense_min="50" offense_max="82" health="144" turnSpeed="500"
+        hitArea="1" type_major="1" cost_command="3" req_level="10" req_building="1007" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_03" efShotTime="0.5" efShotPosX="164" efShotPosY="66"
+        efHitNameHuman="eff_gunhit_03" efHitNameTank="eff_gunhit_03" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="35" efShakingAmount="10" efCamShakingShot="15" efCamShakingShotAmount="3" efCamShakingHit="15" efCamShakingHitAmount="4"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_alliance_thompson_ranger_battleidle" sprshot="Unit_alliance_thompson_ranger_shot" sprhit="Unit_alliance_thompson_ranger_hitdie"
+        sprshotFrames="1^2^3^4^1^2^3^4^1^2^3^4^1^2^3^4^5^6" sprshotSpeed="0.06"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--화염방사병-->
+  <unit id="8" cl_prefab="FrameThrower" cl_name_index="612" cl_sprname="Unit_alliance_firebat_idle" cl_facename="Port_alli_unit_firebat"
+        force="1" type="1" line_of_fire="1" blocking="1"  weapon="3" armor="1"
+        morale="50" range_min="1" range_max="1" offense_min="16" offense_max="54" health="120" turnSpeed="300"
+        hitArea="2" type_major="1" cost_command="3" req_level="9" req_building="1007" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_flameshot_01" efShotTime="0.7" efShotPosX="155" efShotPosY="87"
+        efHitNameHuman="eff_flamehit_01" efHitNameTank="eff_flamehit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="35" efShakingAmount="10" efCamShakingShot="20" efCamShakingShotAmount="3" efCamShakingHit="50" efCamShakingHitAmount="3"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_alliance_firebat_battleidle" sprshot="Unit_alliance_firebat_shot" sprhit="Unit_alliance_firebat_hitdie"
+        sprshotFrames="1^2^3^2^1^2^3^2^1^2^3^2^1^2^3^2^1^2^3^4^5^6^7^8^9" sprshotSpeed="0.08"
+        soundShot="" soundHitHuman="" soundHitTank=""
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--AT병-->
+  <unit id="9" cl_prefab="Antitankman" cl_name_index="613" cl_sprname="Unit_alliance_antitankman_idle" cl_facename="Port_alli_unit_antitankman"
+        force="1" type="1" line_of_fire="2" blocking="1"  weapon="2" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="59" offense_max="121" health="90" turnSpeed="500"
+        hitArea="1" type_major="1" cost_command="3" req_level="15" req_building="1007" cost_money="18" cost_honor="0" cost_time="6"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_01" efShotTime="0.5" efShotPosX="253" efShotPosY="74"
+        efHitNameHuman="eff_tankhit_01" efHitNameTank="eff_tankhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="25"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="Unit_alliance_antitankman_battleidle" sprshot="Unit_alliance_antitankman_shot" sprhit="Unit_alliance_antitankman_hitdie"
+        sprshotFrames="1^1^2^3^4^5^6^7^8^9^10^11^12^13^14" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--에어본-->
+  <unit id="10" cl_prefab="Airborne" cl_name_index="604" cl_sprname="Unit_alliance_airborne_idle" cl_facename="Port_alli_unit_airborne"
+        force="1" type="1" line_of_fire="5" blocking="1"  weapon="5" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="63" offense_max="117" health="126" turnSpeed="400"
+        hitArea="1" type_major="1" cost_command="3" req_level="20" req_building="1007" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_granade_01" efShotTime="0.5" efShotPosX="163" efShotPosY="73"
+        efHitNameHuman="eff_granadehit_01" efHitNameTank="eff_granadehit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="128"
+        efShaking="10" efShakingAmount="25" efCamShakingShot="5" efCamShakingShotAmount="5" efCamShakingHit="10" efCamShakingHitAmount="35"
+        efShakingDelay="0.37" efCamShakingHitDelay="0.37" efDeadName="" 
+        sprbattle="Unit_alliance_airborne_battleidle" sprshot="Unit_alliance_airborne_shot" sprhit="Unit_alliance_airborne_hitdie"
+        sprshotFrames="1^2^3^4" sprshotSpeed="0.042"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--의무장교-->
+  <unit id="11" cl_prefab="MedicalOfficer" cl_name_index="611" cl_sprname="Unit_alliance_medicalofficer_idle" cl_facename="Port_alli_unit_medicalofficer"
+        force="1" type="1" line_of_fire="2" blocking="1"  weapon="6" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="23" offense_max="77" health="60" turnSpeed="200"
+        hitArea="7" type_major="3" cost_command="3" req_level="8" req_building="1004" cost_money="18" cost_honor="0" cost_time="6"
+
+
+        
+        efUnitType="1" efShotName="eff_healshot_01" efShotTime="1" efShotPosX="91" efShotPosY="20"
+        efHitNameHuman="eff_healhit_01" efHitNameTank="eff_healhit_01" efHitTime="0.3" efHitPosX="128" efHitPosY="128"
+        efShaking="0" efShakingAmount="0" efCamShakingShot="0" efCamShakingShotAmount="0" efCamShakingHit="0" efCamShakingHitAmount="0"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_alliance_medicalofficer_battleidle" sprshot="Unit_alliance_medicalofficer_shot" sprhit="Unit_alliance_medicalofficer_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^10^9^10^9^10^11^12^13^14^15^16^17^18^19^20^21^22^23^24^23^24^23^24" sprshotSpeed="0.08"
+        soundShot="" soundHitHuman="" soundHitTank=""
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--스나이퍼-->
+  <unit id="12" cl_prefab="Sniper" cl_name_index="608" cl_sprname="Unit_alliance_sniper_idle" cl_facename="Port_alli_unit_sniper"
+        force="1" type="1" line_of_fire="3" blocking="1"  weapon="4" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="180" offense_max="220" health="60" turnSpeed="300"
+        hitArea="1" type_major="3" cost_command="3" req_level="4" req_building="1001" cost_money="27" cost_honor="1" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_04" efShotTime="0.7" efShotPosX="161" efShotPosY="88"
+        efHitNameHuman="eff_gunhit_04" efHitNameTank="eff_gunhit_04" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="10" efShakingAmount="30" efCamShakingShot="4" efCamShakingShotAmount="20" efCamShakingHit="10" efCamShakingHitAmount="50"
+        efShakingDelay="0.205" efCamShakingHitDelay="0.205" efDeadName="" 
+        sprbattle="Unit_alliance_sniper_battleidle" sprshot="Unit_alliance_sniper_shot" sprhit="Unit_alliance_sniper_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^9^10^11^12^13" sprshotSpeed="0.09"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--엔지니어-->
+  <unit id="13" cl_prefab="Engineer" cl_name_index="610" cl_sprname="Unit_alliance_engineer_idle" cl_facename="Port_alli_unit_engineer"
+        force="1" type="1" line_of_fire="2" blocking="1"  weapon="7" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="67" offense_max="100" health="60" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="2" req_level="8" req_building="1007" cost_money="12" cost_honor="0" cost_time="4"
+
+
+        
+        efUnitType="1" efShotName="eff_repairshot_01" efShotTime="0.5" efShotPosX="139" efShotPosY="85"
+        efHitNameHuman="eff_repairhit_01" efHitNameTank="eff_repairhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="83"
+        efShaking="0" efShakingAmount="0" efCamShakingShot="0" efCamShakingShotAmount="0" efCamShakingHit="0" efCamShakingHitAmount="0"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_alliance_engineer_battleidle" sprshot="Unit_alliance_engineer_shot" sprhit="Unit_alliance_engineer_hitdie"
+        sprshotFrames="1^2^3^2^3^2^3^2^3^2^3^1" sprshotSpeed="0.06"
+        soundShot="" soundHitHuman="" soundHitTank=""
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--코만도-->
+  <unit id="14" cl_prefab="Commando" cl_name_index="609" cl_sprname="Unit_alliance_commandos_idle" cl_facename="Port_alli_unit_commandos"
+        force="1" type="1" line_of_fire="5" blocking="1"  weapon="5" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="22" offense_max="26" health="132" turnSpeed="500"
+        hitArea="2" type_major="3" cost_command="3" req_level="24" req_building="1005" cost_money="27" cost_honor="1" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_02" efShotTime="0.5" efShotPosX="195" efShotPosY="94"
+        efHitNameHuman="eff_gunhit_02" efHitNameTank="eff_gunhit_02" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="35" efShakingAmount="15" efCamShakingShot="15" efCamShakingShotAmount="4" efCamShakingHit="15" efCamShakingHitAmount="5"
+        efShakingDelay="0.1" efCamShakingHitDelay="0.1" efDeadName="" 
+        sprbattle="Unit_alliance_commandos_battleidle" sprshot="Unit_alliance_commandos_shot" sprhit="Unit_alliance_commandos_hitdie"
+        sprshotFrames="1^2^3^4^5^6^5^6^5^6^5^6^5^6^5^6^5^6^7^8^9^10" sprshotSpeed="0.08"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--브렌캐리어-->
+  <unit id="15" cl_prefab="BrenCarrier" cl_name_index="614" cl_sprname="Unit_alliance_BrenCarrier_idle" cl_facename="Port_alli_unit_brencarrier"
+        force="1" type="2" line_of_fire="2" blocking="2"  weapon="1" armor="2"
+        morale="50" range_min="1" range_max="2" offense_min="49" offense_max="58" health="160" turnSpeed="300"
+        hitArea="2" type_major="2" cost_command="4" req_level="6" req_building="1008" cost_money="48" cost_honor="0" cost_time="16"
+
+
+        
+        efUnitType="2" efShotName="eff_gunfire_02" efShotTime="0.5" efShotPosX="211" efShotPosY="47"
+        efHitNameHuman="eff_gunhit_02" efHitNameTank="eff_gunhit_02" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="35" efShakingAmount="15" efCamShakingShot="10" efCamShakingShotAmount="7" efCamShakingHit="10" efCamShakingHitAmount="7"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_BrenCarrier_idle_shot" sprhit=""
+        sprshotFrames="1^2^3^4^5^6^7^8^7^8^7^8^7^6^5^4^9^10" sprshotSpeed="0.07"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="8" obtain_EXP="12" obtain_honor="0"
+         />
+  <!--험버-->
+  <unit id="16" cl_prefab="Humber" cl_name_index="615" cl_sprname="Unit_alliance_humber_idle" cl_facename="Port_alli_unit_humber"
+        force="1" type="2" line_of_fire="2" blocking="2"  weapon="1" armor="2"
+        morale="50" range_min="1" range_max="2" offense_min="49" offense_max="58" health="160" turnSpeed="300"
+        hitArea="2" type_major="2" cost_command="4" req_level="12" req_building="1008" cost_money="48" cost_honor="0" cost_time="16"
+
+
+        
+        efUnitType="2" efShotName="eff_gunfire_02" efShotTime="0.5" efShotPosX="192" efShotPosY="66"
+        efHitNameHuman="eff_gunhit_02" efHitNameTank="eff_gunhit_02" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="35" efShakingAmount="15" efCamShakingShot="10" efCamShakingShotAmount="7" efCamShakingHit="10" efCamShakingHitAmount="7"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_humber_shot" sprhit=""
+        sprshotFrames="1^2^3^2^3^2^3^2^3^2^3^2^3^2^3^4^5" sprshotSpeed="0.07"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="8" obtain_EXP="12" obtain_honor="0"
+         />
+  <!--M8 그레이하운드-->
+  <unit id="17" cl_prefab="M8Greyhound" cl_name_index="617" cl_sprname="Unit_alliance_greyhound_idle" cl_facename="Port_alli_unit_greyhound"
+        force="1" type="2" line_of_fire="2" blocking="2"  weapon="1" armor="3"
+        morale="50" range_min="1" range_max="2" offense_min="147" offense_max="173" health="160" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="4" req_level="12" req_building="1008" cost_money="48" cost_honor="0" cost_time="16"
+
+
+        
+        efUnitType="2" efShotName="eff_rapidshot_01" efShotTime="0.4^0.4^0.4^0.5" efShotPosX="216" efShotPosY="79"
+        efHitNameHuman="eff_rapidhit_01" efHitNameTank="eff_rapidhit_01" efHitTime="0.7" efHitPosX="128" efHitPosY="100"
+        efShaking="20" efShakingAmount="15" efCamShakingShot="5" efCamShakingShotAmount="10" efCamShakingHit="10" efCamShakingHitAmount="20"
+        efShakingDelay="0.62" efCamShakingHitDelay="0.62" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_greyhound_shot" sprhit=""
+        sprshotFrames="1^2^3^4^5" sprshotSpeed="0.04"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="8" obtain_EXP="12" obtain_honor="0"
+         />
+  <!--M4 셔먼-->
+  <unit id="18" cl_prefab="M4Sherman" cl_name_index="620" cl_sprname="Unit_alliance_m4shermantank_idle" cl_facename="Port_alli_unit_m4shermantank"
+        force="1" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="4"
+        morale="50" range_min="1" range_max="2" offense_min="241" offense_max="319" health="448" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="7" req_level="15" req_building="1008" cost_money="105" cost_honor="0" cost_time="35"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_01" efShotTime="0.5" efShotPosX="234" efShotPosY="59"
+        efHitNameHuman="eff_tankhit_01" efHitNameTank="eff_tankhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="25"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_m4shermantank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="14" obtain_EXP="21" obtain_honor="0"
+         />
+  <!--크루세이더-->
+  <unit id="19" cl_prefab="Crusader" cl_name_index="616" cl_sprname="Unit_alliance_Crusader_idle" cl_facename="Port_alli_unit_crusader"
+        force="1" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="4"
+        morale="50" range_min="1" range_max="2" offense_min="169" offense_max="198" health="300" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="5" req_level="15" req_building="1008" cost_money="75" cost_honor="0" cost_time="25"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_01" efShotTime="0.5" efShotPosX="230" efShotPosY="65"
+        efHitNameHuman="eff_tankhit_01" efHitNameTank="eff_tankhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="25"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_Crusader_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="10" obtain_EXP="15" obtain_honor="0"
+         />
+  <!--M4 셔먼 크로커다일-->
+  <unit id="20" cl_prefab="M4ShermanCrocodile" cl_name_index="621" cl_sprname="Unit_alliance_m4crocodileshermantank_idle" cl_facename="Port_alli_unit_m4crocodileshermantank"
+        force="1" type="2" line_of_fire="2" blocking="3"  weapon="1" armor="4"
+        morale="50" range_min="1" range_max="2" offense_min="255" offense_max="305" health="448" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="7" req_level="18" req_building="1008" cost_money="105" cost_honor="0" cost_time="35"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_02" efShotTime="0.5" efShotPosX="233" efShotPosY="59"
+        efHitNameHuman="eff_tankhit_02" efHitNameTank="eff_tankhit_02" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="25"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_m4crocodileshermantank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="14" obtain_EXP="21" obtain_honor="0"
+         />
+  <!--M10 울버린-->
+  <unit id="21" cl_prefab="M10Wolverine" cl_name_index="619" cl_sprname="Unit_alliance_m10wolverinetank_idle" cl_facename="Port_alli_unit_m10wolverinetank"
+        force="1" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="3"
+        morale="50" range_min="1" range_max="2" offense_min="169" offense_max="198" health="300" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="5" req_level="18" req_building="1008" cost_money="75" cost_honor="0" cost_time="25"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_03" efShotTime="0.5" efShotPosX="235" efShotPosY="72"
+        efHitNameHuman="eff_tankhit_03" efHitNameTank="eff_tankhit_03" efHitTime="1.7" efHitPosX="128" efHitPosY="100"
+        efShaking="25" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="25" efCamShakingHitAmount="30"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_m10wolverinetank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="10" obtain_EXP="15" obtain_honor="0"
+         />
+  <!--처칠-->
+  <unit id="22" cl_prefab="Churchill" cl_name_index="618" cl_sprname="Unit_alliance_churchill_idle" cl_facename="Port_alli_unit_churchill"
+        force="1" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="4"
+        morale="50" range_min="1" range_max="2" offense_min="279" offense_max="308" health="640" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="8" req_level="18" req_building="1008" cost_money="144" cost_honor="0" cost_time="48"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_02" efShotTime="0.5" efShotPosX="228" efShotPosY="86"
+        efHitNameHuman="eff_tankhit_02" efHitNameTank="eff_tankhit_02" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="25"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_churchill_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="16" obtain_EXP="24" obtain_honor="0"
+         />
+  <!--JS-2-->
+  <unit id="23" cl_prefab="JS2" cl_name_index="622" cl_sprname="Unit_alliance_js2tank_idle" cl_facename="Port_alli_unit_js2tank"
+        force="1" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="4"
+        morale="50" range_min="1" range_max="2" offense_min="324" offense_max="404" health="420" turnSpeed="250"
+        hitArea="1" type_major="2" cost_command="7" req_level="18" req_building="1008" cost_money="105" cost_honor="0" cost_time="35"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_03" efShotTime="0.5" efShotPosX="253" efShotPosY="79"
+        efHitNameHuman="eff_tankhit_03" efHitNameTank="eff_tankhit_03" efHitTime="1.7" efHitPosX="128" efHitPosY="100"
+        efShaking="25" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="25" efCamShakingHitAmount="30"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_js2tank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="14" obtain_EXP="21" obtain_honor="0"
+         />
+  <!--M26 퍼싱-->
+  <unit id="24" cl_prefab="M26Pershing" cl_name_index="624" cl_sprname="Unit_alliance_m26pershingtank_idle" cl_facename="Port_alli_unit_m26pershingtank"
+        force="1" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="4"
+        morale="50" range_min="1" range_max="2" offense_min="446" offense_max="514" health="640" turnSpeed="250"
+        hitArea="1" type_major="3" cost_command="10" req_level="28" req_building="1003" cost_money="180" cost_honor="1" cost_time="60"
+
+
+        
+        efUnitType="2" efShotName="eff_tankburst_01" efShotTime="0.5" efShotPosX="254" efShotPosY="74"
+        efHitNameHuman="eff_tbursthit_01" efHitNameTank="eff_tbursthit_01" efHitTime="1.7" efHitPosX="128" efHitPosY="100"
+        efShaking="20" efShakingAmount="30" efCamShakingShot="7" efCamShakingShotAmount="20" efCamShakingHit="20" efCamShakingHitAmount="50"
+        efShakingDelay="1.25" efCamShakingHitDelay="1.25" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_m26pershingtank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="20" obtain_EXP="30" obtain_honor="0"
+         />
+  <!--왕립포병대-->
+  <unit id="25" cl_prefab="Royalartillerie" cl_name_index="623" cl_sprname="Unit_alliance_royalartillerie_idle" cl_facename="Port_alli_unit_royalartillerie"
+        force="1" type="2" line_of_fire="4" blocking="2"  weapon="2" armor="3"
+        morale="50" range_min="2" range_max="3" offense_min="96" offense_max="171" health="160" turnSpeed="300"
+        hitArea="3" type_major="3" cost_command="5" req_level="21" req_building="1006" cost_money="75" cost_honor="1" cost_time="25"
+
+
+        
+        efUnitType="2" efShotName="eff_atilfire_01" efShotTime="0.7" efShotPosX="198" efShotPosY="50"
+        efHitNameHuman="eff_atilhit_01" efHitNameTank="eff_atilhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="128"
+        efShaking="25" efShakingAmount="40" efCamShakingShot="10" efCamShakingShotAmount="30" efCamShakingHit="15" efCamShakingHitAmount="50"
+        efShakingDelay="0.15" efCamShakingHitDelay="0.15" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_alliance_royalartillerie_shot" sprhit="Unit_alliance_royalartillerie_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^10^11^12^13" sprshotSpeed="0.08"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="10" obtain_EXP="15" obtain_honor="0"
+         />
+
+
+
+
+
+
+
+  <!--##################################################################-->
+  <!--제국군 Empire-->
+
+<!--국민척탄병-->
+  <unit id="26" cl_prefab="VolksGrenadier" cl_name_index="800" cl_sprname="Unit_empire_volksgrenadier_idle" cl_facename="Port_empi_unit_volksgrenadier"
+        force="2" type="1" line_of_fire="2" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="2" offense_min="18" offense_max="32" health="40" turnSpeed="400"
+        hitArea="1" type_major="1" cost_command="1" req_level="1" req_building="1037" cost_money="3" cost_honor="0" cost_time="1"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_01" efShotTime="0.5^0.3^0.5" efShotPosX="166" efShotPosY="71"
+        efHitNameHuman="eff_gunhit_01" efHitNameTank="eff_gunhit_01" efHitTime="0.5^0.3^0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="5" efShakingAmount="7" efCamShakingShot="3" efCamShakingShotAmount="3" efCamShakingHit="3" efCamShakingHitAmount="3"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_empire_volksgrenadier_battleidle" sprshot="Unit_empire_volksgrenadier_shot" sprhit="Unit_empire_volksgrenadier_hitdie"
+        sprshotFrames="1^2^3^4" sprshotSpeed="0.042"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="2" obtain_EXP="3" obtain_honor="0"
+         />
+  <!--돌격대-->
+  <unit id="27" cl_prefab="StormTrooper" cl_name_index="811" cl_sprname="Unit_empire_stormtrooper_idle" cl_facename="Port_empi_unit_stormtrooper"
+        force="2" type="1" line_of_fire="2" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="1" offense_min="63" offense_max="87" health="120" turnSpeed="500"
+        hitArea="1" type_major="3" cost_command="3" req_level="3" req_building="1031" cost_money="36" cost_honor="1" cost_time="12"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_03" efShotTime="0.5" efShotPosX="169" efShotPosY="81"
+        efHitNameHuman="eff_gunhit_03" efHitNameTank="eff_gunhit_03" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="35" efShakingAmount="10" efCamShakingShot="15" efCamShakingShotAmount="3" efCamShakingHit="15" efCamShakingHitAmount="4"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_empire_stormtrooper_battleidle" sprshot="Unit_empire_stormtrooper_shot" sprhit="Unit_empire_stormtrooper_hitdie"
+        sprshotFrames="1^2^1^2^1^2^1^2^1^2^1^2^1^2^1^2^3^4^5^6^5^4^7^8" sprshotSpeed="0.08"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--기관총수-->
+  <unit id="28" cl_prefab="EM_Machinegun" cl_name_index="804" cl_sprname="Unit_empire_machinegun_idle" cl_facename="Port_empi_unit_machinegun"
+        force="2" type="1" line_of_fire="1" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="1" offense_min="8" offense_max="19" health="80" turnSpeed="500"
+        hitArea="2" type_major="1" cost_command="2" req_level="4" req_building="1037" cost_money="6" cost_honor="0" cost_time="2"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_02" efShotTime="0.5" efShotPosX="188" efShotPosY="86"
+        efHitNameHuman="eff_gunhit_02" efHitNameTank="eff_gunhit_02" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="35" efShakingAmount="15" efCamShakingShot="15" efCamShakingShotAmount="4" efCamShakingHit="15" efCamShakingHitAmount="5"
+        efShakingDelay="0.1" efCamShakingHitDelay="0.1" efDeadName="" 
+        sprbattle="Unit_empire_machinegun_battleidle" sprshot="Unit_empire_machinegun_shot" sprhit="Unit_empire_machinegun_hitdie"
+        sprshotFrames="1^2^1^2^1^2^1^2^1^2^1^2^1^2^1^2^1^2^3^4^5^6^5^7" sprshotSpeed="0.08"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="4" obtain_EXP="6" obtain_honor="0"
+         />
+  <!--박격포-->
+  <unit id="29" cl_prefab="EM_Mortar" cl_name_index="802" cl_sprname="Unit_empire_mortar_idle" cl_facename="Port_empi_unit_mortar"
+        force="2" type="1" line_of_fire="4" blocking="1"  weapon="2" armor="1"
+        morale="50" range_min="2" range_max="3" offense_min="42" offense_max="98" health="80" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="2" req_level="4" req_building="1037" cost_money="12" cost_honor="0" cost_time="4"
+
+
+        
+        efUnitType="1" efShotName="eff_mortarfire_01" efShotTime="0.5" efShotPosX="131" efShotPosY="68"
+        efHitNameHuman="eff_mortarhit_01" efHitNameTank="eff_mortarhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="128"
+        efShaking="15" efShakingAmount="35" efCamShakingShot="5" efCamShakingShotAmount="15" efCamShakingHit="15" efCamShakingHitAmount="35"
+        efShakingDelay="0.16" efCamShakingHitDelay="0.16" efDeadName="" 
+        sprbattle="Unit_empire_mortar_battleidle" sprshot="Unit_empire_mortar_shot" sprhit="Unit_empire_mortar_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^10^11^12^13" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="4" obtain_EXP="6" obtain_honor="0"
+         />
+  <!--척탄병-->
+  <unit id="30" cl_prefab="Grenadier" cl_name_index="812" cl_sprname="Unit_empire_grenadier_idle" cl_facename="Port_empi_unit_grenadier"
+        force="2" type="1" line_of_fire="2" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="2" offense_min="45" offense_max="88" health="80" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="2" req_level="10" req_building="1037" cost_money="18" cost_honor="0" cost_time="6"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_01" efShotTime="0.5^0.3^0.3^0.5" efShotPosX="186" efShotPosY="67"
+        efHitNameHuman="eff_gunhit_01" efHitNameTank="eff_gunhit_01" efHitTime="0.5^0.3^0.3^0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="5" efShakingAmount="7" efCamShakingShot="3" efCamShakingShotAmount="3" efCamShakingHit="3" efCamShakingHitAmount="3"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_empire_grenadier_battleidle" sprshot="Unit_empire_grenadier_shot" sprhit="Unit_empire_grenadier_hitdie"
+        sprshotFrames="1^2^3^4" sprshotSpeed="0.042"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="4" obtain_EXP="6" obtain_honor="0"
+         />
+  <!--판저슈렉-->
+  <unit id="31" cl_prefab="Panzerschreck" cl_name_index="803" cl_sprname="Unit_empire_antitank_rippleman_idle" cl_facename="Port_empi_unit_antitank"
+        force="2" type="1" line_of_fire="2" blocking="1"  weapon="2" armor="1"
+        morale="50" range_min="1" range_max="2" offense_min="48" offense_max="92" health="80" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="2" req_level="6" req_building="1037" cost_money="12" cost_honor="0" cost_time="4"
+
+
+        
+        efUnitType="1" efShotName="eff_bazuka_01" efShotTime="0.5" efShotPosX="161" efShotPosY="70"
+        efHitNameHuman="eff_bazukahit_01" efHitNameTank="eff_bazukahit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="10" efShakingAmount="15" efCamShakingShot="7" efCamShakingShotAmount="10" efCamShakingHit="15" efCamShakingHitAmount="20"
+        efShakingDelay="0.24" efCamShakingHitDelay="0.24" efDeadName="" 
+        sprbattle="Unit_empire_antitank_rippleman_battleidle" sprshot="Unit_empire_antitank_rippleman_shot" sprhit="Unit_empire_antitank_rippleman_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^10^11" sprshotSpeed="0.06"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="4" obtain_EXP="6" obtain_honor="0"
+         />
+  <!--화염방사병-->
+  <unit id="32" cl_prefab="EM_FrameThrower" cl_name_index="813" cl_sprname="Unit_empire_firebat_idle" cl_facename="Port_empi_unit_firebat"
+        force="2" type="1" line_of_fire="1" blocking="1"  weapon="3" armor="1"
+        morale="50" range_min="1" range_max="1" offense_min="16" offense_max="54" health="120" turnSpeed="300"
+        hitArea="2" type_major="1" cost_command="3" req_level="9" req_building="1037" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_flameshot_01" efShotTime="0.7" efShotPosX="163" efShotPosY="96"
+        efHitNameHuman="eff_flamehit_01" efHitNameTank="eff_flamehit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="35" efShakingAmount="10" efCamShakingShot="20" efCamShakingShotAmount="3" efCamShakingHit="50" efCamShakingHitAmount="3"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_empire_firebat_battleidle" sprshot="Unit_empire_firebat_shot" sprhit="Unit_empire_firebat_hitdie"
+        sprshotFrames="1^2^3^2^1^2^3^2^1^2^3^2^1^2^3^2^1^2^3^4^5^6^7^8^9" sprshotSpeed="0.08"
+        soundShot="" soundHitHuman="" soundHitTank=""
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--AT병-->
+  <unit id="33" cl_prefab="EM_Antitankman" cl_name_index="807" cl_sprname="Unit_empire_antitankman_idle" cl_facename="Port_empi_unit_antitankman"
+        force="2" type="1" line_of_fire="2" blocking="1"  weapon="2" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="59" offense_max="121" health="90" turnSpeed="500"
+        hitArea="1" type_major="1" cost_command="3" req_level="15" req_building="1037" cost_money="18" cost_honor="0" cost_time="6"
+
+
+        
+        efUnitType="1" efShotName="eff_tankfire_01" efShotTime="0.5" efShotPosX="250" efShotPosY="79"
+        efHitNameHuman="eff_tankhit_01" efHitNameTank="eff_tankhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="25"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="Unit_empire_antitankman_battleidle" sprshot="Unit_empire_antitankman_shot" sprhit="Unit_empire_antitankman_hitdie"
+        sprshotFrames="1^1^2^3^4^5^6^7^8^9^10^11^12^13^14^15" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--팔슈름야거-->
+  <unit id="34" cl_prefab="Fallschirmjager" cl_name_index="805" cl_sprname="Unit_empire_fallschirmjager_idle" cl_facename="Port_empi_unit_fallschirmjager"
+        force="2" type="1" line_of_fire="5" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="55" offense_max="95" health="120" turnSpeed="400"
+        hitArea="1" type_major="1" cost_command="3" req_level="10" req_building="1037" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_03" efShotTime="0.5" efShotPosX="135" efShotPosY="84"
+        efHitNameHuman="eff_gunhit_03" efHitNameTank="eff_gunhit_03" efHitTime="0.5" efHitPosX="135" efHitPosY="100"
+        efShaking="35" efShakingAmount="10" efCamShakingShot="15" efCamShakingShotAmount="3" efCamShakingHit="15" efCamShakingHitAmount="4"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_empire_fallschirmjager_battleidle" sprshot="Unit_empire_fallschirmjager_shot" sprhit="Unit_empire_fallschirmjager_hitdie"
+        sprshotFrames="1^2^1^2^1^2^1^2^1^2^1^2^1^2^3^3^4^4^5^5^6" sprshotSpeed="0.09"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--의무병-->
+  <unit id="35" cl_prefab="Medic" cl_name_index="809" cl_sprname="Unit_empire_medic_idle" cl_facename="Port_empi_unit_medic"
+        force="2" type="1" line_of_fire="2" blocking="1"  weapon="6" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="100" offense_max="150" health="90" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="3" req_level="8" req_building="1037" cost_money="18" cost_honor="0" cost_time="6"
+
+
+        
+        efUnitType="1" efShotName="eff_healshot_02" efShotTime="0.5" efShotPosX="116" efShotPosY="25"
+        efHitNameHuman="eff_healhit_02" efHitNameTank="eff_healhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="128"
+        efShaking="0" efShakingAmount="0" efCamShakingShot="0" efCamShakingShotAmount="0" efCamShakingHit="0" efCamShakingHitAmount="0"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_empire_medic_battleidle" sprshot="Unit_empire_medic_shot" sprhit="Unit_empire_medic_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^10^11^12^13" sprshotSpeed="0.08"
+        soundShot="" soundHitHuman="" soundHitTank=""
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--스나이퍼-->
+  <unit id="36" cl_prefab="EM_Sniper" cl_name_index="801" cl_sprname="Unit_empire_sniper_idle" cl_facename="Port_empi_unit_sniper"
+        force="2" type="1" line_of_fire="3" blocking="1"  weapon="4" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="180" offense_max="220" health="60" turnSpeed="300"
+        hitArea="1" type_major="1" cost_command="3" req_level="4" req_building="1037" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_04" efShotTime="0.5" efShotPosX="168" efShotPosY="97"
+        efHitNameHuman="eff_gunhit_04" efHitNameTank="eff_gunhit_04" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="10" efShakingAmount="30" efCamShakingShot="4" efCamShakingShotAmount="20" efCamShakingHit="10" efCamShakingHitAmount="50"
+        efShakingDelay="0.205" efCamShakingHitDelay="0.205" efDeadName="" 
+        sprbattle="Unit_empire_sniper_battleidle" sprshot="Unit_empire_sniper_shot" sprhit="Unit_empire_sniper_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^9^10^11^12^13" sprshotSpeed="0.09"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--팔슈름야거(경기관총)-->
+  <unit id="37" cl_prefab="FallschirmjagerSubmachinegun" cl_name_index="806" cl_sprname="Unit_empire_machinegun_fallschirmjager_idle" cl_facename="Port_empi_unit_machinegun_fallschirmjager"
+        force="2" type="1" line_of_fire="5" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="25" offense_max="75" health="108" turnSpeed="300"
+        hitArea="2" type_major="1" cost_command="3" req_level="20" req_building="1037" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_02" efShotTime="0.5" efShotPosX="185" efShotPosY="88"
+        efHitNameHuman="eff_gunhit_02" efHitNameTank="eff_gunhit_02" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="35" efShakingAmount="15" efCamShakingShot="15" efCamShakingShotAmount="4" efCamShakingHit="15" efCamShakingHitAmount="5"
+        efShakingDelay="0.1" efCamShakingHitDelay="0.1" efDeadName="" 
+        sprbattle="Unit_empire_machinegun_fallschirmjager_battleidle" sprshot="Unit_empire_machinegun_fallschirmjager_shot" sprhit="Unit_empire_machinegun_fallschirmjager_hitdie"
+        sprshotFrames="1^2^3^4^5^6^5^6^5^6^5^6^5^6^5^6^5^6^7^8^9^10" sprshotSpeed="0.08"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--파이오니어-->
+  <unit id="38" cl_prefab="Pioneer" cl_name_index="808" cl_sprname="Unit_empire_pioneer_idle" cl_facename="Port_empi_unit_pioneer"
+        force="2" type="1" line_of_fire="2" blocking="1"  weapon="7" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="15" offense_max="52" health="40" turnSpeed="200"
+        hitArea="7" type_major="3" cost_command="2" req_level="8" req_building="1035" cost_money="12" cost_honor="0" cost_time="4"
+
+
+        
+        efUnitType="1" efShotName="eff_repairshot_01" efShotTime="0.5" efShotPosX="142" efShotPosY="93"
+        efHitNameHuman="eff_repairhit_01" efHitNameTank="eff_repairhit_01" efHitTime="0.3" efHitPosX="128" efHitPosY="83"
+        efShaking="0" efShakingAmount="0" efCamShakingShot="0" efCamShakingShotAmount="0" efCamShakingHit="0" efCamShakingHitAmount="0"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_empire_pioneer_battleidle" sprshot="Unit_empire_pioneer_shot" sprhit="Unit_empire_pioneer_hitdie"
+        sprshotFrames="1^2^3^2^3^2^3^2^3^2^3^1" sprshotSpeed="0.06"
+        soundShot="" soundHitHuman="" soundHitTank=""
+        obtain_gold="4" obtain_EXP="6" obtain_honor="0"
+         />
+  <!--제국친위대-->
+  <unit id="39" cl_prefab="SchutzStaffel" cl_name_index="810" cl_sprname="Unit_empire_ssschutzstaffel_idle" cl_facename="Port_empi_unit_ssschutzstaffel"
+        force="2" type="1" line_of_fire="5" blocking="1"  weapon="1" armor="1"
+        morale="50" range_min="1" range_max="3" offense_min="105" offense_max="147" health="144" turnSpeed="250"
+        hitArea="1" type_major="3" cost_command="3" req_level="24" req_building="1034" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="1" efShotName="eff_gunfire_03" efShotTime="1" efShotPosX="165" efShotPosY="57"
+        efHitNameHuman="eff_gunhit_03" efHitNameTank="eff_gunhit_03" efHitTime="0.5" efHitPosX="135" efHitPosY="100"
+        efShaking="35" efShakingAmount="10" efCamShakingShot="20" efCamShakingShotAmount="3" efCamShakingHit="15" efCamShakingHitAmount="4"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="" 
+        sprbattle="Unit_empire_ssschutzstaffel_battleidle" sprshot="Unit_empire_ssschutzstaffel_shot" sprhit="Unit_empire_ssschutzstaffel_hitdie"
+        sprshotFrames="1^2^3^4^5^6^7^8^9^10^11^12^13^14^15^12^13^14^15^16^17" sprshotSpeed="0.065"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--지프-->
+  <unit id="40" cl_prefab="Jeep" cl_name_index="814" cl_sprname="Unit_empire_jeep_idle" cl_facename="Port_empi_unit_jeep"
+        force="2" type="2" line_of_fire="2" blocking="2"  weapon="1" armor="2"
+        morale="50" range_min="1" range_max="2" offense_min="34" offense_max="63" health="108" turnSpeed="300"
+        hitArea="2" type_major="2" cost_command="3" req_level="6" req_building="1038" cost_money="27" cost_honor="0" cost_time="9"
+
+
+        
+        efUnitType="2" efShotName="eff_gunfire_02" efShotTime="0.5" efShotPosX="195" efShotPosY="74"
+        efHitNameHuman="eff_gunhit_02" efHitNameTank="eff_gunhit_02" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="35" efShakingAmount="15" efCamShakingShot="10" efCamShakingShotAmount="7" efCamShakingHit="10" efCamShakingHitAmount="7"
+        efShakingDelay="0" efCamShakingHitDelay="0" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_jeep_shot" sprhit=""
+        sprshotFrames="1^2^3^2^3^2^3^2^3^2^3^2^3^2^3^2^3^4^5" sprshotSpeed="0.07"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="6" obtain_EXP="9" obtain_honor="0"
+         />
+  <!--하고 전차-->
+  <unit id="41" cl_prefab="Hago" cl_name_index="815" cl_sprname="Unit_empire_hago_idle" cl_facename="Port_empi_unit_hago"
+        force="2" type="2" line_of_fire="2" blocking="2"  weapon="1" armor="3"
+        morale="50" range_min="1" range_max="2" offense_min="138" offense_max="182" health="160" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="4" req_level="12" req_building="1038" cost_money="48" cost_honor="0" cost_time="16"
+
+
+        
+        efUnitType="2" efShotName="eff_rapidshot_01" efShotTime="0.4^0.4^0.4^0.5" efShotPosX="202" efShotPosY="75"
+        efHitNameHuman="eff_rapidhit_01" efHitNameTank="eff_rapidhit_01" efHitTime="0.7" efHitPosX="128" efHitPosY="100"
+        efShaking="20" efShakingAmount="15" efCamShakingShot="5" efCamShakingShotAmount="10" efCamShakingHit="10" efCamShakingHitAmount="20"
+        efShakingDelay="0.62" efCamShakingHitDelay="0.62" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_hago_shot" sprhit=""
+        sprshotFrames="1^2^3^4^5" sprshotSpeed="0.04"
+        soundShot="shotGun" soundHitHuman="hitGun" soundHitTank="hitGun"
+        obtain_gold="8" obtain_EXP="12" obtain_honor="0"
+         />
+  <!--sdfkz 234 장갑차-->
+  <unit id="42" cl_prefab="Sdkfz234" cl_name_index="816" cl_sprname="Unit_empire_sdkfz234armoredcar_idle" cl_facename="Port_empi_unit_sdkfz234armoredcar"
+        force="2" type="2" line_of_fire="2" blocking="2"  weapon="1" armor="3"
+        morale="50" range_min="1" range_max="2" offense_min="146" offense_max="174" health="160" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="4" req_level="12" req_building="1038" cost_money="48" cost_honor="0" cost_time="16"
+
+
+        
+        efUnitType="2" efShotName="eff_rapidshot_01" efShotTime="0.4^0.4^0.4^0.5" efShotPosX="244" efShotPosY="82"
+        efHitNameHuman="eff_rapidhit_01" efHitNameTank="eff_rapidhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="20" efShakingAmount="15" efCamShakingShot="5" efCamShakingShotAmount="10" efCamShakingHit="10" efCamShakingHitAmount="20"
+        efShakingDelay="0.62" efCamShakingHitDelay="0.62" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_sdkfz234armoredcar_shot" sprhit=""
+        sprshotFrames="1^2^3^4^5" sprshotSpeed="0.04"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="8" obtain_EXP="12" obtain_honor="0"
+         />
+  <!--브럼바-->
+  <unit id="43" cl_prefab="Brummbar" cl_name_index="818" cl_sprname="Unit_empire_Brummbar_idle" cl_facename="Port_empi_unit_brummbar"
+        force="2" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="3"
+        morale="50" range_min="1" range_max="2" offense_min="156" offense_max="211" health="310" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="5" req_level="15" req_building="1038" cost_money="75" cost_honor="0" cost_time="25"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_02" efShotTime="0.5" efShotPosX="204" efShotPosY="87"
+        efHitNameHuman="eff_tankhit_02" efHitNameTank="eff_tankhit_02" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="25"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_Brummbar_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="10" obtain_EXP="15" obtain_honor="0"
+         />
+  <!--지하 전차-->
+  <unit id="44" cl_prefab="Chiha" cl_name_index="820" cl_sprname="Unit_empire_chiha_idle" cl_facename="Port_empi_unit_chiha"
+        force="2" type="2" line_of_fire="2" blocking="3"  weapon="1" armor="3"
+        morale="50" range_min="1" range_max="2" offense_min="158" offense_max="194" health="248" turnSpeed="250"
+        hitArea="1" type_major="2" cost_command="4" req_level="12" req_building="1038" cost_money="60" cost_honor="0" cost_time="20"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_01" efShotTime="0.5" efShotPosX="193" efShotPosY="80"
+        efHitNameHuman="eff_tankhit_01" efHitNameTank="eff_tankhit_01" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="30"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_chiha_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="8" obtain_EXP="12" obtain_honor="0"
+         />
+  <!--돌격포-->
+  <unit id="45" cl_prefab="JagdPanzer" cl_name_index="817" cl_sprname="Unit_empire_JagdPanzer_idle" cl_facename="Port_empi_unit_jagdpanzer"
+        force="2" type="2" line_of_fire="3" blocking="3"  weapon="1" armor="3"
+        morale="50" range_min="1" range_max="2" offense_min="165" offense_max="202" health="310" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="5" req_level="15" req_building="1038" cost_money="75" cost_honor="0" cost_time="25"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_01" efShotTime="0.5" efShotPosX="256" efShotPosY="104"
+        efHitNameHuman="eff_tankhit_01" efHitNameTank="eff_tankhit_01" efHitTime="0.5" efHitPosX="130" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="30"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_JagdPanzer_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="10" obtain_EXP="15" obtain_honor="0"
+         />
+  <!--5호 판터 전차-->
+  <unit id="46" cl_prefab="PantherTank" cl_name_index="821" cl_sprname="Unit_empire_panthertank_idle" cl_facename="Port_empi_unit_panthertank"
+        force="2" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="3"
+        morale="50" range_min="1" range_max="3" offense_min="366" offense_max="466" health="528" turnSpeed="250"
+        hitArea="1" type_major="2" cost_command="8" req_level="18" req_building="1038" cost_money="120" cost_honor="0" cost_time="40"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_03" efShotTime="0.5" efShotPosX="254" efShotPosY="77"
+        efHitNameHuman="eff_tankhit_03" efHitNameTank="eff_tankhit_03" efHitTime="1.7" efHitPosX="128" efHitPosY="100"
+        efShaking="25" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="25" efCamShakingHitAmount="30"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_panthertank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="16" obtain_EXP="24" obtain_honor="0"
+         />
+  <!--마더구축전차-->
+  <unit id="47" cl_prefab="MarderTank" cl_name_index="819" cl_sprname="Unit_empire_mardertank_idle" cl_facename="Port_empi_unit_mardertank"
+        force="2" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="3"
+        morale="50" range_min="1" range_max="3" offense_min="158" offense_max="209" health="310" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="5" req_level="15" req_building="1038" cost_money="75" cost_honor="0" cost_time="25"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_03" efShotTime="0.5" efShotPosX="254" efShotPosY="71"
+        efHitNameHuman="eff_tankhit_03" efHitNameTank="eff_tankhit_03" efHitTime="1.7" efHitPosX="128" efHitPosY="100"
+        efShaking="25" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="25" efCamShakingHitAmount="30"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_mardertank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="10" obtain_EXP="15" obtain_honor="0"
+         />
+  <!--야크트티거-->
+  <unit id="48" cl_prefab="Jagdtiger" cl_name_index="822" cl_sprname="Unit_empire_Jagdtigertank_idle" cl_facename="Port_empi_unit_jagdtigertank"
+        force="2" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="4"
+        morale="50" range_min="1" range_max="2" offense_min="229" offense_max="304" health="608" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="8" req_level="26" req_building="1038" cost_money="120" cost_honor="0" cost_time="40"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_03" efShotTime="0.5" efShotPosX="241" efShotPosY="75"
+        efHitNameHuman="eff_tankhit_03" efHitNameTank="eff_tankhit_03" efHitTime="1.7" efHitPosX="128" efHitPosY="100"
+        efShaking="25" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="25" efCamShakingHitAmount="30"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_Jagdtigertank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="16" obtain_EXP="24" obtain_honor="0"
+         />
+  <!--헷처-->
+  <unit id="49" cl_prefab="Hetzer" cl_name_index="823" cl_sprname="Unit_empire_hetzertank_idle" cl_facename="Port_empi_unit_hetzertank"
+        force="2" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="3"
+        morale="50" range_min="1" range_max="2" offense_min="220" offense_max="367" health="576" turnSpeed="300"
+        hitArea="1" type_major="2" cost_command="8" req_level="18" req_building="1038" cost_money="144" cost_honor="0" cost_time="48"
+
+
+        
+        efUnitType="2" efShotName="eff_tankfire_02" efShotTime="0.5" efShotPosX="247" efShotPosY="100"
+        efHitNameHuman="eff_tankhit_02" efHitNameTank="eff_tankhit_02" efHitTime="0.5" efHitPosX="128" efHitPosY="100"
+        efShaking="15" efShakingAmount="25" efCamShakingShot="7" efCamShakingShotAmount="15" efCamShakingHit="10" efCamShakingHitAmount="25"
+        efShakingDelay="0.17" efCamShakingHitDelay="0.17" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_hetzertank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="16" obtain_EXP="24" obtain_honor="0"
+         />
+  <!--킹티거-->
+  <unit id="50" cl_prefab="Kingtiger" cl_name_index="825" cl_sprname="Unit_empire_kingtigertank_idle" cl_facename="Port_empi_unit_kingtigertank"
+        force="2" type="2" line_of_fire="2" blocking="3"  weapon="2" armor="4"
+        morale="50" range_min="1" range_max="2" offense_min="988" offense_max="1092" health="1600" turnSpeed="250"
+        hitArea="1" type_major="3" cost_command="20" req_level="28" req_building="1036" cost_money="600" cost_honor="1" cost_time="200"
+
+
+        
+        efUnitType="2" efShotName="eff_tankburst_01" efShotTime="0.5" efShotPosX="253" efShotPosY="64"
+        efHitNameHuman="eff_tbursthit_01" efHitNameTank="eff_tbursthit_01" efHitTime="1.7" efHitPosX="128" efHitPosY="100"
+        efShaking="20" efShakingAmount="30" efCamShakingShot="7" efCamShakingShotAmount="20" efCamShakingHit="20" efCamShakingHitAmount="50"
+        efShakingDelay="1.25" efCamShakingHitDelay="1.25" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_kingtigertank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="20" obtain_EXP="30" obtain_honor="0"
+         />
+  <!--훔멜자주포-->
+  <unit id="51" cl_prefab="Hummel" cl_name_index="824" cl_sprname="Unit_empire_hummeltank_idle" cl_facename="Port_empi_unit_hummeltank"
+        force="2" type="2" line_of_fire="4" blocking="3"  weapon="2" armor="3"
+        morale="50" range_min="2" range_max="3" offense_min="119" offense_max="331" health="468" turnSpeed="300"
+        hitArea="3" type_major="3" cost_command="9" req_level="21" req_building="1033" cost_money="162" cost_honor="1" cost_time="54"
+
+
+        
+        efUnitType="2" efShotName="eff_atilfire_01" efShotTime="0.7" efShotPosX="228" efShotPosY="60"
+        efHitNameHuman="eff_atilhit_01" efHitNameTank="eff_atilhit_01" efHitTime="0.5" efHitPosX="128" efHitPosY="128"
+        efShaking="25" efShakingAmount="40" efCamShakingShot="10" efCamShakingShotAmount="30" efCamShakingHit="15" efCamShakingHitAmount="50"
+        efShakingDelay="0.15" efCamShakingHitDelay="0.15" efDeadName="eff_tankdie_01" 
+        sprbattle="" sprshot="Unit_empire_hummeltank_shot" sprhit=""
+        sprshotFrames="1^1^1^2^3^4^5^6" sprshotSpeed="0.09"
+        soundShot="shotTank" soundHitHuman="hitTank" soundHitTank="hitTank"
+        obtain_gold="18" obtain_EXP="27" obtain_honor="0"
+         />
+
+
+
+  
+
+
+
+
+
+</unitinfo>

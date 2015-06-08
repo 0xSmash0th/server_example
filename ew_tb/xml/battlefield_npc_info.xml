@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<npc_info>
+	<npc_group group_id="101">
+		<npc npc_id="1010" group_id="101" npc_name="연합군" level="1" weight="30"
+			officer_id="2001" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="8" />
+				<slot slot_idx="2" unit_id="3" unit_qty="2" />
+				<slot slot_idx="3" unit_id="1" unit_qty="8" />
+				<slot slot_idx="4" unit_id="4" unit_qty="1" />
+				<slot slot_idx="5" unit_id="2" unit_qty="8" />
+				<slot slot_idx="6" unit_id="2" unit_qty="8" />
+			</slots>
+		</npc>
+		<npc npc_id="1011" group_id="101" npc_name="연합군" level="1" weight="25"
+			officer_id="2011" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="4" />
+				<slot slot_idx="2" unit_id="2" unit_qty="8" />
+				<slot slot_idx="3" unit_id="16" unit_qty="4" />
+				<slot slot_idx="4" unit_id="1" unit_qty="8" />
+				<slot slot_idx="5" unit_id="1" unit_qty="8" />
+				<slot slot_idx="6" unit_id="1" unit_qty="8" />
+			</slots>
+		</npc>
+		<npc npc_id="1012" group_id="101" npc_name="연합군" level="1" weight="20"
+			officer_id="2021" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="8" />
+				<slot slot_idx="2" unit_id="8" unit_qty="2" />
+				<slot slot_idx="3" unit_id="2" unit_qty="8" />
+				<slot slot_idx="4" unit_id="6" unit_qty="2" />
+				<slot slot_idx="5" unit_id="6" unit_qty="2" />
+				<slot slot_idx="6" unit_id="12" unit_qty="1" />
+			</slots>
+		</npc>
+		<npc npc_id="1013" group_id="101" npc_name="연합군" level="1" weight="15"
+			officer_id="2031" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="8" />
+				<slot slot_idx="2" unit_id="17" unit_qty="2" />
+				<slot slot_idx="3" unit_id="17" unit_qty="2" />
+				<slot slot_idx="4" unit_id="1" unit_qty="8" />
+				<slot slot_idx="5" unit_id="4" unit_qty="1" />
+				<slot slot_idx="6" unit_id="1" unit_qty="8" />
+			</slots>
+		</npc>
+		<npc npc_id="1014" group_id="101" npc_name="연합군" level="1" weight="10"
+			officer_id="2041" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="1" />
+				<slot slot_idx="2" unit_id="18" unit_qty="1" />
+				<slot slot_idx="3" unit_id="18" unit_qty="1" />
+				<slot slot_idx="4" unit_id="13" unit_qty="1" />
+				<slot slot_idx="5" unit_id="9" unit_qty="1" />
+				<slot slot_idx="6" unit_id="6" unit_qty="2" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="102">
+		<npc npc_id="1020" group_id="102" npc_name="연합군" level="2" weight="30"
+			officer_id="2001" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="13" />
+				<slot slot_idx="2" unit_id="3" unit_qty="4" />
+				<slot slot_idx="3" unit_id="1" unit_qty="13" />
+				<slot slot_idx="4" unit_id="4" unit_qty="2" />
+				<slot slot_idx="5" unit_id="2" unit_qty="13" />
+				<slot slot_idx="6" unit_id="2" unit_qty="13" />
+			</slots>
+		</npc>
+		<npc npc_id="1021" group_id="102" npc_name="연합군" level="2" weight="25"
+			officer_id="2011" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="6" />
+				<slot slot_idx="2" unit_id="2" unit_qty="13" />
+				<slot slot_idx="3" unit_id="16" unit_qty="6" />
+				<slot slot_idx="4" unit_id="1" unit_qty="13" />
+				<slot slot_idx="5" unit_id="1" unit_qty="13" />
+				<slot slot_idx="6" unit_id="1" unit_qty="13" />
+			</slots>
+		</npc>
+		<npc npc_id="1022" group_id="102" npc_name="연합군" level="2" weight="20"
+			officer_id="2021" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="13" />
+				<slot slot_idx="2" unit_id="8" unit_qty="4" />
+				<slot slot_idx="3" unit_id="2" unit_qty="13" />
+				<slot slot_idx="4" unit_id="6" unit_qty="4" />
+				<slot slot_idx="5" unit_id="6" unit_qty="4" />
+				<slot slot_idx="6" unit_id="12" unit_qty="2" />
+			</slots>
+		</npc>
+		<npc npc_id="1023" group_id="102" npc_name="연합군" level="2" weight="15"
+			officer_id="2031" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="13" />
+				<slot slot_idx="2" unit_id="17" unit_qty="3" />
+				<slot slot_idx="3" unit_id="17" unit_qty="3" />
+				<slot slot_idx="4" unit_id="1" unit_qty="13" />
+				<slot slot_idx="5" unit_id="4" unit_qty="2" />
+				<slot slot_idx="6" unit_id="1" unit_qty="13" />
+			</slots>
+		</npc>
+		<npc npc_id="1024" group_id="102" npc_name="연합군" level="2" weight="10"
+			officer_id="2041" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="2" />
+				<slot slot_idx="2" unit_id="18" unit_qty="2" />
+				<slot slot_idx="3" unit_id="18" unit_qty="2" />
+				<slot slot_idx="4" unit_id="13" unit_qty="2" />
+				<slot slot_idx="5" unit_id="9" unit_qty="2" />
+				<slot slot_idx="6" unit_id="6" unit_qty="4" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="103">
+		<npc npc_id="1030" group_id="103" npc_name="연합군" level="3" weight="30"
+			officer_id="2001" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="18" />
+				<slot slot_idx="2" unit_id="3" unit_qty="6" />
+				<slot slot_idx="3" unit_id="1" unit_qty="18" />
+				<slot slot_idx="4" unit_id="4" unit_qty="3" />
+				<slot slot_idx="5" unit_id="2" unit_qty="18" />
+				<slot slot_idx="6" unit_id="2" unit_qty="18" />
+			</slots>
+		</npc>
+		<npc npc_id="1031" group_id="103" npc_name="연합군" level="3" weight="25"
+			officer_id="2011" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="9" />
+				<slot slot_idx="2" unit_id="2" unit_qty="18" />
+				<slot slot_idx="3" unit_id="16" unit_qty="9" />
+				<slot slot_idx="4" unit_id="1" unit_qty="18" />
+				<slot slot_idx="5" unit_id="1" unit_qty="18" />
+				<slot slot_idx="6" unit_id="1" unit_qty="18" />
+			</slots>
+		</npc>
+		<npc npc_id="1032" group_id="103" npc_name="연합군" level="3" weight="20"
+			officer_id="2021" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="18" />
+				<slot slot_idx="2" unit_id="8" unit_qty="6" />
+				<slot slot_idx="3" unit_id="2" unit_qty="18" />
+				<slot slot_idx="4" unit_id="6" unit_qty="6" />
+				<slot slot_idx="5" unit_id="6" unit_qty="6" />
+				<slot slot_idx="6" unit_id="12" unit_qty="3" />
+			</slots>
+		</npc>
+		<npc npc_id="1033" group_id="103" npc_name="연합군" level="3" weight="15"
+			officer_id="2031" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="18" />
+				<slot slot_idx="2" unit_id="17" unit_qty="4" />
+				<slot slot_idx="3" unit_id="17" unit_qty="4" />
+				<slot slot_idx="4" unit_id="1" unit_qty="18" />
+				<slot slot_idx="5" unit_id="4" unit_qty="3" />
+				<slot slot_idx="6" unit_id="1" unit_qty="18" />
+			</slots>
+		</npc>
+		<npc npc_id="1034" group_id="103" npc_name="연합군" level="3" weight="10"
+			officer_id="2041" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="3" />
+				<slot slot_idx="2" unit_id="18" unit_qty="3" />
+				<slot slot_idx="3" unit_id="18" unit_qty="3" />
+				<slot slot_idx="4" unit_id="13" unit_qty="3" />
+				<slot slot_idx="5" unit_id="9" unit_qty="3" />
+				<slot slot_idx="6" unit_id="6" unit_qty="6" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="104">
+		<npc npc_id="1040" group_id="104" npc_name="연합군" level="4" weight="30"
+			officer_id="2001" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="23" />
+				<slot slot_idx="2" unit_id="3" unit_qty="7" />
+				<slot slot_idx="3" unit_id="1" unit_qty="23" />
+				<slot slot_idx="4" unit_id="4" unit_qty="4" />
+				<slot slot_idx="5" unit_id="2" unit_qty="23" />
+				<slot slot_idx="6" unit_id="2" unit_qty="23" />
+			</slots>
+		</npc>
+		<npc npc_id="1041" group_id="104" npc_name="연합군" level="4" weight="25"
+			officer_id="2011" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="11" />
+				<slot slot_idx="2" unit_id="2" unit_qty="23" />
+				<slot slot_idx="3" unit_id="16" unit_qty="11" />
+				<slot slot_idx="4" unit_id="1" unit_qty="23" />
+				<slot slot_idx="5" unit_id="1" unit_qty="23" />
+				<slot slot_idx="6" unit_id="1" unit_qty="23" />
+			</slots>
+		</npc>
+		<npc npc_id="1042" group_id="104" npc_name="연합군" level="4" weight="20"
+			officer_id="2021" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="23" />
+				<slot slot_idx="2" unit_id="8" unit_qty="7" />
+				<slot slot_idx="3" unit_id="2" unit_qty="23" />
+				<slot slot_idx="4" unit_id="6" unit_qty="7" />
+				<slot slot_idx="5" unit_id="6" unit_qty="7" />
+				<slot slot_idx="6" unit_id="12" unit_qty="4" />
+			</slots>
+		</npc>
+		<npc npc_id="1043" group_id="104" npc_name="연합군" level="4" weight="15"
+			officer_id="2031" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="23" />
+				<slot slot_idx="2" unit_id="17" unit_qty="5" />
+				<slot slot_idx="3" unit_id="17" unit_qty="5" />
+				<slot slot_idx="4" unit_id="1" unit_qty="23" />
+				<slot slot_idx="5" unit_id="4" unit_qty="4" />
+				<slot slot_idx="6" unit_id="1" unit_qty="23" />
+			</slots>
+		</npc>
+		<npc npc_id="1044" group_id="104" npc_name="연합군" level="4" weight="10"
+			officer_id="2041" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="4" />
+				<slot slot_idx="2" unit_id="18" unit_qty="4" />
+				<slot slot_idx="3" unit_id="18" unit_qty="4" />
+				<slot slot_idx="4" unit_id="13" unit_qty="4" />
+				<slot slot_idx="5" unit_id="9" unit_qty="4" />
+				<slot slot_idx="6" unit_id="6" unit_qty="7" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="105">
+		<npc npc_id="1050" group_id="105" npc_name="연합군" level="5" weight="30"
+			officer_id="2001" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="28" />
+				<slot slot_idx="2" unit_id="3" unit_qty="9" />
+				<slot slot_idx="3" unit_id="1" unit_qty="28" />
+				<slot slot_idx="4" unit_id="4" unit_qty="5" />
+				<slot slot_idx="5" unit_id="2" unit_qty="28" />
+				<slot slot_idx="6" unit_id="2" unit_qty="28" />
+			</slots>
+		</npc>
+		<npc npc_id="1051" group_id="105" npc_name="연합군" level="5" weight="25"
+			officer_id="2011" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="14" />
+				<slot slot_idx="2" unit_id="2" unit_qty="28" />
+				<slot slot_idx="3" unit_id="16" unit_qty="14" />
+				<slot slot_idx="4" unit_id="1" unit_qty="28" />
+				<slot slot_idx="5" unit_id="1" unit_qty="28" />
+				<slot slot_idx="6" unit_id="1" unit_qty="28" />
+			</slots>
+		</npc>
+		<npc npc_id="1052" group_id="105" npc_name="연합군" level="5" weight="20"
+			officer_id="2021" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="28" />
+				<slot slot_idx="2" unit_id="8" unit_qty="9" />
+				<slot slot_idx="3" unit_id="2" unit_qty="28" />
+				<slot slot_idx="4" unit_id="6" unit_qty="9" />
+				<slot slot_idx="5" unit_id="6" unit_qty="9" />
+				<slot slot_idx="6" unit_id="12" unit_qty="5" />
+			</slots>
+		</npc>
+		<npc npc_id="1053" group_id="105" npc_name="연합군" level="5" weight="15"
+			officer_id="2031" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="28" />
+				<slot slot_idx="2" unit_id="17" unit_qty="7" />
+				<slot slot_idx="3" unit_id="17" unit_qty="7" />
+				<slot slot_idx="4" unit_id="1" unit_qty="28" />
+				<slot slot_idx="5" unit_id="4" unit_qty="5" />
+				<slot slot_idx="6" unit_id="1" unit_qty="28" />
+			</slots>
+		</npc>
+		<npc npc_id="1054" group_id="105" npc_name="연합군" level="5" weight="10"
+			officer_id="2041" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="5" />
+				<slot slot_idx="2" unit_id="18" unit_qty="5" />
+				<slot slot_idx="3" unit_id="18" unit_qty="5" />
+				<slot slot_idx="4" unit_id="13" unit_qty="5" />
+				<slot slot_idx="5" unit_id="9" unit_qty="5" />
+				<slot slot_idx="6" unit_id="6" unit_qty="9" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="106">
+		<npc npc_id="1060" group_id="106" npc_name="연합군" level="6" weight="30"
+			officer_id="2001" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="33" />
+				<slot slot_idx="2" unit_id="3" unit_qty="11" />
+				<slot slot_idx="3" unit_id="1" unit_qty="33" />
+				<slot slot_idx="4" unit_id="4" unit_qty="6" />
+				<slot slot_idx="5" unit_id="2" unit_qty="33" />
+				<slot slot_idx="6" unit_id="2" unit_qty="33" />
+			</slots>
+		</npc>
+		<npc npc_id="1061" group_id="106" npc_name="연합군" level="6" weight="25"
+			officer_id="2011" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="16" />
+				<slot slot_idx="2" unit_id="2" unit_qty="33" />
+				<slot slot_idx="3" unit_id="16" unit_qty="16" />
+				<slot slot_idx="4" unit_id="1" unit_qty="33" />
+				<slot slot_idx="5" unit_id="1" unit_qty="33" />
+				<slot slot_idx="6" unit_id="1" unit_qty="33" />
+			</slots>
+		</npc>
+		<npc npc_id="1062" group_id="106" npc_name="연합군" level="6" weight="20"
+			officer_id="2021" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="33" />
+				<slot slot_idx="2" unit_id="8" unit_qty="11" />
+				<slot slot_idx="3" unit_id="2" unit_qty="33" />
+				<slot slot_idx="4" unit_id="6" unit_qty="11" />
+				<slot slot_idx="5" unit_id="6" unit_qty="11" />
+				<slot slot_idx="6" unit_id="12" unit_qty="6" />
+			</slots>
+		</npc>
+		<npc npc_id="1063" group_id="106" npc_name="연합군" level="6" weight="15"
+			officer_id="2031" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="33" />
+				<slot slot_idx="2" unit_id="17" unit_qty="8" />
+				<slot slot_idx="3" unit_id="17" unit_qty="8" />
+				<slot slot_idx="4" unit_id="1" unit_qty="33" />
+				<slot slot_idx="5" unit_id="4" unit_qty="6" />
+				<slot slot_idx="6" unit_id="1" unit_qty="33" />
+			</slots>
+		</npc>
+		<npc npc_id="1064" group_id="106" npc_name="연합군" level="6" weight="10"
+			officer_id="2041" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="6" />
+				<slot slot_idx="2" unit_id="18" unit_qty="6" />
+				<slot slot_idx="3" unit_id="18" unit_qty="6" />
+				<slot slot_idx="4" unit_id="13" unit_qty="6" />
+				<slot slot_idx="5" unit_id="9" unit_qty="6" />
+				<slot slot_idx="6" unit_id="6" unit_qty="11" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="107">
+		<npc npc_id="1070" group_id="107" npc_name="연합군" level="7" weight="30"
+			officer_id="2001" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="38" />
+				<slot slot_idx="2" unit_id="3" unit_qty="12" />
+				<slot slot_idx="3" unit_id="1" unit_qty="38" />
+				<slot slot_idx="4" unit_id="4" unit_qty="7" />
+				<slot slot_idx="5" unit_id="2" unit_qty="38" />
+				<slot slot_idx="6" unit_id="2" unit_qty="38" />
+			</slots>
+		</npc>
+		<npc npc_id="1071" group_id="107" npc_name="연합군" level="7" weight="25"
+			officer_id="2011" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="19" />
+				<slot slot_idx="2" unit_id="2" unit_qty="38" />
+				<slot slot_idx="3" unit_id="16" unit_qty="19" />
+				<slot slot_idx="4" unit_id="1" unit_qty="38" />
+				<slot slot_idx="5" unit_id="1" unit_qty="38" />
+				<slot slot_idx="6" unit_id="1" unit_qty="38" />
+			</slots>
+		</npc>
+		<npc npc_id="1072" group_id="107" npc_name="연합군" level="7" weight="20"
+			officer_id="2021" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="38" />
+				<slot slot_idx="2" unit_id="8" unit_qty="12" />
+				<slot slot_idx="3" unit_id="2" unit_qty="38" />
+				<slot slot_idx="4" unit_id="6" unit_qty="12" />
+				<slot slot_idx="5" unit_id="6" unit_qty="12" />
+				<slot slot_idx="6" unit_id="12" unit_qty="7" />
+			</slots>
+		</npc>
+		<npc npc_id="1073" group_id="107" npc_name="연합군" level="7" weight="15"
+			officer_id="2031" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="38" />
+				<slot slot_idx="2" unit_id="17" unit_qty="9" />
+				<slot slot_idx="3" unit_id="17" unit_qty="9" />
+				<slot slot_idx="4" unit_id="1" unit_qty="38" />
+				<slot slot_idx="5" unit_id="4" unit_qty="7" />
+				<slot slot_idx="6" unit_id="1" unit_qty="38" />
+			</slots>
+		</npc>
+		<npc npc_id="1074" group_id="107" npc_name="연합군" level="7" weight="10"
+			officer_id="2041" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="7" />
+				<slot slot_idx="2" unit_id="18" unit_qty="7" />
+				<slot slot_idx="3" unit_id="18" unit_qty="7" />
+				<slot slot_idx="4" unit_id="13" unit_qty="7" />
+				<slot slot_idx="5" unit_id="9" unit_qty="7" />
+				<slot slot_idx="6" unit_id="6" unit_qty="12" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="108">
+		<npc npc_id="1080" group_id="108" npc_name="연합군" level="8" weight="30"
+			officer_id="2001" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="43" />
+				<slot slot_idx="2" unit_id="3" unit_qty="14" />
+				<slot slot_idx="3" unit_id="1" unit_qty="43" />
+				<slot slot_idx="4" unit_id="4" unit_qty="8" />
+				<slot slot_idx="5" unit_id="2" unit_qty="43" />
+				<slot slot_idx="6" unit_id="2" unit_qty="43" />
+			</slots>
+		</npc>
+		<npc npc_id="1081" group_id="108" npc_name="연합군" level="8" weight="25"
+			officer_id="2011" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="21" />
+				<slot slot_idx="2" unit_id="2" unit_qty="43" />
+				<slot slot_idx="3" unit_id="16" unit_qty="21" />
+				<slot slot_idx="4" unit_id="1" unit_qty="43" />
+				<slot slot_idx="5" unit_id="1" unit_qty="43" />
+				<slot slot_idx="6" unit_id="1" unit_qty="43" />
+			</slots>
+		</npc>
+		<npc npc_id="1082" group_id="108" npc_name="연합군" level="8" weight="20"
+			officer_id="2021" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="43" />
+				<slot slot_idx="2" unit_id="8" unit_qty="14" />
+				<slot slot_idx="3" unit_id="2" unit_qty="43" />
+				<slot slot_idx="4" unit_id="6" unit_qty="14" />
+				<slot slot_idx="5" unit_id="6" unit_qty="14" />
+				<slot slot_idx="6" unit_id="12" unit_qty="8" />
+			</slots>
+		</npc>
+		<npc npc_id="1083" group_id="108" npc_name="연합군" level="8" weight="15"
+			officer_id="2031" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="43" />
+				<slot slot_idx="2" unit_id="17" unit_qty="10" />
+				<slot slot_idx="3" unit_id="17" unit_qty="10" />
+				<slot slot_idx="4" unit_id="1" unit_qty="43" />
+				<slot slot_idx="5" unit_id="4" unit_qty="8" />
+				<slot slot_idx="6" unit_id="1" unit_qty="43" />
+			</slots>
+		</npc>
+		<npc npc_id="1084" group_id="108" npc_name="연합군" level="8" weight="10"
+			officer_id="2041" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="8" />
+				<slot slot_idx="2" unit_id="18" unit_qty="8" />
+				<slot slot_idx="3" unit_id="18" unit_qty="8" />
+				<slot slot_idx="4" unit_id="13" unit_qty="8" />
+				<slot slot_idx="5" unit_id="9" unit_qty="8" />
+				<slot slot_idx="6" unit_id="6" unit_qty="14" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="109">
+		<npc npc_id="1090" group_id="109" npc_name="연합군" level="9" weight="30"
+			officer_id="2001" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="48" />
+				<slot slot_idx="2" unit_id="3" unit_qty="16" />
+				<slot slot_idx="3" unit_id="1" unit_qty="48" />
+				<slot slot_idx="4" unit_id="4" unit_qty="9" />
+				<slot slot_idx="5" unit_id="2" unit_qty="48" />
+				<slot slot_idx="6" unit_id="2" unit_qty="48" />
+			</slots>
+		</npc>
+		<npc npc_id="1091" group_id="109" npc_name="연합군" level="9" weight="25"
+			officer_id="2011" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="24" />
+				<slot slot_idx="2" unit_id="2" unit_qty="48" />
+				<slot slot_idx="3" unit_id="16" unit_qty="24" />
+				<slot slot_idx="4" unit_id="1" unit_qty="48" />
+				<slot slot_idx="5" unit_id="1" unit_qty="48" />
+				<slot slot_idx="6" unit_id="1" unit_qty="48" />
+			</slots>
+		</npc>
+		<npc npc_id="1092" group_id="109" npc_name="연합군" level="9" weight="20"
+			officer_id="2021" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="48" />
+				<slot slot_idx="2" unit_id="8" unit_qty="16" />
+				<slot slot_idx="3" unit_id="2" unit_qty="48" />
+				<slot slot_idx="4" unit_id="6" unit_qty="16" />
+				<slot slot_idx="5" unit_id="6" unit_qty="16" />
+				<slot slot_idx="6" unit_id="12" unit_qty="9" />
+			</slots>
+		</npc>
+		<npc npc_id="1093" group_id="109" npc_name="연합군" level="9" weight="15"
+			officer_id="2031" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="48" />
+				<slot slot_idx="2" unit_id="17" unit_qty="12" />
+				<slot slot_idx="3" unit_id="17" unit_qty="12" />
+				<slot slot_idx="4" unit_id="1" unit_qty="48" />
+				<slot slot_idx="5" unit_id="4" unit_qty="9" />
+				<slot slot_idx="6" unit_id="1" unit_qty="48" />
+			</slots>
+		</npc>
+		<npc npc_id="1094" group_id="109" npc_name="연합군" level="9" weight="10"
+			officer_id="2041" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="9" />
+				<slot slot_idx="2" unit_id="18" unit_qty="9" />
+				<slot slot_idx="3" unit_id="18" unit_qty="9" />
+				<slot slot_idx="4" unit_id="13" unit_qty="9" />
+				<slot slot_idx="5" unit_id="9" unit_qty="9" />
+				<slot slot_idx="6" unit_id="6" unit_qty="16" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="110">
+		<npc npc_id="1100" group_id="110" npc_name="연합군" level="10"
+			weight="30" officer_id="2001" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="53" />
+				<slot slot_idx="2" unit_id="3" unit_qty="17" />
+				<slot slot_idx="3" unit_id="1" unit_qty="53" />
+				<slot slot_idx="4" unit_id="4" unit_qty="10" />
+				<slot slot_idx="5" unit_id="2" unit_qty="53" />
+				<slot slot_idx="6" unit_id="2" unit_qty="53" />
+			</slots>
+		</npc>
+		<npc npc_id="1101" group_id="110" npc_name="연합군" level="10"
+			weight="25" officer_id="2011" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="26" />
+				<slot slot_idx="2" unit_id="2" unit_qty="53" />
+				<slot slot_idx="3" unit_id="16" unit_qty="26" />
+				<slot slot_idx="4" unit_id="1" unit_qty="53" />
+				<slot slot_idx="5" unit_id="1" unit_qty="53" />
+				<slot slot_idx="6" unit_id="1" unit_qty="53" />
+			</slots>
+		</npc>
+		<npc npc_id="1102" group_id="110" npc_name="연합군" level="10"
+			weight="20" officer_id="2021" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="53" />
+				<slot slot_idx="2" unit_id="8" unit_qty="17" />
+				<slot slot_idx="3" unit_id="2" unit_qty="53" />
+				<slot slot_idx="4" unit_id="6" unit_qty="17" />
+				<slot slot_idx="5" unit_id="6" unit_qty="17" />
+				<slot slot_idx="6" unit_id="12" unit_qty="10" />
+			</slots>
+		</npc>
+		<npc npc_id="1103" group_id="110" npc_name="연합군" level="10"
+			weight="15" officer_id="2031" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="53" />
+				<slot slot_idx="2" unit_id="17" unit_qty="13" />
+				<slot slot_idx="3" unit_id="17" unit_qty="13" />
+				<slot slot_idx="4" unit_id="1" unit_qty="53" />
+				<slot slot_idx="5" unit_id="4" unit_qty="10" />
+				<slot slot_idx="6" unit_id="1" unit_qty="53" />
+			</slots>
+		</npc>
+		<npc npc_id="1104" group_id="110" npc_name="연합군" level="10"
+			weight="10" officer_id="2041" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="10" />
+				<slot slot_idx="2" unit_id="18" unit_qty="10" />
+				<slot slot_idx="3" unit_id="18" unit_qty="10" />
+				<slot slot_idx="4" unit_id="13" unit_qty="10" />
+				<slot slot_idx="5" unit_id="9" unit_qty="10" />
+				<slot slot_idx="6" unit_id="6" unit_qty="17" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="111">
+		<npc npc_id="1110" group_id="111" npc_name="연합군" level="11"
+			weight="30" officer_id="2001" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="58" />
+				<slot slot_idx="2" unit_id="3" unit_qty="19" />
+				<slot slot_idx="3" unit_id="1" unit_qty="58" />
+				<slot slot_idx="4" unit_id="4" unit_qty="11" />
+				<slot slot_idx="5" unit_id="2" unit_qty="58" />
+				<slot slot_idx="6" unit_id="2" unit_qty="58" />
+			</slots>
+		</npc>
+		<npc npc_id="1111" group_id="111" npc_name="연합군" level="11"
+			weight="25" officer_id="2011" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="29" />
+				<slot slot_idx="2" unit_id="2" unit_qty="58" />
+				<slot slot_idx="3" unit_id="16" unit_qty="29" />
+				<slot slot_idx="4" unit_id="1" unit_qty="58" />
+				<slot slot_idx="5" unit_id="1" unit_qty="58" />
+				<slot slot_idx="6" unit_id="1" unit_qty="58" />
+			</slots>
+		</npc>
+		<npc npc_id="1112" group_id="111" npc_name="연합군" level="11"
+			weight="20" officer_id="2021" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="58" />
+				<slot slot_idx="2" unit_id="8" unit_qty="19" />
+				<slot slot_idx="3" unit_id="2" unit_qty="58" />
+				<slot slot_idx="4" unit_id="6" unit_qty="19" />
+				<slot slot_idx="5" unit_id="6" unit_qty="19" />
+				<slot slot_idx="6" unit_id="12" unit_qty="11" />
+			</slots>
+		</npc>
+		<npc npc_id="1113" group_id="111" npc_name="연합군" level="11"
+			weight="15" officer_id="2031" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="58" />
+				<slot slot_idx="2" unit_id="17" unit_qty="14" />
+				<slot slot_idx="3" unit_id="17" unit_qty="14" />
+				<slot slot_idx="4" unit_id="1" unit_qty="58" />
+				<slot slot_idx="5" unit_id="4" unit_qty="11" />
+				<slot slot_idx="6" unit_id="1" unit_qty="58" />
+			</slots>
+		</npc>
+		<npc npc_id="1114" group_id="111" npc_name="연합군" level="11"
+			weight="10" officer_id="2041" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="11" />
+				<slot slot_idx="2" unit_id="18" unit_qty="11" />
+				<slot slot_idx="3" unit_id="18" unit_qty="11" />
+				<slot slot_idx="4" unit_id="13" unit_qty="11" />
+				<slot slot_idx="5" unit_id="9" unit_qty="11" />
+				<slot slot_idx="6" unit_id="6" unit_qty="19" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="112">
+		<npc npc_id="1120" group_id="112" npc_name="연합군" level="12"
+			weight="30" officer_id="2001" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="63" />
+				<slot slot_idx="2" unit_id="3" unit_qty="21" />
+				<slot slot_idx="3" unit_id="1" unit_qty="63" />
+				<slot slot_idx="4" unit_id="4" unit_qty="12" />
+				<slot slot_idx="5" unit_id="2" unit_qty="63" />
+				<slot slot_idx="6" unit_id="2" unit_qty="63" />
+			</slots>
+		</npc>
+		<npc npc_id="1121" group_id="112" npc_name="연합군" level="12"
+			weight="25" officer_id="2011" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="31" />
+				<slot slot_idx="2" unit_id="2" unit_qty="63" />
+				<slot slot_idx="3" unit_id="16" unit_qty="31" />
+				<slot slot_idx="4" unit_id="1" unit_qty="63" />
+				<slot slot_idx="5" unit_id="1" unit_qty="63" />
+				<slot slot_idx="6" unit_id="1" unit_qty="63" />
+			</slots>
+		</npc>
+		<npc npc_id="1122" group_id="112" npc_name="연합군" level="12"
+			weight="20" officer_id="2021" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="63" />
+				<slot slot_idx="2" unit_id="8" unit_qty="21" />
+				<slot slot_idx="3" unit_id="2" unit_qty="63" />
+				<slot slot_idx="4" unit_id="6" unit_qty="21" />
+				<slot slot_idx="5" unit_id="6" unit_qty="21" />
+				<slot slot_idx="6" unit_id="12" unit_qty="12" />
+			</slots>
+		</npc>
+		<npc npc_id="1123" group_id="112" npc_name="연합군" level="12"
+			weight="15" officer_id="2031" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="63" />
+				<slot slot_idx="2" unit_id="17" unit_qty="15" />
+				<slot slot_idx="3" unit_id="17" unit_qty="15" />
+				<slot slot_idx="4" unit_id="1" unit_qty="63" />
+				<slot slot_idx="5" unit_id="4" unit_qty="12" />
+				<slot slot_idx="6" unit_id="1" unit_qty="63" />
+			</slots>
+		</npc>
+		<npc npc_id="1124" group_id="112" npc_name="연합군" level="12"
+			weight="10" officer_id="2041" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="12" />
+				<slot slot_idx="2" unit_id="18" unit_qty="12" />
+				<slot slot_idx="3" unit_id="18" unit_qty="12" />
+				<slot slot_idx="4" unit_id="13" unit_qty="12" />
+				<slot slot_idx="5" unit_id="9" unit_qty="12" />
+				<slot slot_idx="6" unit_id="6" unit_qty="21" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="113">
+		<npc npc_id="1130" group_id="113" npc_name="연합군" level="13"
+			weight="30" officer_id="2001" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="68" />
+				<slot slot_idx="2" unit_id="3" unit_qty="22" />
+				<slot slot_idx="3" unit_id="1" unit_qty="68" />
+				<slot slot_idx="4" unit_id="4" unit_qty="13" />
+				<slot slot_idx="5" unit_id="2" unit_qty="68" />
+				<slot slot_idx="6" unit_id="2" unit_qty="68" />
+			</slots>
+		</npc>
+		<npc npc_id="1131" group_id="113" npc_name="연합군" level="13"
+			weight="25" officer_id="2011" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="34" />
+				<slot slot_idx="2" unit_id="2" unit_qty="68" />
+				<slot slot_idx="3" unit_id="16" unit_qty="34" />
+				<slot slot_idx="4" unit_id="1" unit_qty="68" />
+				<slot slot_idx="5" unit_id="1" unit_qty="68" />
+				<slot slot_idx="6" unit_id="1" unit_qty="68" />
+			</slots>
+		</npc>
+		<npc npc_id="1132" group_id="113" npc_name="연합군" level="13"
+			weight="20" officer_id="2021" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="68" />
+				<slot slot_idx="2" unit_id="8" unit_qty="22" />
+				<slot slot_idx="3" unit_id="2" unit_qty="68" />
+				<slot slot_idx="4" unit_id="6" unit_qty="22" />
+				<slot slot_idx="5" unit_id="6" unit_qty="22" />
+				<slot slot_idx="6" unit_id="12" unit_qty="13" />
+			</slots>
+		</npc>
+		<npc npc_id="1133" group_id="113" npc_name="연합군" level="13"
+			weight="15" officer_id="2031" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="68" />
+				<slot slot_idx="2" unit_id="17" unit_qty="17" />
+				<slot slot_idx="3" unit_id="17" unit_qty="17" />
+				<slot slot_idx="4" unit_id="1" unit_qty="68" />
+				<slot slot_idx="5" unit_id="4" unit_qty="13" />
+				<slot slot_idx="6" unit_id="1" unit_qty="68" />
+			</slots>
+		</npc>
+		<npc npc_id="1134" group_id="113" npc_name="연합군" level="13"
+			weight="10" officer_id="2041" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="13" />
+				<slot slot_idx="2" unit_id="18" unit_qty="13" />
+				<slot slot_idx="3" unit_id="18" unit_qty="13" />
+				<slot slot_idx="4" unit_id="13" unit_qty="13" />
+				<slot slot_idx="5" unit_id="9" unit_qty="13" />
+				<slot slot_idx="6" unit_id="6" unit_qty="22" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="114">
+		<npc npc_id="1140" group_id="114" npc_name="연합군" level="14"
+			weight="30" officer_id="2001" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="73" />
+				<slot slot_idx="2" unit_id="3" unit_qty="24" />
+				<slot slot_idx="3" unit_id="1" unit_qty="73" />
+				<slot slot_idx="4" unit_id="4" unit_qty="14" />
+				<slot slot_idx="5" unit_id="2" unit_qty="73" />
+				<slot slot_idx="6" unit_id="2" unit_qty="73" />
+			</slots>
+		</npc>
+		<npc npc_id="1141" group_id="114" npc_name="연합군" level="14"
+			weight="25" officer_id="2011" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="36" />
+				<slot slot_idx="2" unit_id="2" unit_qty="73" />
+				<slot slot_idx="3" unit_id="16" unit_qty="36" />
+				<slot slot_idx="4" unit_id="1" unit_qty="73" />
+				<slot slot_idx="5" unit_id="1" unit_qty="73" />
+				<slot slot_idx="6" unit_id="1" unit_qty="73" />
+			</slots>
+		</npc>
+		<npc npc_id="1142" group_id="114" npc_name="연합군" level="14"
+			weight="20" officer_id="2021" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="73" />
+				<slot slot_idx="2" unit_id="8" unit_qty="24" />
+				<slot slot_idx="3" unit_id="2" unit_qty="73" />
+				<slot slot_idx="4" unit_id="6" unit_qty="24" />
+				<slot slot_idx="5" unit_id="6" unit_qty="24" />
+				<slot slot_idx="6" unit_id="12" unit_qty="14" />
+			</slots>
+		</npc>
+		<npc npc_id="1143" group_id="114" npc_name="연합군" level="14"
+			weight="15" officer_id="2031" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="73" />
+				<slot slot_idx="2" unit_id="17" unit_qty="18" />
+				<slot slot_idx="3" unit_id="17" unit_qty="18" />
+				<slot slot_idx="4" unit_id="1" unit_qty="73" />
+				<slot slot_idx="5" unit_id="4" unit_qty="14" />
+				<slot slot_idx="6" unit_id="1" unit_qty="73" />
+			</slots>
+		</npc>
+		<npc npc_id="1144" group_id="114" npc_name="연합군" level="14"
+			weight="10" officer_id="2041" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="14" />
+				<slot slot_idx="2" unit_id="18" unit_qty="14" />
+				<slot slot_idx="3" unit_id="18" unit_qty="14" />
+				<slot slot_idx="4" unit_id="13" unit_qty="14" />
+				<slot slot_idx="5" unit_id="9" unit_qty="14" />
+				<slot slot_idx="6" unit_id="6" unit_qty="24" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="115">
+		<npc npc_id="1150" group_id="115" npc_name="연합군" level="15"
+			weight="30" officer_id="2001" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="1" unit_qty="78" />
+				<slot slot_idx="2" unit_id="3" unit_qty="26" />
+				<slot slot_idx="3" unit_id="1" unit_qty="78" />
+				<slot slot_idx="4" unit_id="4" unit_qty="15" />
+				<slot slot_idx="5" unit_id="2" unit_qty="78" />
+				<slot slot_idx="6" unit_id="2" unit_qty="78" />
+			</slots>
+		</npc>
+		<npc npc_id="1151" group_id="115" npc_name="연합군" level="15"
+			weight="25" officer_id="2011" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="16" unit_qty="39" />
+				<slot slot_idx="2" unit_id="2" unit_qty="78" />
+				<slot slot_idx="3" unit_id="16" unit_qty="39" />
+				<slot slot_idx="4" unit_id="1" unit_qty="78" />
+				<slot slot_idx="5" unit_id="1" unit_qty="78" />
+				<slot slot_idx="6" unit_id="1" unit_qty="78" />
+			</slots>
+		</npc>
+		<npc npc_id="1152" group_id="115" npc_name="연합군" level="15"
+			weight="20" officer_id="2021" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="78" />
+				<slot slot_idx="2" unit_id="8" unit_qty="26" />
+				<slot slot_idx="3" unit_id="2" unit_qty="78" />
+				<slot slot_idx="4" unit_id="6" unit_qty="26" />
+				<slot slot_idx="5" unit_id="6" unit_qty="26" />
+				<slot slot_idx="6" unit_id="12" unit_qty="15" />
+			</slots>
+		</npc>
+		<npc npc_id="1153" group_id="115" npc_name="연합군" level="15"
+			weight="15" officer_id="2031" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="2" unit_qty="78" />
+				<slot slot_idx="2" unit_id="17" unit_qty="19" />
+				<slot slot_idx="3" unit_id="17" unit_qty="19" />
+				<slot slot_idx="4" unit_id="1" unit_qty="78" />
+				<slot slot_idx="5" unit_id="4" unit_qty="15" />
+				<slot slot_idx="6" unit_id="1" unit_qty="78" />
+			</slots>
+		</npc>
+		<npc npc_id="1154" group_id="115" npc_name="연합군" level="15"
+			weight="10" officer_id="2041" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="18" unit_qty="15" />
+				<slot slot_idx="2" unit_id="18" unit_qty="15" />
+				<slot slot_idx="3" unit_id="18" unit_qty="15" />
+				<slot slot_idx="4" unit_id="13" unit_qty="15" />
+				<slot slot_idx="5" unit_id="9" unit_qty="15" />
+				<slot slot_idx="6" unit_id="6" unit_qty="26" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="201">
+		<npc npc_id="2010" group_id="201" npc_name="제국군" level="1" weight="30"
+			officer_id="1001" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="8" />
+				<slot slot_idx="2" unit_id="28" unit_qty="2" />
+				<slot slot_idx="3" unit_id="27" unit_qty="8" />
+				<slot slot_idx="4" unit_id="29" unit_qty="1" />
+				<slot slot_idx="5" unit_id="26" unit_qty="8" />
+				<slot slot_idx="6" unit_id="26" unit_qty="8" />
+			</slots>
+		</npc>
+		<npc npc_id="2011" group_id="201" npc_name="제국군" level="1" weight="25"
+			officer_id="1011" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="4" />
+				<slot slot_idx="2" unit_id="27" unit_qty="8" />
+				<slot slot_idx="3" unit_id="40" unit_qty="4" />
+				<slot slot_idx="4" unit_id="26" unit_qty="8" />
+				<slot slot_idx="5" unit_id="26" unit_qty="8" />
+				<slot slot_idx="6" unit_id="26" unit_qty="8" />
+			</slots>
+		</npc>
+		<npc npc_id="2012" group_id="201" npc_name="제국군" level="1" weight="20"
+			officer_id="1021" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="8" />
+				<slot slot_idx="2" unit_id="32" unit_qty="2" />
+				<slot slot_idx="3" unit_id="27" unit_qty="8" />
+				<slot slot_idx="4" unit_id="31" unit_qty="2" />
+				<slot slot_idx="5" unit_id="31" unit_qty="2" />
+				<slot slot_idx="6" unit_id="36" unit_qty="1" />
+			</slots>
+		</npc>
+		<npc npc_id="2013" group_id="201" npc_name="제국군" level="1" weight="15"
+			officer_id="1031" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="8" />
+				<slot slot_idx="2" unit_id="41" unit_qty="2" />
+				<slot slot_idx="3" unit_id="41" unit_qty="2" />
+				<slot slot_idx="4" unit_id="26" unit_qty="8" />
+				<slot slot_idx="5" unit_id="29" unit_qty="1" />
+				<slot slot_idx="6" unit_id="26" unit_qty="8" />
+			</slots>
+		</npc>
+		<npc npc_id="2014" group_id="201" npc_name="제국군" level="1" weight="10"
+			officer_id="1041" officer_grade="1" officer_level="1" command_total="50">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="1" />
+				<slot slot_idx="2" unit_id="44" unit_qty="1" />
+				<slot slot_idx="3" unit_id="44" unit_qty="1" />
+				<slot slot_idx="4" unit_id="38" unit_qty="1" />
+				<slot slot_idx="5" unit_id="33" unit_qty="1" />
+				<slot slot_idx="6" unit_id="31" unit_qty="2" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="202">
+		<npc npc_id="2020" group_id="202" npc_name="제국군" level="2" weight="30"
+			officer_id="1001" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="13" />
+				<slot slot_idx="2" unit_id="28" unit_qty="4" />
+				<slot slot_idx="3" unit_id="27" unit_qty="13" />
+				<slot slot_idx="4" unit_id="29" unit_qty="2" />
+				<slot slot_idx="5" unit_id="26" unit_qty="13" />
+				<slot slot_idx="6" unit_id="26" unit_qty="13" />
+			</slots>
+		</npc>
+		<npc npc_id="2021" group_id="202" npc_name="제국군" level="2" weight="25"
+			officer_id="1011" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="6" />
+				<slot slot_idx="2" unit_id="27" unit_qty="13" />
+				<slot slot_idx="3" unit_id="40" unit_qty="6" />
+				<slot slot_idx="4" unit_id="26" unit_qty="13" />
+				<slot slot_idx="5" unit_id="26" unit_qty="13" />
+				<slot slot_idx="6" unit_id="26" unit_qty="13" />
+			</slots>
+		</npc>
+		<npc npc_id="2022" group_id="202" npc_name="제국군" level="2" weight="20"
+			officer_id="1021" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="13" />
+				<slot slot_idx="2" unit_id="32" unit_qty="4" />
+				<slot slot_idx="3" unit_id="27" unit_qty="13" />
+				<slot slot_idx="4" unit_id="31" unit_qty="4" />
+				<slot slot_idx="5" unit_id="31" unit_qty="4" />
+				<slot slot_idx="6" unit_id="36" unit_qty="2" />
+			</slots>
+		</npc>
+		<npc npc_id="2023" group_id="202" npc_name="제국군" level="2" weight="15"
+			officer_id="1031" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="13" />
+				<slot slot_idx="2" unit_id="41" unit_qty="3" />
+				<slot slot_idx="3" unit_id="41" unit_qty="3" />
+				<slot slot_idx="4" unit_id="26" unit_qty="13" />
+				<slot slot_idx="5" unit_id="29" unit_qty="2" />
+				<slot slot_idx="6" unit_id="26" unit_qty="13" />
+			</slots>
+		</npc>
+		<npc npc_id="2024" group_id="202" npc_name="제국군" level="2" weight="10"
+			officer_id="1041" officer_grade="1" officer_level="1" command_total="80">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="2" />
+				<slot slot_idx="2" unit_id="44" unit_qty="2" />
+				<slot slot_idx="3" unit_id="44" unit_qty="2" />
+				<slot slot_idx="4" unit_id="38" unit_qty="2" />
+				<slot slot_idx="5" unit_id="33" unit_qty="2" />
+				<slot slot_idx="6" unit_id="31" unit_qty="4" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="203">
+		<npc npc_id="2030" group_id="203" npc_name="제국군" level="3" weight="30"
+			officer_id="1001" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="18" />
+				<slot slot_idx="2" unit_id="28" unit_qty="6" />
+				<slot slot_idx="3" unit_id="27" unit_qty="18" />
+				<slot slot_idx="4" unit_id="29" unit_qty="3" />
+				<slot slot_idx="5" unit_id="26" unit_qty="18" />
+				<slot slot_idx="6" unit_id="26" unit_qty="18" />
+			</slots>
+		</npc>
+		<npc npc_id="2031" group_id="203" npc_name="제국군" level="3" weight="25"
+			officer_id="1011" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="9" />
+				<slot slot_idx="2" unit_id="27" unit_qty="18" />
+				<slot slot_idx="3" unit_id="40" unit_qty="9" />
+				<slot slot_idx="4" unit_id="26" unit_qty="18" />
+				<slot slot_idx="5" unit_id="26" unit_qty="18" />
+				<slot slot_idx="6" unit_id="26" unit_qty="18" />
+			</slots>
+		</npc>
+		<npc npc_id="2032" group_id="203" npc_name="제국군" level="3" weight="20"
+			officer_id="1021" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="18" />
+				<slot slot_idx="2" unit_id="32" unit_qty="6" />
+				<slot slot_idx="3" unit_id="27" unit_qty="18" />
+				<slot slot_idx="4" unit_id="31" unit_qty="6" />
+				<slot slot_idx="5" unit_id="31" unit_qty="6" />
+				<slot slot_idx="6" unit_id="36" unit_qty="3" />
+			</slots>
+		</npc>
+		<npc npc_id="2033" group_id="203" npc_name="제국군" level="3" weight="15"
+			officer_id="1031" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="18" />
+				<slot slot_idx="2" unit_id="41" unit_qty="4" />
+				<slot slot_idx="3" unit_id="41" unit_qty="4" />
+				<slot slot_idx="4" unit_id="26" unit_qty="18" />
+				<slot slot_idx="5" unit_id="29" unit_qty="3" />
+				<slot slot_idx="6" unit_id="26" unit_qty="18" />
+			</slots>
+		</npc>
+		<npc npc_id="2034" group_id="203" npc_name="제국군" level="3" weight="10"
+			officer_id="1041" officer_grade="1" officer_level="1" command_total="110">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="3" />
+				<slot slot_idx="2" unit_id="44" unit_qty="3" />
+				<slot slot_idx="3" unit_id="44" unit_qty="3" />
+				<slot slot_idx="4" unit_id="38" unit_qty="3" />
+				<slot slot_idx="5" unit_id="33" unit_qty="3" />
+				<slot slot_idx="6" unit_id="31" unit_qty="6" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="204">
+		<npc npc_id="2040" group_id="204" npc_name="제국군" level="4" weight="30"
+			officer_id="1001" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="23" />
+				<slot slot_idx="2" unit_id="28" unit_qty="7" />
+				<slot slot_idx="3" unit_id="27" unit_qty="23" />
+				<slot slot_idx="4" unit_id="29" unit_qty="4" />
+				<slot slot_idx="5" unit_id="26" unit_qty="23" />
+				<slot slot_idx="6" unit_id="26" unit_qty="23" />
+			</slots>
+		</npc>
+		<npc npc_id="2041" group_id="204" npc_name="제국군" level="4" weight="25"
+			officer_id="1011" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="11" />
+				<slot slot_idx="2" unit_id="27" unit_qty="23" />
+				<slot slot_idx="3" unit_id="40" unit_qty="11" />
+				<slot slot_idx="4" unit_id="26" unit_qty="23" />
+				<slot slot_idx="5" unit_id="26" unit_qty="23" />
+				<slot slot_idx="6" unit_id="26" unit_qty="23" />
+			</slots>
+		</npc>
+		<npc npc_id="2042" group_id="204" npc_name="제국군" level="4" weight="20"
+			officer_id="1021" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="23" />
+				<slot slot_idx="2" unit_id="32" unit_qty="7" />
+				<slot slot_idx="3" unit_id="27" unit_qty="23" />
+				<slot slot_idx="4" unit_id="31" unit_qty="7" />
+				<slot slot_idx="5" unit_id="31" unit_qty="7" />
+				<slot slot_idx="6" unit_id="36" unit_qty="4" />
+			</slots>
+		</npc>
+		<npc npc_id="2043" group_id="204" npc_name="제국군" level="4" weight="15"
+			officer_id="1031" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="23" />
+				<slot slot_idx="2" unit_id="41" unit_qty="5" />
+				<slot slot_idx="3" unit_id="41" unit_qty="5" />
+				<slot slot_idx="4" unit_id="26" unit_qty="23" />
+				<slot slot_idx="5" unit_id="29" unit_qty="4" />
+				<slot slot_idx="6" unit_id="26" unit_qty="23" />
+			</slots>
+		</npc>
+		<npc npc_id="2044" group_id="204" npc_name="제국군" level="4" weight="10"
+			officer_id="1041" officer_grade="2" officer_level="1" command_total="140">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="4" />
+				<slot slot_idx="2" unit_id="44" unit_qty="4" />
+				<slot slot_idx="3" unit_id="44" unit_qty="4" />
+				<slot slot_idx="4" unit_id="38" unit_qty="4" />
+				<slot slot_idx="5" unit_id="33" unit_qty="4" />
+				<slot slot_idx="6" unit_id="31" unit_qty="7" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="205">
+		<npc npc_id="2050" group_id="205" npc_name="제국군" level="5" weight="30"
+			officer_id="1001" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="28" />
+				<slot slot_idx="2" unit_id="28" unit_qty="9" />
+				<slot slot_idx="3" unit_id="27" unit_qty="28" />
+				<slot slot_idx="4" unit_id="29" unit_qty="5" />
+				<slot slot_idx="5" unit_id="26" unit_qty="28" />
+				<slot slot_idx="6" unit_id="26" unit_qty="28" />
+			</slots>
+		</npc>
+		<npc npc_id="2051" group_id="205" npc_name="제국군" level="5" weight="25"
+			officer_id="1011" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="14" />
+				<slot slot_idx="2" unit_id="27" unit_qty="28" />
+				<slot slot_idx="3" unit_id="40" unit_qty="14" />
+				<slot slot_idx="4" unit_id="26" unit_qty="28" />
+				<slot slot_idx="5" unit_id="26" unit_qty="28" />
+				<slot slot_idx="6" unit_id="26" unit_qty="28" />
+			</slots>
+		</npc>
+		<npc npc_id="2052" group_id="205" npc_name="제국군" level="5" weight="20"
+			officer_id="1021" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="28" />
+				<slot slot_idx="2" unit_id="32" unit_qty="9" />
+				<slot slot_idx="3" unit_id="27" unit_qty="28" />
+				<slot slot_idx="4" unit_id="31" unit_qty="9" />
+				<slot slot_idx="5" unit_id="31" unit_qty="9" />
+				<slot slot_idx="6" unit_id="36" unit_qty="5" />
+			</slots>
+		</npc>
+		<npc npc_id="2053" group_id="205" npc_name="제국군" level="5" weight="15"
+			officer_id="1031" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="28" />
+				<slot slot_idx="2" unit_id="41" unit_qty="7" />
+				<slot slot_idx="3" unit_id="41" unit_qty="7" />
+				<slot slot_idx="4" unit_id="26" unit_qty="28" />
+				<slot slot_idx="5" unit_id="29" unit_qty="5" />
+				<slot slot_idx="6" unit_id="26" unit_qty="28" />
+			</slots>
+		</npc>
+		<npc npc_id="2054" group_id="205" npc_name="제국군" level="5" weight="10"
+			officer_id="1041" officer_grade="2" officer_level="1" command_total="170">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="5" />
+				<slot slot_idx="2" unit_id="44" unit_qty="5" />
+				<slot slot_idx="3" unit_id="44" unit_qty="5" />
+				<slot slot_idx="4" unit_id="38" unit_qty="5" />
+				<slot slot_idx="5" unit_id="33" unit_qty="5" />
+				<slot slot_idx="6" unit_id="31" unit_qty="9" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="206">
+		<npc npc_id="2060" group_id="206" npc_name="제국군" level="6" weight="30"
+			officer_id="1001" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="33" />
+				<slot slot_idx="2" unit_id="28" unit_qty="11" />
+				<slot slot_idx="3" unit_id="27" unit_qty="33" />
+				<slot slot_idx="4" unit_id="29" unit_qty="6" />
+				<slot slot_idx="5" unit_id="26" unit_qty="33" />
+				<slot slot_idx="6" unit_id="26" unit_qty="33" />
+			</slots>
+		</npc>
+		<npc npc_id="2061" group_id="206" npc_name="제국군" level="6" weight="25"
+			officer_id="1011" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="16" />
+				<slot slot_idx="2" unit_id="27" unit_qty="33" />
+				<slot slot_idx="3" unit_id="40" unit_qty="16" />
+				<slot slot_idx="4" unit_id="26" unit_qty="33" />
+				<slot slot_idx="5" unit_id="26" unit_qty="33" />
+				<slot slot_idx="6" unit_id="26" unit_qty="33" />
+			</slots>
+		</npc>
+		<npc npc_id="2062" group_id="206" npc_name="제국군" level="6" weight="20"
+			officer_id="1021" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="33" />
+				<slot slot_idx="2" unit_id="32" unit_qty="11" />
+				<slot slot_idx="3" unit_id="27" unit_qty="33" />
+				<slot slot_idx="4" unit_id="31" unit_qty="11" />
+				<slot slot_idx="5" unit_id="31" unit_qty="11" />
+				<slot slot_idx="6" unit_id="36" unit_qty="6" />
+			</slots>
+		</npc>
+		<npc npc_id="2063" group_id="206" npc_name="제국군" level="6" weight="15"
+			officer_id="1031" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="33" />
+				<slot slot_idx="2" unit_id="41" unit_qty="8" />
+				<slot slot_idx="3" unit_id="41" unit_qty="8" />
+				<slot slot_idx="4" unit_id="26" unit_qty="33" />
+				<slot slot_idx="5" unit_id="29" unit_qty="6" />
+				<slot slot_idx="6" unit_id="26" unit_qty="33" />
+			</slots>
+		</npc>
+		<npc npc_id="2064" group_id="206" npc_name="제국군" level="6" weight="10"
+			officer_id="1041" officer_grade="2" officer_level="1" command_total="200">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="6" />
+				<slot slot_idx="2" unit_id="44" unit_qty="6" />
+				<slot slot_idx="3" unit_id="44" unit_qty="6" />
+				<slot slot_idx="4" unit_id="38" unit_qty="6" />
+				<slot slot_idx="5" unit_id="33" unit_qty="6" />
+				<slot slot_idx="6" unit_id="31" unit_qty="11" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="207">
+		<npc npc_id="2070" group_id="207" npc_name="제국군" level="7" weight="30"
+			officer_id="1001" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="38" />
+				<slot slot_idx="2" unit_id="28" unit_qty="12" />
+				<slot slot_idx="3" unit_id="27" unit_qty="38" />
+				<slot slot_idx="4" unit_id="29" unit_qty="7" />
+				<slot slot_idx="5" unit_id="26" unit_qty="38" />
+				<slot slot_idx="6" unit_id="26" unit_qty="38" />
+			</slots>
+		</npc>
+		<npc npc_id="2071" group_id="207" npc_name="제국군" level="7" weight="25"
+			officer_id="1011" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="19" />
+				<slot slot_idx="2" unit_id="27" unit_qty="38" />
+				<slot slot_idx="3" unit_id="40" unit_qty="19" />
+				<slot slot_idx="4" unit_id="26" unit_qty="38" />
+				<slot slot_idx="5" unit_id="26" unit_qty="38" />
+				<slot slot_idx="6" unit_id="26" unit_qty="38" />
+			</slots>
+		</npc>
+		<npc npc_id="2072" group_id="207" npc_name="제국군" level="7" weight="20"
+			officer_id="1021" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="38" />
+				<slot slot_idx="2" unit_id="32" unit_qty="12" />
+				<slot slot_idx="3" unit_id="27" unit_qty="38" />
+				<slot slot_idx="4" unit_id="31" unit_qty="12" />
+				<slot slot_idx="5" unit_id="31" unit_qty="12" />
+				<slot slot_idx="6" unit_id="36" unit_qty="7" />
+			</slots>
+		</npc>
+		<npc npc_id="2073" group_id="207" npc_name="제국군" level="7" weight="15"
+			officer_id="1031" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="38" />
+				<slot slot_idx="2" unit_id="41" unit_qty="9" />
+				<slot slot_idx="3" unit_id="41" unit_qty="9" />
+				<slot slot_idx="4" unit_id="26" unit_qty="38" />
+				<slot slot_idx="5" unit_id="29" unit_qty="7" />
+				<slot slot_idx="6" unit_id="26" unit_qty="38" />
+			</slots>
+		</npc>
+		<npc npc_id="2074" group_id="207" npc_name="제국군" level="7" weight="10"
+			officer_id="1041" officer_grade="3" officer_level="1" command_total="230">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="7" />
+				<slot slot_idx="2" unit_id="44" unit_qty="7" />
+				<slot slot_idx="3" unit_id="44" unit_qty="7" />
+				<slot slot_idx="4" unit_id="38" unit_qty="7" />
+				<slot slot_idx="5" unit_id="33" unit_qty="7" />
+				<slot slot_idx="6" unit_id="31" unit_qty="12" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="208">
+		<npc npc_id="2080" group_id="208" npc_name="제국군" level="8" weight="30"
+			officer_id="1001" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="43" />
+				<slot slot_idx="2" unit_id="28" unit_qty="14" />
+				<slot slot_idx="3" unit_id="27" unit_qty="43" />
+				<slot slot_idx="4" unit_id="29" unit_qty="8" />
+				<slot slot_idx="5" unit_id="26" unit_qty="43" />
+				<slot slot_idx="6" unit_id="26" unit_qty="43" />
+			</slots>
+		</npc>
+		<npc npc_id="2081" group_id="208" npc_name="제국군" level="8" weight="25"
+			officer_id="1011" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="21" />
+				<slot slot_idx="2" unit_id="27" unit_qty="43" />
+				<slot slot_idx="3" unit_id="40" unit_qty="21" />
+				<slot slot_idx="4" unit_id="26" unit_qty="43" />
+				<slot slot_idx="5" unit_id="26" unit_qty="43" />
+				<slot slot_idx="6" unit_id="26" unit_qty="43" />
+			</slots>
+		</npc>
+		<npc npc_id="2082" group_id="208" npc_name="제국군" level="8" weight="20"
+			officer_id="1021" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="43" />
+				<slot slot_idx="2" unit_id="32" unit_qty="14" />
+				<slot slot_idx="3" unit_id="27" unit_qty="43" />
+				<slot slot_idx="4" unit_id="31" unit_qty="14" />
+				<slot slot_idx="5" unit_id="31" unit_qty="14" />
+				<slot slot_idx="6" unit_id="36" unit_qty="8" />
+			</slots>
+		</npc>
+		<npc npc_id="2083" group_id="208" npc_name="제국군" level="8" weight="15"
+			officer_id="1031" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="43" />
+				<slot slot_idx="2" unit_id="41" unit_qty="10" />
+				<slot slot_idx="3" unit_id="41" unit_qty="10" />
+				<slot slot_idx="4" unit_id="26" unit_qty="43" />
+				<slot slot_idx="5" unit_id="29" unit_qty="8" />
+				<slot slot_idx="6" unit_id="26" unit_qty="43" />
+			</slots>
+		</npc>
+		<npc npc_id="2084" group_id="208" npc_name="제국군" level="8" weight="10"
+			officer_id="1041" officer_grade="3" officer_level="1" command_total="260">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="8" />
+				<slot slot_idx="2" unit_id="44" unit_qty="8" />
+				<slot slot_idx="3" unit_id="44" unit_qty="8" />
+				<slot slot_idx="4" unit_id="38" unit_qty="8" />
+				<slot slot_idx="5" unit_id="33" unit_qty="8" />
+				<slot slot_idx="6" unit_id="31" unit_qty="14" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="209">
+		<npc npc_id="2090" group_id="209" npc_name="제국군" level="9" weight="30"
+			officer_id="1001" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="48" />
+				<slot slot_idx="2" unit_id="28" unit_qty="16" />
+				<slot slot_idx="3" unit_id="27" unit_qty="48" />
+				<slot slot_idx="4" unit_id="29" unit_qty="9" />
+				<slot slot_idx="5" unit_id="26" unit_qty="48" />
+				<slot slot_idx="6" unit_id="26" unit_qty="48" />
+			</slots>
+		</npc>
+		<npc npc_id="2091" group_id="209" npc_name="제국군" level="9" weight="25"
+			officer_id="1011" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="24" />
+				<slot slot_idx="2" unit_id="27" unit_qty="48" />
+				<slot slot_idx="3" unit_id="40" unit_qty="24" />
+				<slot slot_idx="4" unit_id="26" unit_qty="48" />
+				<slot slot_idx="5" unit_id="26" unit_qty="48" />
+				<slot slot_idx="6" unit_id="26" unit_qty="48" />
+			</slots>
+		</npc>
+		<npc npc_id="2092" group_id="209" npc_name="제국군" level="9" weight="20"
+			officer_id="1021" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="48" />
+				<slot slot_idx="2" unit_id="32" unit_qty="16" />
+				<slot slot_idx="3" unit_id="27" unit_qty="48" />
+				<slot slot_idx="4" unit_id="31" unit_qty="16" />
+				<slot slot_idx="5" unit_id="31" unit_qty="16" />
+				<slot slot_idx="6" unit_id="36" unit_qty="9" />
+			</slots>
+		</npc>
+		<npc npc_id="2093" group_id="209" npc_name="제국군" level="9" weight="15"
+			officer_id="1031" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="48" />
+				<slot slot_idx="2" unit_id="41" unit_qty="12" />
+				<slot slot_idx="3" unit_id="41" unit_qty="12" />
+				<slot slot_idx="4" unit_id="26" unit_qty="48" />
+				<slot slot_idx="5" unit_id="29" unit_qty="9" />
+				<slot slot_idx="6" unit_id="26" unit_qty="48" />
+			</slots>
+		</npc>
+		<npc npc_id="2094" group_id="209" npc_name="제국군" level="9" weight="10"
+			officer_id="1041" officer_grade="3" officer_level="1" command_total="290">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="9" />
+				<slot slot_idx="2" unit_id="44" unit_qty="9" />
+				<slot slot_idx="3" unit_id="44" unit_qty="9" />
+				<slot slot_idx="4" unit_id="38" unit_qty="9" />
+				<slot slot_idx="5" unit_id="33" unit_qty="9" />
+				<slot slot_idx="6" unit_id="31" unit_qty="16" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="210">
+		<npc npc_id="2100" group_id="210" npc_name="제국군" level="10"
+			weight="30" officer_id="1001" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="53" />
+				<slot slot_idx="2" unit_id="28" unit_qty="17" />
+				<slot slot_idx="3" unit_id="27" unit_qty="53" />
+				<slot slot_idx="4" unit_id="29" unit_qty="10" />
+				<slot slot_idx="5" unit_id="26" unit_qty="53" />
+				<slot slot_idx="6" unit_id="26" unit_qty="53" />
+			</slots>
+		</npc>
+		<npc npc_id="2101" group_id="210" npc_name="제국군" level="10"
+			weight="25" officer_id="1011" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="26" />
+				<slot slot_idx="2" unit_id="27" unit_qty="53" />
+				<slot slot_idx="3" unit_id="40" unit_qty="26" />
+				<slot slot_idx="4" unit_id="26" unit_qty="53" />
+				<slot slot_idx="5" unit_id="26" unit_qty="53" />
+				<slot slot_idx="6" unit_id="26" unit_qty="53" />
+			</slots>
+		</npc>
+		<npc npc_id="2102" group_id="210" npc_name="제국군" level="10"
+			weight="20" officer_id="1021" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="53" />
+				<slot slot_idx="2" unit_id="32" unit_qty="17" />
+				<slot slot_idx="3" unit_id="27" unit_qty="53" />
+				<slot slot_idx="4" unit_id="31" unit_qty="17" />
+				<slot slot_idx="5" unit_id="31" unit_qty="17" />
+				<slot slot_idx="6" unit_id="36" unit_qty="10" />
+			</slots>
+		</npc>
+		<npc npc_id="2103" group_id="210" npc_name="제국군" level="10"
+			weight="15" officer_id="1031" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="53" />
+				<slot slot_idx="2" unit_id="41" unit_qty="13" />
+				<slot slot_idx="3" unit_id="41" unit_qty="13" />
+				<slot slot_idx="4" unit_id="26" unit_qty="53" />
+				<slot slot_idx="5" unit_id="29" unit_qty="10" />
+				<slot slot_idx="6" unit_id="26" unit_qty="53" />
+			</slots>
+		</npc>
+		<npc npc_id="2104" group_id="210" npc_name="제국군" level="10"
+			weight="10" officer_id="1041" officer_grade="4" officer_level="1"
+			command_total="320">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="10" />
+				<slot slot_idx="2" unit_id="44" unit_qty="10" />
+				<slot slot_idx="3" unit_id="44" unit_qty="10" />
+				<slot slot_idx="4" unit_id="38" unit_qty="10" />
+				<slot slot_idx="5" unit_id="33" unit_qty="10" />
+				<slot slot_idx="6" unit_id="31" unit_qty="17" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="211">
+		<npc npc_id="2110" group_id="211" npc_name="제국군" level="11"
+			weight="30" officer_id="1001" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="58" />
+				<slot slot_idx="2" unit_id="28" unit_qty="19" />
+				<slot slot_idx="3" unit_id="27" unit_qty="58" />
+				<slot slot_idx="4" unit_id="29" unit_qty="11" />
+				<slot slot_idx="5" unit_id="26" unit_qty="58" />
+				<slot slot_idx="6" unit_id="26" unit_qty="58" />
+			</slots>
+		</npc>
+		<npc npc_id="2111" group_id="211" npc_name="제국군" level="11"
+			weight="25" officer_id="1011" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="29" />
+				<slot slot_idx="2" unit_id="27" unit_qty="58" />
+				<slot slot_idx="3" unit_id="40" unit_qty="29" />
+				<slot slot_idx="4" unit_id="26" unit_qty="58" />
+				<slot slot_idx="5" unit_id="26" unit_qty="58" />
+				<slot slot_idx="6" unit_id="26" unit_qty="58" />
+			</slots>
+		</npc>
+		<npc npc_id="2112" group_id="211" npc_name="제국군" level="11"
+			weight="20" officer_id="1021" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="58" />
+				<slot slot_idx="2" unit_id="32" unit_qty="19" />
+				<slot slot_idx="3" unit_id="27" unit_qty="58" />
+				<slot slot_idx="4" unit_id="31" unit_qty="19" />
+				<slot slot_idx="5" unit_id="31" unit_qty="19" />
+				<slot slot_idx="6" unit_id="36" unit_qty="11" />
+			</slots>
+		</npc>
+		<npc npc_id="2113" group_id="211" npc_name="제국군" level="11"
+			weight="15" officer_id="1031" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="58" />
+				<slot slot_idx="2" unit_id="41" unit_qty="14" />
+				<slot slot_idx="3" unit_id="41" unit_qty="14" />
+				<slot slot_idx="4" unit_id="26" unit_qty="58" />
+				<slot slot_idx="5" unit_id="29" unit_qty="11" />
+				<slot slot_idx="6" unit_id="26" unit_qty="58" />
+			</slots>
+		</npc>
+		<npc npc_id="2114" group_id="211" npc_name="제국군" level="11"
+			weight="10" officer_id="1041" officer_grade="4" officer_level="1"
+			command_total="350">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="11" />
+				<slot slot_idx="2" unit_id="44" unit_qty="11" />
+				<slot slot_idx="3" unit_id="44" unit_qty="11" />
+				<slot slot_idx="4" unit_id="38" unit_qty="11" />
+				<slot slot_idx="5" unit_id="33" unit_qty="11" />
+				<slot slot_idx="6" unit_id="31" unit_qty="19" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="212">
+		<npc npc_id="2120" group_id="212" npc_name="제국군" level="12"
+			weight="30" officer_id="1001" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="63" />
+				<slot slot_idx="2" unit_id="28" unit_qty="21" />
+				<slot slot_idx="3" unit_id="27" unit_qty="63" />
+				<slot slot_idx="4" unit_id="29" unit_qty="12" />
+				<slot slot_idx="5" unit_id="26" unit_qty="63" />
+				<slot slot_idx="6" unit_id="26" unit_qty="63" />
+			</slots>
+		</npc>
+		<npc npc_id="2121" group_id="212" npc_name="제국군" level="12"
+			weight="25" officer_id="1011" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="31" />
+				<slot slot_idx="2" unit_id="27" unit_qty="63" />
+				<slot slot_idx="3" unit_id="40" unit_qty="31" />
+				<slot slot_idx="4" unit_id="26" unit_qty="63" />
+				<slot slot_idx="5" unit_id="26" unit_qty="63" />
+				<slot slot_idx="6" unit_id="26" unit_qty="63" />
+			</slots>
+		</npc>
+		<npc npc_id="2122" group_id="212" npc_name="제국군" level="12"
+			weight="20" officer_id="1021" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="63" />
+				<slot slot_idx="2" unit_id="32" unit_qty="21" />
+				<slot slot_idx="3" unit_id="27" unit_qty="63" />
+				<slot slot_idx="4" unit_id="31" unit_qty="21" />
+				<slot slot_idx="5" unit_id="31" unit_qty="21" />
+				<slot slot_idx="6" unit_id="36" unit_qty="12" />
+			</slots>
+		</npc>
+		<npc npc_id="2123" group_id="212" npc_name="제국군" level="12"
+			weight="15" officer_id="1031" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="63" />
+				<slot slot_idx="2" unit_id="41" unit_qty="15" />
+				<slot slot_idx="3" unit_id="41" unit_qty="15" />
+				<slot slot_idx="4" unit_id="26" unit_qty="63" />
+				<slot slot_idx="5" unit_id="29" unit_qty="12" />
+				<slot slot_idx="6" unit_id="26" unit_qty="63" />
+			</slots>
+		</npc>
+		<npc npc_id="2124" group_id="212" npc_name="제국군" level="12"
+			weight="10" officer_id="1041" officer_grade="4" officer_level="1"
+			command_total="380">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="12" />
+				<slot slot_idx="2" unit_id="44" unit_qty="12" />
+				<slot slot_idx="3" unit_id="44" unit_qty="12" />
+				<slot slot_idx="4" unit_id="38" unit_qty="12" />
+				<slot slot_idx="5" unit_id="33" unit_qty="12" />
+				<slot slot_idx="6" unit_id="31" unit_qty="21" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="213">
+		<npc npc_id="2130" group_id="213" npc_name="제국군" level="13"
+			weight="30" officer_id="1001" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="68" />
+				<slot slot_idx="2" unit_id="28" unit_qty="22" />
+				<slot slot_idx="3" unit_id="27" unit_qty="68" />
+				<slot slot_idx="4" unit_id="29" unit_qty="13" />
+				<slot slot_idx="5" unit_id="26" unit_qty="68" />
+				<slot slot_idx="6" unit_id="26" unit_qty="68" />
+			</slots>
+		</npc>
+		<npc npc_id="2131" group_id="213" npc_name="제국군" level="13"
+			weight="25" officer_id="1011" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="34" />
+				<slot slot_idx="2" unit_id="27" unit_qty="68" />
+				<slot slot_idx="3" unit_id="40" unit_qty="34" />
+				<slot slot_idx="4" unit_id="26" unit_qty="68" />
+				<slot slot_idx="5" unit_id="26" unit_qty="68" />
+				<slot slot_idx="6" unit_id="26" unit_qty="68" />
+			</slots>
+		</npc>
+		<npc npc_id="2132" group_id="213" npc_name="제국군" level="13"
+			weight="20" officer_id="1021" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="68" />
+				<slot slot_idx="2" unit_id="32" unit_qty="22" />
+				<slot slot_idx="3" unit_id="27" unit_qty="68" />
+				<slot slot_idx="4" unit_id="31" unit_qty="22" />
+				<slot slot_idx="5" unit_id="31" unit_qty="22" />
+				<slot slot_idx="6" unit_id="36" unit_qty="13" />
+			</slots>
+		</npc>
+		<npc npc_id="2133" group_id="213" npc_name="제국군" level="13"
+			weight="15" officer_id="1031" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="68" />
+				<slot slot_idx="2" unit_id="41" unit_qty="17" />
+				<slot slot_idx="3" unit_id="41" unit_qty="17" />
+				<slot slot_idx="4" unit_id="26" unit_qty="68" />
+				<slot slot_idx="5" unit_id="29" unit_qty="13" />
+				<slot slot_idx="6" unit_id="26" unit_qty="68" />
+			</slots>
+		</npc>
+		<npc npc_id="2134" group_id="213" npc_name="제국군" level="13"
+			weight="10" officer_id="1041" officer_grade="5" officer_level="1"
+			command_total="410">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="13" />
+				<slot slot_idx="2" unit_id="44" unit_qty="13" />
+				<slot slot_idx="3" unit_id="44" unit_qty="13" />
+				<slot slot_idx="4" unit_id="38" unit_qty="13" />
+				<slot slot_idx="5" unit_id="33" unit_qty="13" />
+				<slot slot_idx="6" unit_id="31" unit_qty="22" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="214">
+		<npc npc_id="2140" group_id="214" npc_name="제국군" level="14"
+			weight="30" officer_id="1001" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="73" />
+				<slot slot_idx="2" unit_id="28" unit_qty="24" />
+				<slot slot_idx="3" unit_id="27" unit_qty="73" />
+				<slot slot_idx="4" unit_id="29" unit_qty="14" />
+				<slot slot_idx="5" unit_id="26" unit_qty="73" />
+				<slot slot_idx="6" unit_id="26" unit_qty="73" />
+			</slots>
+		</npc>
+		<npc npc_id="2141" group_id="214" npc_name="제국군" level="14"
+			weight="25" officer_id="1011" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="36" />
+				<slot slot_idx="2" unit_id="27" unit_qty="73" />
+				<slot slot_idx="3" unit_id="40" unit_qty="36" />
+				<slot slot_idx="4" unit_id="26" unit_qty="73" />
+				<slot slot_idx="5" unit_id="26" unit_qty="73" />
+				<slot slot_idx="6" unit_id="26" unit_qty="73" />
+			</slots>
+		</npc>
+		<npc npc_id="2142" group_id="214" npc_name="제국군" level="14"
+			weight="20" officer_id="1021" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="73" />
+				<slot slot_idx="2" unit_id="32" unit_qty="24" />
+				<slot slot_idx="3" unit_id="27" unit_qty="73" />
+				<slot slot_idx="4" unit_id="31" unit_qty="24" />
+				<slot slot_idx="5" unit_id="31" unit_qty="24" />
+				<slot slot_idx="6" unit_id="36" unit_qty="14" />
+			</slots>
+		</npc>
+		<npc npc_id="2143" group_id="214" npc_name="제국군" level="14"
+			weight="15" officer_id="1031" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="73" />
+				<slot slot_idx="2" unit_id="41" unit_qty="18" />
+				<slot slot_idx="3" unit_id="41" unit_qty="18" />
+				<slot slot_idx="4" unit_id="26" unit_qty="73" />
+				<slot slot_idx="5" unit_id="29" unit_qty="14" />
+				<slot slot_idx="6" unit_id="26" unit_qty="73" />
+			</slots>
+		</npc>
+		<npc npc_id="2144" group_id="214" npc_name="제국군" level="14"
+			weight="10" officer_id="1041" officer_grade="5" officer_level="1"
+			command_total="440">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="14" />
+				<slot slot_idx="2" unit_id="44" unit_qty="14" />
+				<slot slot_idx="3" unit_id="44" unit_qty="14" />
+				<slot slot_idx="4" unit_id="38" unit_qty="14" />
+				<slot slot_idx="5" unit_id="33" unit_qty="14" />
+				<slot slot_idx="6" unit_id="31" unit_qty="24" />
+			</slots>
+		</npc>
+	</npc_group>
+	<npc_group group_id="215">
+		<npc npc_id="2150" group_id="215" npc_name="제국군" level="15"
+			weight="30" officer_id="1001" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="78" />
+				<slot slot_idx="2" unit_id="28" unit_qty="26" />
+				<slot slot_idx="3" unit_id="27" unit_qty="78" />
+				<slot slot_idx="4" unit_id="29" unit_qty="15" />
+				<slot slot_idx="5" unit_id="26" unit_qty="78" />
+				<slot slot_idx="6" unit_id="26" unit_qty="78" />
+			</slots>
+		</npc>
+		<npc npc_id="2151" group_id="215" npc_name="제국군" level="15"
+			weight="25" officer_id="1011" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="40" unit_qty="39" />
+				<slot slot_idx="2" unit_id="27" unit_qty="78" />
+				<slot slot_idx="3" unit_id="40" unit_qty="39" />
+				<slot slot_idx="4" unit_id="26" unit_qty="78" />
+				<slot slot_idx="5" unit_id="26" unit_qty="78" />
+				<slot slot_idx="6" unit_id="26" unit_qty="78" />
+			</slots>
+		</npc>
+		<npc npc_id="2152" group_id="215" npc_name="제국군" level="15"
+			weight="20" officer_id="1021" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="78" />
+				<slot slot_idx="2" unit_id="32" unit_qty="26" />
+				<slot slot_idx="3" unit_id="27" unit_qty="78" />
+				<slot slot_idx="4" unit_id="31" unit_qty="26" />
+				<slot slot_idx="5" unit_id="31" unit_qty="26" />
+				<slot slot_idx="6" unit_id="36" unit_qty="15" />
+			</slots>
+		</npc>
+		<npc npc_id="2153" group_id="215" npc_name="제국군" level="15"
+			weight="15" officer_id="1031" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="27" unit_qty="78" />
+				<slot slot_idx="2" unit_id="41" unit_qty="19" />
+				<slot slot_idx="3" unit_id="41" unit_qty="19" />
+				<slot slot_idx="4" unit_id="26" unit_qty="78" />
+				<slot slot_idx="5" unit_id="29" unit_qty="15" />
+				<slot slot_idx="6" unit_id="26" unit_qty="78" />
+			</slots>
+		</npc>
+		<npc npc_id="2154" group_id="215" npc_name="제국군" level="15"
+			weight="10" officer_id="1041" officer_grade="5" officer_level="1"
+			command_total="470">
+			<slots>
+				<slot slot_idx="1" unit_id="44" unit_qty="15" />
+				<slot slot_idx="2" unit_id="44" unit_qty="15" />
+				<slot slot_idx="3" unit_id="44" unit_qty="15" />
+				<slot slot_idx="4" unit_id="38" unit_qty="15" />
+				<slot slot_idx="5" unit_id="33" unit_qty="15" />
+				<slot slot_idx="6" unit_id="31" unit_qty="26" />
+			</slots>
+		</npc>
+	</npc_group>
+</npc_info>

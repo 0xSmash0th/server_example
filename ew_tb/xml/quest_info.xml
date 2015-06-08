@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<quest_info>
+	<quests>
+		<quest quest_id="1001" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_build_ico" desc="사령부 레벨2 만들기" quest_type="Building_HQ"
+			complete_qty="2" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="100"></quest>
+		<quest quest_id="1002" category="1" weight="" req_quest_id="1001"
+			icon_name="quest_build_ico" desc="사령부 레벨5 만들기" quest_type="Building_HQ"
+			complete_qty="5" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="500"></quest>
+		<quest quest_id="1003" category="1" weight="" req_quest_id="1002"
+			icon_name="quest_build_ico" desc="사령부 레벨10 만들기" quest_type="Building_HQ"
+			complete_qty="10" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1004" category="1" weight="" req_quest_id="1003"
+			icon_name="quest_build_ico" desc="사령부 레벨20 만들기" quest_type="Building_HQ"
+			complete_qty="20" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="2000"></quest>
+		<quest quest_id="1005" category="1" weight="" req_quest_id="1004"
+			icon_name="quest_build_ico" desc="사령부 레벨30 만들기" quest_type="Building_HQ"
+			complete_qty="30" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="4000"></quest>
+		<quest quest_id="1006" category="1" weight="" req_quest_id="1005"
+			icon_name="quest_build_ico" desc="사령부 레벨40 만들기" quest_type="Building_HQ"
+			complete_qty="40" complete_str="" reward_type="Badge" reward_id="1"
+			reward_qty="1"></quest>
+		<quest quest_id="1007" category="1" weight="" req_quest_id="1006"
+			icon_name="quest_build_ico" desc="사령부 레벨50 만들기" quest_type="Building_HQ"
+			complete_qty="50" complete_str="" reward_type="Badge" reward_id="2"
+			reward_qty="1"></quest>
+		<quest quest_id="1101" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_build_ico" desc="훈련소 건설" quest_type="Building_Training"
+			complete_qty="1" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="100"></quest>
+		<quest quest_id="1102" category="1" weight="" req_quest_id="1101"
+			icon_name="quest_build_ico" desc="훈련소 레벨5 만들기" quest_type="Building_Training"
+			complete_qty="5" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="500"></quest>
+		<quest quest_id="1103" category="1" weight="" req_quest_id="1102"
+			icon_name="quest_build_ico" desc="훈련소 레벨10 만들기" quest_type="Building_Training"
+			complete_qty="10" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1104" category="1" weight="" req_quest_id="1103"
+			icon_name="quest_build_ico" desc="훈련소 레벨20 만들기" quest_type="Building_Training"
+			complete_qty="20" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="2000"></quest>
+		<quest quest_id="1105" category="1" weight="" req_quest_id="1104"
+			icon_name="quest_build_ico" desc="훈련소 레벨30 만들기" quest_type="Building_Training"
+			complete_qty="30" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="4000"></quest>
+		<quest quest_id="1106" category="1" weight="" req_quest_id="1105"
+			icon_name="quest_build_ico" desc="훈련소 레벨40 만들기" quest_type="Building_Training"
+			complete_qty="40" complete_str="" reward_type="Badge" reward_id="3"
+			reward_qty="1"></quest>
+		<quest quest_id="1107" category="1" weight="" req_quest_id="1106"
+			icon_name="quest_build_ico" desc="훈련소 레벨50 만들기" quest_type="Building_Training"
+			complete_qty="50" complete_str="" reward_type="Badge" reward_id="4"
+			reward_qty="1"></quest>
+		<quest quest_id="1201" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_build_ico" desc="기계공장 건설" quest_type="Building_MachineFactory"
+			complete_qty="1" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="100"></quest>
+		<quest quest_id="1202" category="1" weight="" req_quest_id="1201"
+			icon_name="quest_build_ico" desc="기계공장 레벨5 만들기" quest_type="Building_MachineFactory"
+			complete_qty="5" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="500"></quest>
+		<quest quest_id="1203" category="1" weight="" req_quest_id="1202"
+			icon_name="quest_build_ico" desc="기계공장 레벨10 만들기" quest_type="Building_MachineFactory"
+			complete_qty="10" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1204" category="1" weight="" req_quest_id="1203"
+			icon_name="quest_build_ico" desc="기계공장 레벨20 만들기" quest_type="Building_MachineFactory"
+			complete_qty="20" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="2000"></quest>
+		<quest quest_id="1205" category="1" weight="" req_quest_id="1204"
+			icon_name="quest_build_ico" desc="기계공장 레벨30 만들기" quest_type="Building_MachineFactory"
+			complete_qty="30" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="4000"></quest>
+		<quest quest_id="1206" category="1" weight="" req_quest_id="1205"
+			icon_name="quest_build_ico" desc="기계공장 레벨40 만들기" quest_type="Building_MachineFactory"
+			complete_qty="40" complete_str="" reward_type="Badge" reward_id="5"
+			reward_qty="1"></quest>
+		<quest quest_id="1207" category="1" weight="" req_quest_id="1206"
+			icon_name="quest_build_ico" desc="기계공장 레벨50 만들기" quest_type="Building_MachineFactory"
+			complete_qty="50" complete_str="" reward_type="Badge" reward_id="6"
+			reward_qty="1"></quest>
+		<quest quest_id="1301" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_general_ico" desc="장군 레벨5 만들기" quest_type="General_Level"
+			complete_qty="5" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="100"></quest>
+		<quest quest_id="1302" category="1" weight="" req_quest_id="1301"
+			icon_name="quest_general_ico" desc="장군 레벨10 만들기" quest_type="General_Level"
+			complete_qty="10" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="500"></quest>
+		<quest quest_id="1303" category="1" weight="" req_quest_id="1302"
+			icon_name="quest_general_ico" desc="장군 레벨15 만들기" quest_type="General_Level"
+			complete_qty="15" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1304" category="1" weight="" req_quest_id="1303"
+			icon_name="quest_general_ico" desc="장군 레벨20 만들기" quest_type="General_Level"
+			complete_qty="20" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="2000"></quest>
+		<quest quest_id="1305" category="1" weight="" req_quest_id="1304"
+			icon_name="quest_general_ico" desc="장군 레벨25 만들기" quest_type="General_Level"
+			complete_qty="25" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="4000"></quest>
+		<quest quest_id="1306" category="1" weight="" req_quest_id="1305"
+			icon_name="quest_general_ico" desc="장군 레벨30 만들기" quest_type="General_Level"
+			complete_qty="30" complete_str="" reward_type="Badge" reward_id="7"
+			reward_qty="1"></quest>
+		<quest quest_id="1401" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_officer_ico" desc="장교 레벨5 만들기" quest_type="Officer_Level"
+			complete_qty="5" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="100"></quest>
+		<quest quest_id="1402" category="1" weight="" req_quest_id="1401"
+			icon_name="quest_officer_ico" desc="장교 레벨10 만들기" quest_type="Officer_Level"
+			complete_qty="10" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="500"></quest>
+		<quest quest_id="1403" category="1" weight="" req_quest_id="1402"
+			icon_name="quest_officer_ico" desc="장교 레벨15 만들기" quest_type="Officer_Level"
+			complete_qty="15" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1404" category="1" weight="" req_quest_id="1403"
+			icon_name="quest_officer_ico" desc="장교 레벨20 만들기" quest_type="Officer_Level"
+			complete_qty="20" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="2000"></quest>
+		<quest quest_id="1405" category="1" weight="" req_quest_id="1404"
+			icon_name="quest_officer_ico" desc="장교 레벨25 만들기" quest_type="Officer_Level"
+			complete_qty="25" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="4000"></quest>
+		<quest quest_id="1406" category="1" weight="" req_quest_id="1405"
+			icon_name="quest_officer_ico" desc="장교 레벨30 만들기" quest_type="Officer_Level"
+			complete_qty="30" complete_str="" reward_type="Badge" reward_id="8"
+			reward_qty="1"></quest>
+		<quest quest_id="1501" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_gold_ico" desc="10000 Gold 이상" quest_type="Gold_Have"
+			complete_qty="10000" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1502" category="1" weight="" req_quest_id="1501"
+			icon_name="quest_gold_ico" desc="100000 Gold 이상" quest_type="Gold_Have"
+			complete_qty="100000" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="5000"></quest>
+		<quest quest_id="1503" category="1" weight="" req_quest_id="1502"
+			icon_name="quest_gold_ico" desc="1000000 Gold 이상" quest_type="Gold_Have"
+			complete_qty="1000000" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1"></quest>
+		<quest quest_id="1601" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_honor_ico" desc="1000 명예 점수 이상" quest_type="HonorPoint_Have"
+			complete_qty="1000" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1602" category="1" weight="" req_quest_id="1601"
+			icon_name="quest_honor_ico" desc="10000 명예 점수 이상" quest_type="HonorPoint_Have"
+			complete_qty="10000" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="5000"></quest>
+		<quest quest_id="1603" category="1" weight="" req_quest_id="1602"
+			icon_name="quest_honor_ico" desc="100000 명예 점수 이상" quest_type="HonorPoint_Have"
+			complete_qty="100000" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1"></quest>
+		<quest quest_id="1701" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="섬멸전 플레이 1회" quest_type="AnnihilationWar_Play"
+			complete_qty="1" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="100"></quest>
+		<quest quest_id="1702" category="1" weight="" req_quest_id="1701"
+			icon_name="quest_combat_ico" desc="섬멸전 플레이 5회" quest_type="AnnihilationWar_Play"
+			complete_qty="5" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="500"></quest>
+		<quest quest_id="1703" category="1" weight="" req_quest_id="1702"
+			icon_name="quest_combat_ico" desc="섬멸전 플레이 10회" quest_type="AnnihilationWar_Play"
+			complete_qty="10" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1704" category="1" weight="" req_quest_id="1703"
+			icon_name="quest_combat_ico" desc="섬멸전 플레이 20회" quest_type="AnnihilationWar_Play"
+			complete_qty="20" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="2000"></quest>
+		<quest quest_id="1705" category="1" weight="" req_quest_id="1704"
+			icon_name="quest_combat_ico" desc="섬멸전 플레이 40회" quest_type="AnnihilationWar_Play"
+			complete_qty="40" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="4000"></quest>
+		<quest quest_id="1706" category="1" weight="" req_quest_id="1705"
+			icon_name="quest_combat_ico" desc="섬멸전 플레이 80회" quest_type="AnnihilationWar_Play"
+			complete_qty="80" complete_str="" reward_type="Badge" reward_id="9"
+			reward_qty="1"></quest>
+		<quest quest_id="1801" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="점령전 플레이 1회" quest_type="OccupyWar_Play"
+			complete_qty="1" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="100"></quest>
+		<quest quest_id="1802" category="1" weight="" req_quest_id="1801"
+			icon_name="quest_combat_ico" desc="점령전 플레이 5회" quest_type="OccupyWar_Play"
+			complete_qty="5" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="500"></quest>
+		<quest quest_id="1803" category="1" weight="" req_quest_id="1802"
+			icon_name="quest_combat_ico" desc="점령전 플레이 10회" quest_type="OccupyWar_Play"
+			complete_qty="10" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1804" category="1" weight="" req_quest_id="1803"
+			icon_name="quest_combat_ico" desc="점령전 플레이 20회" quest_type="OccupyWar_Play"
+			complete_qty="20" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="2000"></quest>
+		<quest quest_id="1805" category="1" weight="" req_quest_id="1804"
+			icon_name="quest_combat_ico" desc="점령전 플레이 40회" quest_type="OccupyWar_Play"
+			complete_qty="40" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="4000"></quest>
+		<quest quest_id="1806" category="1" weight="" req_quest_id="1805"
+			icon_name="quest_combat_ico" desc="점령전 플레이 80회" quest_type="OccupyWar_Play"
+			complete_qty="80" complete_str="" reward_type="Badge" reward_id="10"
+			reward_qty="1"></quest>
+		<quest quest_id="1901" category="1" weight="" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="군단전 플레이 1회" quest_type="CorpsWar_play"
+			complete_qty="1" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="100"></quest>
+		<quest quest_id="1902" category="1" weight="" req_quest_id="1901"
+			icon_name="quest_combat_ico" desc="군단전 플레이 5회" quest_type="CorpsWar_play"
+			complete_qty="5" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="500"></quest>
+		<quest quest_id="1903" category="1" weight="" req_quest_id="1902"
+			icon_name="quest_combat_ico" desc="군단전 플레이 10회" quest_type="CorpsWar_play"
+			complete_qty="10" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="1000"></quest>
+		<quest quest_id="1904" category="1" weight="" req_quest_id="1903"
+			icon_name="quest_combat_ico" desc="군단전 플레이 20회" quest_type="CorpsWar_play"
+			complete_qty="20" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="2000"></quest>
+		<quest quest_id="1905" category="1" weight="" req_quest_id="1904"
+			icon_name="quest_combat_ico" desc="군단전 플레이 40회" quest_type="CorpsWar_play"
+			complete_qty="40" complete_str="" reward_type="Gold" reward_id="None"
+			reward_qty="4000"></quest>
+		<quest quest_id="1906" category="1" weight="" req_quest_id="1905"
+			icon_name="quest_combat_ico" desc="군단전 플레이 80회" quest_type="CorpsWar_play"
+			complete_qty="80" complete_str="" reward_type="Badge" reward_id="11"
+			reward_qty="1"></quest>
+		<quest quest_id="2001" category="2" weight="50%" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="섬멸전 승리 5회" quest_type="AnnihilationWar_Victory"
+			complete_qty="5" complete_str="" reward_type="honor" reward_id="None"
+			reward_qty="2"></quest>
+		<quest quest_id="2002" category="2" weight="10%" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="섬멸전 승리 10회" quest_type="AnnihilationWar_Victory"
+			complete_qty="10" complete_str="" reward_type="honor" reward_id="None"
+			reward_qty="4"></quest>
+		<quest quest_id="2101" category="2" weight="50%" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="점령전 승리 5회" quest_type="OccupyWar_Victory"
+			complete_qty="5" complete_str="" reward_type="honor" reward_id="None"
+			reward_qty="2"></quest>
+		<quest quest_id="2102" category="2" weight="10%" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="점령전 승리 10회" quest_type="OccupyWar_Victory"
+			complete_qty="10" complete_str="" reward_type="honor" reward_id="None"
+			reward_qty="4"></quest>
+		<quest quest_id="2201" category="2" weight="50%" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="섬멸전 S랭크 1회" quest_type="AnnihilationWar_Rank"
+			complete_qty="1" complete_str="S" reward_type="honor" reward_id="None"
+			reward_qty="2"></quest>
+		<quest quest_id="2202" category="2" weight="10%" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="섬멸전 S랭크 3회" quest_type="AnnihilationWar_Rank"
+			complete_qty="3" complete_str="S" reward_type="honor" reward_id="None"
+			reward_qty="5"></quest>
+		<quest quest_id="2301" category="2" weight="50%" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="점령전 S랭크 1회" quest_type="OccupyWar_Rank"
+			complete_qty="1" complete_str="S" reward_type="honor" reward_id="None"
+			reward_qty="2"></quest>
+		<quest quest_id="2302" category="2" weight="10%" req_quest_id="-1"
+			icon_name="quest_combat_ico" desc="점령전 S랭크 3회" quest_type="OccupyWar_Rank"
+			complete_qty="3" complete_str="S" reward_type="honor" reward_id="None"
+			reward_qty="5"></quest>
+	</quests>
+</quest_info>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+target_side : int - 대상 진영
+  [1(아군), 2(적군)]
+target_unit_type : int - 대상 진영
+  [1(보병), 2(전차), 3(전체)]
+-->
+<specialityinfo>
+
+  <!--공격속도 증가-->
+  <speciality id="1" buff_id="3" target_side="1" target_unit_type="1" 
+              cl_shout_index1="2400" cl_shout_index2="2500">
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+  
+  <!--방어력 증가-->
+  <speciality id="2" buff_id="4" target_region_id="1" target_unit_type="3" 
+              cl_shout_index1="2401" cl_shout_index2="2501" >
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+  
+  <!--방어 타입 무시-->
+  <speciality id="3" buff_id="2" target_region_id="1" target_unit_type="1"
+              cl_shout_index1="2402" cl_shout_index2="2502" >
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+  
+  <!--수리 효과 증가-->
+  <speciality id="4" buff_id="8" target_region_id="1" target_unit_type="2"
+              cl_shout_index1="2403" cl_shout_index2="2503" >
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+  
+  <!--회복 효과 증가-->
+  <speciality id="5" buff_id="7" target_region_id="1" target_unit_type="1"
+              cl_shout_index1="2404" cl_shout_index2="2504" >
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+
+  <!--자체회복-->
+  <speciality id="6" buff_id="1" target_region_id="1" target_unit_type="3"
+              cl_shout_index1="2405" cl_shout_index2="2505" >
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+  
+  <!--효과 면역-->
+  <speciality id="7" buff_id="11" target_region_id="1" target_unit_type="3"
+              cl_shout_index1="2406" cl_shout_index2="2506" >
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+  
+  <!--공격속도 감소-->
+  <speciality id="8" buff_id="12" target_region_id="2" target_unit_type="1"
+              cl_shout_index1="2407" cl_shout_index2="2507" >
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+  
+  <!--도주-->
+  <speciality id="9" buff_id="18" target_region_id="2" target_unit_type="3"
+              cl_shout_index1="2408" cl_shout_index2="2508" >
+    <grade grade="1" value_percent="40"/>
+    <grade grade="2" value_percent="45"/>
+    <grade grade="3" value_percent="50"/>
+    <grade grade="4" value_percent="55"/>
+    <grade grade="5" value_percent="60"/>
+  </speciality>
+
+
+</specialityinfo>

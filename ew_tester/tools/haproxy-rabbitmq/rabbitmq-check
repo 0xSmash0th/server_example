@@ -1,0 +1,53 @@
+#!/bin/bash 
+#
+# Script to make a proxy (ie HAProxy) capable of monitoring RabbitMQ nodes properly
+#
+# Author: Olaf van Zandwijk <olaf.vanzandwijk@nedap.com>
+# Documentation and download: https://github.com/olafz/percona-clustercheck
+#
+# Based on the original script from Unai Rodriguez 
+#
+# Script modified by hjyun@ee
+
+if [[ $1 == '-h' || $1 == '--help' ]];then
+    echo "Usage: $0 <user> <pass> <node_name> <log_file>"
+    exit
+fi
+
+RABBIT_USERNAME="${1-guest}"
+RABBIT_PASSWORD="${2-guest}"
+NODENAME=${3:-rabbit@`hostname -s`}
+ERR_FILE="${4:-/dev/null}"
+#Timeout exists for instances where mysqld may be hung
+TIMEOUT=5
+PORT=15672
+PYTHON=python
+[ -f "/opt/ActivePython-2.7/bin/python" ] && PYTHON="/opt/ActivePython-2.7/bin/python"
+
+RESPONSE=`curl -u ${RABBIT_USERNAME}:${RABBIT_PASSWORD} -m ${TIMEOUT} http://localhost:${PORT}/api/nodes/${NODENAME} 2>${ERR_FILE} | tail -1 2>>${ERR_FILE}`
+
+echo ${RESPONSE} | ${PYTHON} -c 'import json, sys; js = json.load(sys.stdin); sys.exit([1, 0][js["running"] == True]);' 1>>${ERR_FILE} 2>>${ERR_FILE}
+RUNNING=$?
+
+if [[ "${RUNNING}" == "0" ]]
+then 
+    # Percona XtraDB Cluster node local state is 'Synced' => return HTTP 200
+    # Shell return-code is 0
+    echo -en "HTTP/1.1 200 OK\r\n"
+    echo -en "Content-Type: text/plain\r\n"
+    echo -en "Connection: close\r\n"
+    echo -en "Content-Length: 22\r\n"
+    echo -en "\r\n"
+    echo -en "RabbitMQ node is up.\r\n"
+    exit 0
+else 
+    # Percona XtraDB Cluster node local state is not 'Synced' => return HTTP 503
+    # Shell return-code is 1
+    echo -en "HTTP/1.1 503 Service Unavailable\r\n"
+    echo -en "Content-Type: text/plain\r\n"
+    echo -en "Connection: close\r\n"
+    echo -en "Content-Length: 24\r\n"
+    echo -en "\r\n"
+    echo -en "RabbitMQ node is down.\r\n"
+    exit 1
+fi 

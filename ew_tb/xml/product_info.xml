@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<product_info>
+	<products>
+		<product product_id="1001" type="Original" class="Gold"
+			pay_type="Star" pay_price="1" exchange_type="gold" item_id=""
+			total_count="1000" event_rate="" event_count=""></product>
+		<product product_id="1002" type="Original" class="Gold"
+			pay_type="Star" pay_price="5" exchange_type="gold" item_id=""
+			total_count="5000" event_rate="" event_count=""></product>
+		<product product_id="1003" type="Original" class="Gold"
+			pay_type="Star" pay_price="10" exchange_type="gold" item_id=""
+			total_count="11000" event_rate="" event_count=""></product>
+		<product product_id="1004" type="Original" class="Gold"
+			pay_type="Star" pay_price="25" exchange_type="gold" item_id=""
+			total_count="28750" event_rate="" event_count=""></product>
+		<product product_id="1005" type="Original" class="Gold"
+			pay_type="Star" pay_price="50" exchange_type="gold" item_id=""
+			total_count="60000" event_rate="" event_count=""></product>
+		<product product_id="1006" type="Original" class="Gold"
+			pay_type="Star" pay_price="100" exchange_type="gold" item_id=""
+			total_count="125000" event_rate="" event_count=""></product>
+		<product product_id="1007" type="Original" class="Gold"
+			pay_type="Star" pay_price="200" exchange_type="gold" item_id=""
+			total_count="260000" event_rate="" event_count=""></product>
+		<product product_id="1101" type="Event" class="Gold" pay_type="Star"
+			pay_price="1" exchange_type="gold" item_id="" total_count="1000"
+			event_rate="20" event_count="200"></product>
+		<product product_id="1102" type="Event" class="Gold" pay_type="Star"
+			pay_price="5" exchange_type="gold" item_id="" total_count="5000"
+			event_rate="20" event_count="1000"></product>
+		<product product_id="1103" type="Event" class="Gold" pay_type="Star"
+			pay_price="10" exchange_type="gold" item_id="" total_count="11000"
+			event_rate="20" event_count="2200"></product>
+		<product product_id="1104" type="Event" class="Gold" pay_type="Star"
+			pay_price="25" exchange_type="gold" item_id="" total_count="28750"
+			event_rate="20" event_count="5750"></product>
+		<product product_id="1105" type="Event" class="Gold" pay_type="Star"
+			pay_price="50" exchange_type="gold" item_id="" total_count="60000"
+			event_rate="20" event_count="12000"></product>
+		<product product_id="1106" type="Event" class="Gold" pay_type="Star"
+			pay_price="100" exchange_type="gold" item_id="" total_count="125000"
+			event_rate="20" event_count="25000"></product>
+		<product product_id="1107" type="Event" class="Gold" pay_type="Star"
+			pay_price="200" exchange_type="gold" item_id="" total_count="260000"
+			event_rate="20" event_count="52000"></product>
+		<product product_id="2001" type="Original" class="Honor"
+			pay_type="Star" pay_price="1" exchange_type="honor" item_id=""
+			total_count="20" event_rate="" event_count=""></product>
+		<product product_id="2002" type="Original" class="Honor"
+			pay_type="Star" pay_price="5" exchange_type="honor" item_id=""
+			total_count="40" event_rate="" event_count=""></product>
+		<product product_id="2003" type="Original" class="Honor"
+			pay_type="Star" pay_price="10" exchange_type="honor" item_id=""
+			total_count="110" event_rate="" event_count=""></product>
+		<product product_id="2004" type="Original" class="Honor"
+			pay_type="Star" pay_price="25" exchange_type="honor" item_id=""
+			total_count="225" event_rate="" event_count=""></product>
+		<product product_id="2005" type="Original" class="Honor"
+			pay_type="Star" pay_price="50" exchange_type="honor" item_id=""
+			total_count="460" event_rate="" event_count=""></product>
+		<product product_id="2006" type="Original" class="Honor"
+			pay_type="Star" pay_price="100" exchange_type="honor" item_id=""
+			total_count="1250" event_rate="" event_count=""></product>
+		<product product_id="2007" type="Original" class="Honor"
+			pay_type="Star" pay_price="200" exchange_type="honor" item_id=""
+			total_count="2700" event_rate="" event_count=""></product>
+		<product product_id="2101" type="Event" class="Honor"
+			pay_type="Star" pay_price="1" exchange_type="honor" item_id=""
+			total_count="20" event_rate="20" event_count="4"></product>
+		<product product_id="2102" type="Event" class="Honor"
+			pay_type="Star" pay_price="5" exchange_type="honor" item_id=""
+			total_count="40" event_rate="20" event_count="8"></product>
+		<product product_id="2103" type="Event" class="Honor"
+			pay_type="Star" pay_price="10" exchange_type="honor" item_id=""
+			total_count="110" event_rate="20" event_count="22"></product>
+		<product product_id="2104" type="Event" class="Honor"
+			pay_type="Star" pay_price="25" exchange_type="honor" item_id=""
+			total_count="225" event_rate="20" event_count="54"></product>
+		<product product_id="2105" type="Event" class="Honor"
+			pay_type="Star" pay_price="50" exchange_type="honor" item_id=""
+			total_count="460" event_rate="20" event_count="92"></product>
+		<product product_id="2106" type="Event" class="Honor"
+			pay_type="Star" pay_price="100" exchange_type="honor" item_id=""
+			total_count="1250" event_rate="20" event_count="250"></product>
+		<product product_id="2107" type="Event" class="Honor"
+			pay_type="Star" pay_price="200" exchange_type="honor" item_id=""
+			total_count="2700" event_rate="20" event_count="540"></product>
+		<product product_id="3001" type="Original" class="Star"
+			pay_type="Cash" pay_price="$0.99" exchange_type="star" item_id=""
+			total_count="20" event_rate="" event_count=""></product>
+		<product product_id="3002" type="Original" class="Star"
+			pay_type="Cash" pay_price="$1.99" exchange_type="star" item_id=""
+			total_count="40" event_rate="" event_count=""></product>
+		<product product_id="3003" type="Original" class="Star"
+			pay_type="Cash" pay_price="$4.99" exchange_type="star" item_id=""
+			total_count="110" event_rate="" event_count=""></product>
+		<product product_id="3004" type="Original" class="Star"
+			pay_type="Cash" pay_price="$9.99" exchange_type="star" item_id=""
+			total_count="225" event_rate="" event_count=""></product>
+		<product product_id="3005" type="Original" class="Star"
+			pay_type="Cash" pay_price="$19.99" exchange_type="star" item_id=""
+			total_count="460" event_rate="" event_count=""></product>
+		<product product_id="3006" type="Original" class="Star"
+			pay_type="Cash" pay_price="$49.99" exchange_type="star" item_id=""
+			total_count="1250" event_rate="" event_count=""></product>
+		<product product_id="3007" type="Original" class="Star"
+			pay_type="Cash" pay_price="$99.99" exchange_type="star" item_id=""
+			total_count="2700" event_rate="" event_count=""></product>
+		<product product_id="3101" type="Event" class="Star" pay_type="Cash"
+			pay_price="$0.99" exchange_type="star" item_id="" total_count="20"
+			event_rate="20" event_count="4"></product>
+		<product product_id="3102" type="Event" class="Star" pay_type="Cash"
+			pay_price="$1.99" exchange_type="star" item_id="" total_count="40"
+			event_rate="20" event_count="8"></product>
+		<product product_id="3103" type="Event" class="Star" pay_type="Cash"
+			pay_price="$4.99" exchange_type="star" item_id="" total_count="110"
+			event_rate="20" event_count="22"></product>
+		<product product_id="3104" type="Event" class="Star" pay_type="Cash"
+			pay_price="$9.99" exchange_type="star" item_id="" total_count="225"
+			event_rate="20" event_count="54"></product>
+		<product product_id="3105" type="Event" class="Star" pay_type="Cash"
+			pay_price="$19.99" exchange_type="star" item_id="" total_count="460"
+			event_rate="20" event_count="92"></product>
+		<product product_id="3106" type="Event" class="Star" pay_type="Cash"
+			pay_price="$49.99" exchange_type="star" item_id="" total_count="1250"
+			event_rate="20" event_count="250"></product>
+		<product product_id="3107" type="Event" class="Star" pay_type="Cash"
+			pay_price="$99.99" exchange_type="star" item_id="" total_count="2700"
+			event_rate="20" event_count="540"></product>
+		<product product_id="4011" type="Original" class="item"
+			pay_type="Star" pay_price="10" exchange_type="item" item_id="331101"
+			total_count="10" event_rate="" event_count=""></product>
+		<product product_id="4021" type="Original" class="item"
+			pay_type="Star" pay_price="10" exchange_type="item" item_id="331201"
+			total_count="10" event_rate="" event_count=""></product>
+	</products>
+</product_info>

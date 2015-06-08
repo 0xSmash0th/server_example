@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<officerinfo>
+	<!-- grade_info: 등급과 관련된 정보 -->
+	<!-- grade.cost_honor: 고용을 위한 명예 비용 -->
+	<!-- grade.weight: 등장 가중치 -->
+	<grade_info>
+		<grades>
+			<grade grade="1" cost_honor="1" weight="81" max_level='6' />
+			<grade grade="2" cost_honor="3" weight="10" max_level='12' />
+			<grade grade="3" cost_honor="5" weight="5" max_level='18' />
+			<grade grade="4" cost_honor="10" weight="3" max_level='24' />
+			<grade grade="5" cost_honor="20" weight="1" max_level='30' />
+		</grades>
+	</grade_info>
+
+	<!-- id: 기획문서의 ID -->
+	<!-- force: 국가 코드, 1. 연합, 2. 제국, 3. 중립 (양진영에 등장) -->
+	<!-- speciality: 특기 1 급습, 2 사수, 3 집중, 4 수리, 5 회복, 6 부활, 7 고양, 8 제압, 9 공포 -->
+	<!-- grade: 등급 -->
+	<!-- offense: 공격지휘, defense: 방어지휘, tactics: 전술지휘, resists: 전술방어 -->
+	<officers>
+		<officer id="1001" force="2" speciality="1" cl_name_index="2200" cl_desc_index="2300">
+			<grades>
+				<grade grade="1" offense="6" defense="3" tactics="8" resists="3" />
+				<grade grade="2" offense="8" defense="3" tactics="10" resists="4" />
+				<grade grade="3" offense="10" defense="4" tactics="12" resists="4" />
+				<grade grade="4" offense="12" defense="4" tactics="14" resists="5" />
+				<grade grade="5" offense="14" defense="5" tactics="16" resists="5" />
+			</grades>
+		</officer>
+		<officer id="1011" force="2" speciality="2" cl_name_index="2201" cl_desc_index="2301">
+			<grades>
+				<grade grade="1" offense="2" defense="8" tactics="2" resists="8" />
+				<grade grade="2" offense="3" defense="10" tactics="2" resists="10" />
+				<grade grade="3" offense="3" defense="12" tactics="3" resists="12" />
+				<grade grade="4" offense="5" defense="13" tactics="4" resists="13" />
+				<grade grade="5" offense="5" defense="15" tactics="5" resists="15" />
+			</grades>
+		</officer>
+		<officer id="1021" force="2" speciality="3" cl_name_index="2202" cl_desc_index="2302">
+			<grades>
+				<grade grade="1" offense="3" defense="3" tactics="8" resists="6" />
+				<grade grade="2" offense="3" defense="3" tactics="10" resists="8" />
+				<grade grade="3" offense="4" defense="4" tactics="12" resists="10" />
+				<grade grade="4" offense="4" defense="4" tactics="14" resists="12" />
+				<grade grade="5" offense="5" defense="5" tactics="16" resists="14" />
+			</grades>
+		</officer>
+		<officer id="1031" force="2" speciality="4" cl_name_index="2203" cl_desc_index="2303">
+			<grades>
+				<grade grade="1" offense="8" defense="2" tactics="8" resists="2" />
+				<grade grade="2" offense="10" defense="3" tactics="10" resists="2" />
+				<grade grade="3" offense="12" defense="3" tactics="12" resists="3" />
+				<grade grade="4" offense="13" defense="5" tactics="13" resists="4" />
+				<grade grade="5" offense="15" defense="5" tactics="15" resists="5" />
+			</grades>
+		</officer>
+		<officer id="1041" force="2" speciality="5" cl_name_index="2204" cl_desc_index="2304">
+			<grades>
+				<grade grade="1" offense="6" defense="6" tactics="4" resists="4" />
+				<grade grade="2" offense="8" defense="8" tactics="4" resists="5" />
+				<grade grade="3" offense="10" defense="10" tactics="5" resists="5" />
+				<grade grade="4" offense="12" defense="12" tactics="5" resists="6" />
+				<grade grade="5" offense="14" defense="14" tactics="6" resists="6" />
+			</grades>
+		</officer>
+		<officer id="1051" force="2" speciality="6" cl_name_index="2205" cl_desc_index="2305">
+			<grades>
+				<grade grade="1" offense="5" defense="6" tactics="3" resists="6" />
+				<grade grade="2" offense="5" defense="8" tactics="4" resists="8" />
+				<grade grade="3" offense="6" defense="10" tactics="4" resists="10" />
+				<grade grade="4" offense="6" defense="12" tactics="5" resists="12" />
+				<grade grade="5" offense="7" defense="14" tactics="5" resists="14" />
+			</grades>
+		</officer>
+
+		<officer id="2001" force="1" speciality="7" cl_name_index="2206" cl_desc_index="2306">
+			<grades>
+				<grade grade="1" offense="4" defense="4" tactics="6" resists="6" />
+				<grade grade="2" offense="4" defense="5" tactics="8" resists="8" />
+				<grade grade="3" offense="5" defense="5" tactics="10" resists="10" />
+				<grade grade="4" offense="5" defense="6" tactics="12" resists="12" />
+				<grade grade="5" offense="6" defense="6" tactics="14" resists="14" />
+			</grades>
+		</officer>
+		<officer id="2011" force="1" speciality="2" cl_name_index="2207" cl_desc_index="2307">
+			<grades>
+				<grade grade="1" offense="2" defense="8" tactics="2" resists="8" />
+				<grade grade="2" offense="3" defense="10" tactics="2" resists="10" />
+				<grade grade="3" offense="3" defense="12" tactics="3" resists="12" />
+				<grade grade="4" offense="5" defense="13" tactics="4" resists="13" />
+				<grade grade="5" offense="5" defense="15" tactics="5" resists="15" />
+			</grades>
+		</officer>
+		<officer id="2021" force="1" speciality="5" cl_name_index="2208" cl_desc_index="2308">
+			<grades>
+				<grade grade="1" offense="6" defense="6" tactics="4" resists="4" />
+				<grade grade="2" offense="8" defense="8" tactics="4" resists="5" />
+				<grade grade="3" offense="10" defense="10" tactics="5" resists="5" />
+				<grade grade="4" offense="12" defense="12" tactics="5" resists="6" />
+				<grade grade="5" offense="14" defense="14" tactics="6" resists="6" />
+			</grades>
+		</officer>
+
+		<officer id="2031" force="1" speciality="9" cl_name_index="2209" cl_desc_index="2309">
+			<grades>
+				<grade grade="1" offense="6" defense="6" tactics="4" resists="4" />
+				<grade grade="2" offense="8" defense="8" tactics="4" resists="5" />
+				<grade grade="3" offense="10" defense="10" tactics="5" resists="5" />
+				<grade grade="4" offense="12" defense="12" tactics="5" resists="6" />
+				<grade grade="5" offense="14" defense="14" tactics="6" resists="6" />
+			</grades>
+		</officer>
+
+		<officer id="2041" force="1" speciality="8" cl_name_index="2210" cl_desc_index="2310">
+			<grades>
+				<grade grade="1" offense="8" defense="2" tactics="8" resists="2" />
+				<grade grade="2" offense="10" defense="3" tactics="10" resists="2" />
+				<grade grade="3" offense="12" defense="3" tactics="12" resists="3" />
+				<grade grade="4" offense="13" defense="5" tactics="13" resists="4" />
+				<grade grade="5" offense="15" defense="5" tactics="15" resists="5" />
+			</grades>
+		</officer>
+
+		<officer id="2051" force="1" speciality="1" cl_name_index="2211" cl_desc_index="2311">
+			<grades>
+				<grade grade="1" offense="6" defense="3" tactics="8" resists="3" />
+				<grade grade="2" offense="8" defense="3" tactics="10" resists="4" />
+				<grade grade="3" offense="10" defense="4" tactics="12" resists="4" />
+				<grade grade="4" offense="12" defense="4" tactics="14" resists="5" />
+				<grade grade="5" offense="14" defense="5" tactics="16" resists="5" />
+			</grades>
+		</officer>
+	</officers>
+</officerinfo>

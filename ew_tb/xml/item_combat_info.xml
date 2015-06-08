@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<item_combat_info>
+	<item_combats>
+		<item_combat id="211001" name="파인애플 수류탄" image="ico_item_C_pineapple"
+			line_up="1001" force="1" type="2" target="6" target_format_text="적군 유닛"
+			hitarea="1" hitarea_format_text="단일" weapon="1" min_damage="50"
+			max_damage="100" damage_format_text="효과 : 사격 피해 50 ~ 100" eff1_id=""
+			eff1_level="" eff1_target="" eff1_format_text="" eff2_id=""
+			eff2_level="" eff2_target="" eff2_format_text="" req="1" time="60"
+			cost_gold="100" cost_honor="" cost_star="" sell_gold="1"
+			limit_product="10" limit_owned="1" limit_overlap="99"></item_combat>
+		<item_combat id="211002" name="접착식 폭탄" image="ico_item_C_sticky"
+			line_up="1003" force="1" type="2" target="7" target_format_text="적군 유닛"
+			hitarea="1" hitarea_format_text="단일" weapon="2" min_damage="50"
+			max_damage="100" damage_format_text="효과 : 폭파 피해 50 ~ 100" eff1_id=""
+			eff1_level="" eff1_target="" eff1_format_text="" eff2_id=""
+			eff2_level="" eff2_target="" eff2_format_text="" req="1" time="60"
+			cost_gold="100" cost_honor="" cost_star="" sell_gold="1"
+			limit_product="10" limit_owned="1" limit_overlap="99"></item_combat>
+		<item_combat id="221001" name="척탄 강습" image="ico_item_C_granade"
+			line_up="2001" force="2" type="2" target="6" target_format_text="적군 유닛"
+			hitarea="1" hitarea_format_text="단일" weapon="1" min_damage="50"
+			max_damage="100" damage_format_text="효과 : 사격 피해 50 ~ 100" eff1_id="12"
+			eff1_level="0" eff1_target="1" eff1_format_text="보병 유닛 공격속도 감소 (장교등급 적용)"
+			eff2_id="" eff2_level="" eff2_target="" eff2_format_text="" req="1"
+			time="60" cost_gold="100" cost_honor="" cost_star="" sell_gold="1"
+			limit_product="10" limit_owned="1" limit_overlap="99"></item_combat>
+		<item_combat id="221002" name="텔러 지뢰" image="ico_item_C_tellermine"
+			line_up="2003" force="2" type="2" target="7" target_format_text="적군 유닛"
+			hitarea="1" hitarea_format_text="단일" weapon="2" min_damage="50"
+			max_damage="100" damage_format_text="효과 : 폭파 피해 50 ~ 100" eff1_id="12"
+			eff1_level="1" eff1_target="2" eff1_format_text="전차 유닛 공격속도 감소 10%(고정)"
+			eff2_id="" eff2_level="" eff2_target="" eff2_format_text="" req="1"
+			time="60" cost_gold="100" cost_honor="" cost_star="" sell_gold="1"
+			limit_product="10" limit_owned="1" limit_overlap="99"></item_combat>
+		<item_combat id="212001" name="응급 치료" image="ico_item_C_fielddressing"
+			line_up="1002" force="3" type="2" target="4" target_format_text="아군 보병 유닛"
+			hitarea="1" hitarea_format_text="단일" weapon="6" min_damage="50"
+			max_damage="100" damage_format_text="효과 : 보병 치료 50 ~ 100" eff1_id=""
+			eff1_level="" eff1_target="" eff1_format_text="" eff2_id=""
+			eff2_level="" eff2_target="" eff2_format_text="" req="1" time="60"
+			cost_gold="100" cost_honor="" cost_star="" sell_gold="1"
+			limit_product="10" limit_owned="1" limit_overlap="99"></item_combat>
+		<item_combat id="212002" name="야전 수리" image="ico_item_C_fieldrepair"
+			line_up="1004" force="3" type="2" target="5" target_format_text="아군 전차 유닛"
+			hitarea="1" hitarea_format_text="단일" weapon="7" min_damage="50"
+			max_damage="100" damage_format_text="효과 : 전차 수리 50 ~ 100" eff1_id=""
+			eff1_level="" eff1_target="" eff1_format_text="" eff2_id=""
+			eff2_level="" eff2_target="" eff2_format_text="" req="1" time="60"
+			cost_gold="100" cost_honor="" cost_star="" sell_gold="1"
+			limit_product="10" limit_owned="1" limit_overlap="99"></item_combat>
+	</item_combats>
+</item_combat_info>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- buildLimit : [지을 수 있는 건물의 최대 개수] animation : [1 = Idle //대기 2 = Work 
+	//작동 3 = Nothing] abillity : [0 = 없음 1 = SpecilaUnlock //특수유닛 잠금해제 2 = HumanUnlock 
+	//보병유닛 잠금해제 3 = TankUnlock //전차유닛 잠금해제 4 = MakeItem //아이템 생산 5 = TradeItem 
+	//아이템 거래 6 = CureOfficer //장교 치료 7 = EmployOfficer //장교 고용] upgrade : [0 
+	= 없음 1 = GoldCollectPlus //골드 징수량 증가 2 = ResourceLimitPlus //자원 보관량 증가 3 
+	= ItemUnlock //아이템 잠금 해제 4 = ItemTimeMinus //아이템 생산시간 감소 5 = UnitCostMinus 
+	//유닛 생산비용 감소 6 = UnitTimeMinus //유닛 생산시간 감소 7 = CureCostMinus //장교 치료비용 감소 
+	8 = OfficerListPlus //장교 목록 증가 9 = BuildingCoolMinus //건설 쿨타임 감소] -->
+<buildinginfo>
+	<!--################################################################## -->
+	<!--연합군 Building -->
+
+	<!--사령부 -->
+	<building id="HQ" nameindex="1000" sprname="BD_alli_headquarters"
+		facename="" force="Allies" buildLimit="1" animation="3" abillity="0"
+		upgrade="1" cost_star="0" req_level="0" />
+	<!--보병사령부 -->
+	<building id="HQ_Infantry" nameindex="1001" sprname=""
+		facename="" force="Allies" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="20" req_level="1" />
+	<!--지원사령부 -->
+	<building id="HQ_Support" nameindex="1002" sprname=""
+		facename="" force="Allies" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="20" req_level="1" />
+	<!--전차사령부 -->
+	<building id="HQ_Tank" nameindex="1003" sprname="" facename=""
+		force="Allies" buildLimit="1" animation="3" abillity="1" upgrade="1"
+		cost_star="50" req_level="1" />
+	<!--의무사령부 -->
+	<building id="HQ_Medical" nameindex="1004" sprname=""
+		facename="" force="Allies" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="70" req_level="1" />
+	<!--코만도사령부 -->
+	<building id="HQ_Commando" nameindex="1005" sprname=""
+		facename="" force="Allies" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="100" req_level="1" />
+	<!--포병사령부 -->
+	<building id="HQ_Artillery" nameindex="1006" sprname=""
+		facename="" force="Allies" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="120" req_level="1" />
+	<!--훈련소 -->
+	<building id="TrainingCamp" nameindex="1007" sprname="BD_alli_bootcamp"
+		facename="" force="Allies" buildLimit="1" animation="3" abillity="2"
+		upgrade="5" cost_star="0" req_level="0" />
+	<!--기계공장 -->
+	<building id="MachineFactory" nameindex="1008" sprname="BD_alli_warfactory"
+		facename="" force="Allies" buildLimit="1" animation="3" abillity="3"
+		upgrade="5" cost_star="0" req_level="0" />
+
+
+
+	<!--################################################################## -->
+	<!--제국군 Empire -->
+
+	<!--사령부 -->
+	<building id="EM_HQ" nameindex="1030" sprname="BD_empi_headquarters"
+		facename="" force="Empire" buildLimit="1" animation="1" abillity="0"
+		upgrade="1" cost_star="0" req_level="0" />
+	<!--전격사령부 -->
+	<building id="EM_HQ_Blitz" nameindex="1031" sprname=""
+		facename="" force="Empire" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="20" req_level="1" />
+	<!--지원사령부 -->
+	<building id="EM_HQ_Support" nameindex="1032" sprname=""
+		facename="" force="Empire" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="20" req_level="1" />
+	<!--팬저앨리드사령부 -->
+	<building id="EM_HQ_Panzer" nameindex="1033" sprname=""
+		facename="" force="Empire" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="50" req_level="1" />
+	<!--제국사령부 -->
+	<building id="EM_HQ_Empire" nameindex="1034" sprname=""
+		facename="" force="Empire" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="70" req_level="1" />
+	<!--공병사령부 -->
+	<building id="EM_HQ_Engineer" nameindex="1035" sprname=""
+		facename="" force="Empire" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="100" req_level="1" />
+	<!--전차사령부 -->
+	<building id="EM_HQ_Tank" nameindex="1036" sprname=""
+		facename="" force="Empire" buildLimit="1" animation="3" abillity="1"
+		upgrade="1" cost_star="120" req_level="1" />
+	<!--훈련소 -->
+	<building id="EM_TrainingCamp" nameindex="1037" sprname="BD_empi_bootcamp"
+		facename="" force="Empire" buildLimit="1" animation="3" abillity="2"
+		upgrade="5" cost_star="0" req_level="0" />
+	<!--기계공장 -->
+	<building id="EM_MachineFactory" nameindex="1038"
+		sprname="BD_empi_warfactory" facename="" force="Empire" buildLimit="1"
+		animation="1" abillity="3" upgrade="5" cost_star="0" req_level="0" />
+
+
+	<!--################################################################## -->
+	<!--공통 Building -->
+	<!--장군부 -->
+	<building id="common_GeneralPart" nameindex="1009" sprname="BD_com_general"
+		facename="" force="Common" buildLimit="1" animation="3" abillity="0"
+		upgrade="6" cost_star="0" req_level="0" />
+	<!--참모부 -->
+	<building id="common_StaffPart" nameindex="1010" sprname="BD_com_staff"
+		facename="" force="Common" buildLimit="1" animation="3" abillity="0"
+		upgrade="9" cost_star="0" req_level="0" />
+
+	<!--캠프 -->
+	<building id="common_Camp" nameindex="1060" sprname="BD_com_camp"
+		facename="" force="Common" buildLimit="4" animation="3" abillity="0"
+		upgrade="1" cost_star="0" req_level="0" />
+	<!--생산공장 -->
+	<building id="common_Factory" nameindex="1061" sprname="BD_com_factory"
+		facename="" force="Common" buildLimit="1" animation="3" abillity="4"
+		upgrade="4" cost_star="0" req_level="0" />
+	<!--창고 -->
+	<building id="common_Depot" nameindex="1062" sprname="BD_com_depot"
+		facename="" force="Common" buildLimit="4" animation="3" abillity="0"
+		upgrade="2" cost_star="0" req_level="0" />
+	<!--거래소 -->
+	<building id="common_Market" nameindex="1063" sprname=""
+		facename="" force="Common" buildLimit="1" animation="3" abillity="5"
+		upgrade="0" cost_star="0" req_level="0" />
+	<!--병원 -->
+	<building id="common_Hospital" nameindex="1064" sprname="BD_com_hospital"
+		facename="" force="Common" buildLimit="1" animation="3" abillity="6"
+		upgrade="7" cost_star="0" req_level="0" />
+	<!--주점 -->
+	<building id="common_Pub" nameindex="1065" sprname="BD_com_pub"
+		facename="" force="Common" buildLimit="1" animation="3" abillity="7"
+		upgrade="8" cost_star="0" req_level="0" />
+	<!--연구소 -->
+	<building id="common_Laboratory" nameindex="1066" sprname="BD_com_laboratory"
+		facename="" force="Common" buildLimit="1" animation="3" abillity="0"
+		upgrade="3" cost_star="0" req_level="0" />
+</buildinginfo>

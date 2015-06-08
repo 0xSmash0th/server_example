@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+id : int
+name_index : int
+desc_index1 : int
+desc_index2 : int
+row : int - 위치할 행
+column : int - 위치할 열
+type : int - 분류
+      [1(attack), 2(defense), 3(support)]
+require_type : int - 언락 조건 분류
+      [1(attack), 2(defense), 3(support)]
+require_point : int - 언락 조건 분류 포인트 합
+require_skill_id : int - 언락 조건 스킬
+require_skill_level : int - 언락 조건 스킬 레벨
+measure : int - value적용 단위
+      [1(num), 2(percent), 3(second)]
+effect : int - 적용 효과
+      [1	보병 공격력 증가
+      2	차량 공격력 증가
+      3	전투아이템(공격) 가치값 증가
+      4	보병 공격속도 증가
+      5	차량 공격속도 증가
+      6	장교 공격지휘 증가
+      7	장교 전술지휘 증가
+      8	사격타입 공격력 증가
+      9	폭격타입 공격력 증가
+      10	화염타입 공격력 증가
+      11	저격타입 공격력 증가
+      12	유닛 치명타 발생
+      13	보병 상태이상 저항
+      14	차량 상태이상 저항
+      15	전투아이템(회복) 가치값 증가
+      16	보병 체력 증가
+      17	차량 체력 증가
+      18	치료 회복량 증가
+      19	수리 회복량 증가
+      20	장교 방어지휘 증가
+      21	장교 전술방어 증가
+      22	유닛 회피 발생
+      23	장교 경험치 획득량 증가
+      24	건설 쿨타임 감소
+      25	전투 자원 보상 증가
+      26	세금 징수량 증가
+      27	보병 생산시간 감소
+      28	차량 생산시간 감소
+      29	아이템 생산시간 감소
+      30	장교 치료시간 감소
+      31	장교 재설정 시간 단축
+      32	장군 행동력 최대치 증가
+      33	장교 지휘병력 증가
+      ]
+
+            
+-->
+<skillinfo>
+  <!--##################################################################-->
+  <!--공격 스킬-->
+
+  <!--보병 전술-->
+  <skill id="101" name_index="1200" desc_index1="1300" desc_index2="1390" row="1" column="1"
+         type="1" require_type="1" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="1" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+    <level level="6" value="6"/>
+  </skill>
+  
+  <!--기갑 전술-->
+  <skill id="102" name_index="1201" desc_index1="1301" desc_index2="1390" row="1" column="2"
+         type="1" require_type="1" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="2" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+    <level level="6" value="6"/>
+  </skill>
+
+  <!--지원 공격-->
+  <skill id="104" name_index="1202" desc_index1="1302" desc_index2="1390" row="1" column="4"
+         type="1" require_type="1" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="3" measure="1">
+    <level level="1" value="25"/>
+    <level level="2" value="50"/>
+    <level level="3" value="75"/>
+    <level level="4" value="100"/>
+  </skill>
+
+  <!--돌격-->
+  <skill id="111" name_index="1203" desc_index1="1303" desc_index2="1390" row="2" column="1"
+         type="1" require_type="1" require_point="10" require_skill_id="101" require_skill_level="6"
+         effect="4" measure="1">
+    <level level="1" value="2"/>
+    <level level="2" value="4"/>
+    <level level="3" value="6"/>
+    <level level="4" value="8"/>
+    <level level="5" value="10"/>
+  </skill>
+  
+  <!--가속-->
+  <skill id="112" name_index="1204" desc_index1="1304" desc_index2="1390" row="2" column="2"
+         type="1" require_type="1" require_point="10" require_skill_id="102" require_skill_level="6"
+         effect="5" measure="1">
+    <level level="1" value="2"/>
+    <level level="2" value="4"/>
+    <level level="3" value="6"/>
+    <level level="4" value="8"/>
+    <level level="5" value="10"/>
+  </skill>
+  
+  <!--전투 장교-->
+  <skill id="113" name_index="1205" desc_index1="1305" desc_index2="1390" row="2" column="3"
+         type="1" require_type="1" require_point="10" require_skill_id="0" require_skill_level="0"
+         effect="6" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+  </skill>
+  
+  <!--작전 장교-->
+  <skill id="114" name_index="1206" desc_index1="1306" desc_index2="1390" row="2" column="4"
+         type="1" require_type="1" require_point="10" require_skill_id="0" require_skill_level="0"
+         effect="7" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+  </skill>
+  
+  <!--정교한 사격-->
+  <skill id="121" name_index="1207" desc_index1="1307" desc_index2="1390" row="3" column="1"
+         type="1" require_type="1" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="8" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+    <level level="6" value="6"/>
+  </skill>
+
+  <!--철갑탄-->
+  <skill id="122" name_index="1208" desc_index1="1308" desc_index2="1390" row="3" column="2"
+         type="1" require_type="1" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="9" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+    <level level="6" value="6"/>
+  </skill>
+
+  <!--드래곤-->
+  <skill id="123" name_index="1209" desc_index1="1309" desc_index2="1390" row="3" column="3"
+         type="1" require_type="1" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="10" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+  </skill>
+
+  <!--명사수-->
+  <skill id="124" name_index="1210" desc_index1="1310" desc_index2="1390" row="3" column="4"
+         type="1" require_type="1" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="11" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+  </skill>
+
+  <!--조준 사격-->
+  <skill id="132" name_index="1211" desc_index1="1311" desc_index2="1394" row="4" column="2"
+         type="1" require_type="1" require_point="30" require_skill_id="0" require_skill_level="0"
+         effect="12" measure="2">
+    <level level="1" value="3"/>
+  </skill>
+
+
+  <!--##################################################################-->
+  <!--방어 스킬-->
+
+  <!--고양-->
+  <skill id="201" name_index="1230" desc_index1="1330" desc_index2="" row="1" column="1"
+         type="2" require_type="2" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="13">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+    <level level="6" value="6"/>
+  </skill>
+
+  <!--기계-->
+  <skill id="202" name_index="1231" desc_index1="1331" desc_index2="" row="1" column="2"
+         type="2" require_type="2" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="14" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+    <level level="6" value="6"/>
+  </skill>
+
+  <!--의무병-->
+  <skill id="204" name_index="1232" desc_index1="1332" desc_index2="1390" row="1" column="3"
+         type="2" require_type="2" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="15" measure="1">
+    <level level="1" value="25"/>
+    <level level="2" value="50"/>
+    <level level="3" value="75"/>
+    <level level="4" value="100"/>
+  </skill>
+
+  <!--체력 단련-->
+  <skill id="211" name_index="1233" desc_index1="1333" desc_index2="1390" row="2" column="1"
+         type="2" require_type="2" require_point="10" require_skill_id="201" require_skill_level="6"
+         effect="16" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+  </skill>
+
+  <!--장갑 보강-->
+  <skill id="212" name_index="1234" desc_index1="1334" desc_index2="1390" row="2" column="2"
+         type="2" require_type="2" require_point="10" require_skill_id="202" require_skill_level="6"
+         effect="17" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+  </skill>
+
+  <!--응급 치료-->
+  <skill id="213" name_index="1235" desc_index1="1335" desc_index2="1390" row="2" column="3"
+         type="2" require_type="2" require_point="10" require_skill_id="0" require_skill_level="0"
+         effect="18" measure="1">
+    <level level="1" value="2"/>
+    <level level="2" value="4"/>
+    <level level="3" value="6"/>
+    <level level="4" value="8"/>
+    <level level="5" value="10"/>
+  </skill>
+
+  <!--응급 수리-->
+  <skill id="214" name_index="1236" desc_index1="1336" desc_index2="1390" row="2" column="4"
+         type="2" require_type="2" require_point="10" require_skill_id="0" require_skill_level="0"
+         effect="19" measure="1">
+    <level level="1" value="2"/>
+    <level level="2" value="4"/>
+    <level level="3" value="6"/>
+    <level level="4" value="8"/>
+    <level level="5" value="10"/>
+  </skill>
+
+  <!--방어 장교-->
+  <skill id="223" name_index="1237" desc_index1="1337" desc_index2="1390" row="3" column="3"
+         type="2" require_type="2" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="20" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+    <level level="6" value="6"/>
+    <level level="7" value="7"/>
+    <level level="8" value="8"/>
+    <level level="9" value="9"/>
+    <level level="10" value="10"/>
+  </skill>
+
+  <!--정보 장교-->
+  <skill id="224" name_index="1238" desc_index1="1338" desc_index2="1390" row="3" column="4"
+         type="2" require_type="2" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="21" measure="1">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+    <level level="6" value="6"/>
+    <level level="7" value="7"/>
+    <level level="8" value="8"/>
+    <level level="9" value="9"/>
+    <level level="10" value="10"/>
+  </skill>
+
+  <!--기민함-->
+  <skill id="232" name_index="1239" desc_index1="1339" desc_index2="1394" row="4" column="2"
+         type="2" require_type="2" require_point="30" require_skill_id="0" require_skill_level="0"
+         effect="22" measure="2">
+    <level level="1" value="3"/>
+  </skill>
+
+
+  <!--##################################################################-->
+  <!--지원 스킬-->
+
+  <!--일취월장-->
+  <skill id="301" name_index="1260" desc_index1="1360" desc_index2="1392" row="1" column="1"
+         type="3" require_type="3" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="23" measure="2">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+  </skill>
+
+  <!--공병단-->
+  <skill id="302" name_index="1261" desc_index1="1361" desc_index2="1392" row="1" column="2"
+         type="3" require_type="3" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="24" measure="2">
+    <level level="1" value="-1"/>
+    <level level="2" value="-2"/>
+    <level level="3" value="-3"/>
+    <level level="4" value="-4"/>
+    <level level="5" value="-5"/>
+  </skill>
+
+  <!--행정-->
+  <skill id="303" name_index="1262" desc_index1="1362" desc_index2="1392" row="1" column="3"
+         type="3" require_type="3" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="25" measure="2">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+  </skill>
+
+  <!--보급-->
+  <skill id="304" name_index="1263" desc_index1="1363" desc_index2="1392" row="1" column="4"
+         type="3" require_type="3" require_point="0" require_skill_id="0" require_skill_level="0"
+         effect="26" measure="2">
+    <level level="1" value="1"/>
+    <level level="2" value="2"/>
+    <level level="3" value="3"/>
+    <level level="4" value="4"/>
+    <level level="5" value="5"/>
+  </skill>
+
+  <!--훌륭한 교관-->
+  <skill id="312" name_index="1264" desc_index1="1364" desc_index2="1392" row="2" column="2"
+         type="3" require_type="3" require_point="10" require_skill_id="0" require_skill_level="0"
+         effect="27" measure="2">
+    <level level="1" value="-1"/>
+    <level level="2" value="-2"/>
+    <level level="3" value="-3"/>
+    <level level="4" value="-4"/>
+  </skill>
+
+  <!--자동화 공장-->
+  <skill id="313" name_index="1265" desc_index1="1365" desc_index2="1392" row="2" column="3"
+         type="3" require_type="3" require_point="10" require_skill_id="0" require_skill_level="0"
+         effect="28" measure="2">
+    <level level="1" value="-1"/>
+    <level level="2" value="-2"/>
+    <level level="3" value="-3"/>
+    <level level="4" value="-4"/>
+  </skill>
+
+  <!--납품일 준수-->
+  <skill id="314" name_index="1266" desc_index1="1366" desc_index2="1392" row="2" column="4"
+         type="3" require_type="3" require_point="10" require_skill_id="0" require_skill_level="0"
+         effect="29" measure="2">
+    <level level="1" value="-1"/>
+    <level level="2" value="-2"/>
+    <level level="3" value="-3"/>
+    <level level="4" value="-4"/>
+  </skill>
+
+  <!--닥터 K-->
+  <skill id="321" name_index="1267" desc_index1="1367" desc_index2="1392" row="3" column="1"
+         type="3" require_type="3" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="30" measure="2">
+    <level level="1" value="-1"/>
+    <level level="2" value="-2"/>
+    <level level="3" value="-3"/>
+    <level level="4" value="-4"/>
+    <level level="5" value="-5"/>
+  </skill>
+
+  <!--인기절정-->
+  <skill id="322" name_index="1268" desc_index1="1368" desc_index2="1393" row="3" column="2"
+         type="3" require_type="3" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="31" measure="3">
+    <level level="1" value="-60"/>
+    <level level="2" value="-120"/>
+    <level level="3" value="-180"/>
+    <level level="4" value="-240"/>
+    <level level="5" value="-300"/>
+  </skill>
+
+  <!--힘세고 오래가는-->
+  <skill id="323" name_index="1269" desc_index1="1369" desc_index2="1390" row="3" column="3"
+         type="3" require_type="3" require_point="20" require_skill_id="0" require_skill_level="0"
+         effect="32" measure="1">
+    <level level="1" value="2"/>
+    <level level="2" value="4"/>
+    <level level="3" value="6"/>
+    <level level="4" value="8"/>
+    <level level="5" value="10"/>
+  </skill>
+
+  <!--리더쉽-->
+  <skill id="331" name_index="1270" desc_index1="1370" desc_index2="1390" row="4" column="1"
+         type="3" require_type="3" require_point="30" require_skill_id="321" require_skill_level="5"
+         effect="33" measure="1">
+    <level level="1" value="50"/>
+  </skill>
+
+</skillinfo>

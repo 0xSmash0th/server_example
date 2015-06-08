@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+start_type : int - 분류
+    [1(tutorial), 2(main)]
+precede_id : int - 선행 조건 퀘스트 id
+next_id : int - 다음에 실행할 튜토리얼 id
+condition : int - 시작조건
+    [1(패널 로드), 2(클릭 이벤트)]
+condition="1" panel_name : start_type이 1일 경우 시작조건 Panel 이름
+    [PanelTown
+    PanelInformation
+    PanelArmy
+    PanelMap
+    PanelShop
+    PanelItem
+    PanelMail
+    PanelChating]
+
+======================================================
+step : int - 순서
+
+type : 분류
+    [1(text), ]
+    
+portrait : 포트레이트 id. 진영에 맞는 걸 사용
+
+port_side : 포트레이트 위치
+    [1(bot left), 2(bot right), 3(top left), 4(top right)]
+    
+text : string - 내용
+
+guide : 가이드 타입
+    [0(not use), 1(box), 2(box left text), 3(box right text), 4(circle left text), 5(circle right text)]
+    
+poxX, poxY, width, height : int - 가이드 박스의 위치, 크기
+
+guide_text : string - 가이드 텍스트
+
+btn_name : string - 버튼이름
+
+is_trigger : int - 트리거로 동작할 지 여부
+    [0(false), 1(true)]
+    
+--> 
+<tutorialinfo>
+
+  <!--사령부 튜터리얼-->
+  <tutorial id="1" precede_id="0" next_id="0" condition="1" panel_name="PanelTown" >
+    <step step="1" type="1" portrait="2011" port_side="1" name="제시카" text="새로운 사령부를 구축할 곳에 도착했습니다. 장군님."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="2" type="1" portrait="" port_side="0" name="" text="우선 명령을 수행하기 전에 도움이 될만한 정보를 알려드리겠습니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="3" type="1" portrait="" port_side="0" name="" text="화면 상단을 보시면 사령부의 자원 현황을 확인할 수 있습니다."
+          guide="1" poxX="730" poxY="25" width="900" height="80" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="4" type="1" portrait="" port_side="0" name="" text="골드는 기본적인 자원으로 건설, 훈련, 생산 등에 폭넓게 사용됩니다."
+          guide="1" poxX="400" poxY="25" width="240" height="80" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="5" type="1" portrait="" port_side="0" name="" text="명예는 고급 자원으로 정예 병사를 훈련하는데 사용됩니다."
+          guide="1" poxX="590" poxY="25" width="240" height="80" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="6" type="1" portrait="" port_side="1" name="" text="파워는 행동력으로 장군님의 행동에 따라 소비되며,&#10;1분에 1씩 회복됩니다."
+          guide="1" poxX="810" poxY="25" width="270" height="80" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="7" type="1" portrait="" port_side="0" name="" text="스타는 특수 자원으로 장교 육성 등의 특별한 행동에 사용됩니다."
+          guide="1" poxX="1040" poxY="25" width="270" height="80" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="8" type="1" portrait="" port_side="0" name="" text="화면 우측은 각종 명령을 내릴 수 있는 지휘 메뉴 입니다."
+          guide="1" poxX="1220" poxY="410" width="136" height="632" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="9" type="1" portrait="" port_side="0" name="" text="정보는 장군님의 훈장과 스킬을 관리하는 메뉴입니다."
+          guide="2" poxX="1220" poxY="167" width="136" height="136" guide_text="정보 메뉴"
+          btn_name="btn01Information" is_trigger="0"
+          />
+    <step step="10" type="1" portrait="" port_side="0" name="" text="군대는 전투에 참여할 장교와 병사들을 고용하고 관리하는 메뉴입니다."
+          guide="2" poxX="1220" poxY="286" width="136" height="136" guide_text="군대 메뉴"
+          btn_name="btn02Army" is_trigger="0"
+          />
+    <step step="11" type="1" portrait="" port_side="0" name="" text="군단은 길드를 만들고 관리하는 메뉴입니다."
+          guide="2" poxX="1220" poxY="405" width="136" height="136" guide_text="군단 메뉴"
+          btn_name="btn03Corps" is_trigger="0"
+          />
+    <step step="12" type="1" portrait="" port_side="0" name="" text="전장은 전투를 진행하기 위해서 월드맵으로 이동하는 메뉴입니다."
+          guide="2" poxX="1220" poxY="286" width="136" height="136" guide_text="전장 메뉴"
+          btn_name="btn04Battlefield" is_trigger="0"
+          />
+    <step step="13" type="1" portrait="" port_side="0" name="" text="상점은 골드, 명예, 스타 자원과 특별한 아이템을 구매하는 메뉴입니다."
+          guide="2" poxX="1220" poxY="405" width="136" height="136" guide_text="상점 메뉴"
+          btn_name="btn05Store" is_trigger="0"
+          />
+    <step step="14" type="1" portrait="2011" port_side="3" name="" text="아이템은 보관된 아이템을 확인하는 창고와 전투아이템을 생산할 수 있는 메뉴입니다."
+          guide="2" poxX="1220" poxY="530" width="136" height="136" guide_text="아이템 메뉴"
+          btn_name="btn06Item" is_trigger="0"
+          />
+    <step step="15" type="1" portrait="" port_side="0" name="" text="설정은 게임 내 각종 환경설정을 할 수 있는 메뉴입니다."
+          guide="2" poxX="1220" poxY="647" width="136" height="136" guide_text="설정 메뉴"
+          btn_name="btn07Settings" is_trigger="0"
+          />
+    <step step="16" type="1" portrait="" port_side="0" name="" text="이상입니다. 장군님.&#10;더 자세한 사항은 명령을 수행하면서 안내 해드리겠습니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+  </tutorial>
+
+	
+<!--건설 튜터리얼-->	
+  <tutorial id="2" precede_id="0" next_id="0" condition="2" panel_name="common_const" >
+    <step step="1" type="1" portrait="2011" port_side="2" name="제시카" text="사령부내에 건물을 건설하시려면 건설 부지를 선택하시면 됩니다."
+          guide="1" poxX="388" poxY="384" width="180" height="220" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="2" type="1" portrait="" port_side="0" name="" text="건설부지를 선택하면 건설 가능한 건물 목록을  확인할 수 있습니다."
+          guide="5" poxX="388" poxY="384" width="0" height="0" guide_text="건설 부지 선택하기"
+          btn_name="" is_trigger="0" 
+          />
+    <step step="3" type="1" portrait="" port_side="0" name="" text="목록에서 원하시는 건물을 선택하고  건설하기 버튼을 선택하시면 됩니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="4" type="1" portrait="" port_side="0" name="" text="건설 명령을 내려주십시오. 장군님."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+  </tutorial>
+
+
+<!--장교 튜터리얼-->
+  <tutorial id="3" precede_id="0" next_id="0" condition="1" panel_name="PanelArmy" >
+    <step step="1" type="1" portrait="2011" port_side="2" name="제시카" text="군대는 전투에 참여할 장교와 병력을 관리하실 수 있는 화면입니다. "
+          guide="1" poxX="60" poxY="44" width="146" height="110" guide_text=""
+          btn_name="" is_trigger="0"
+          /> 
+    <step step="2" type="1" portrait="2011" port_side="1" name="제시카" text="장교는 병사들을 이끌고 전투에 참여하는 지휘관으로 높은 계급일수록 능력치가 높습니다."
+          guide="1" poxX="742" poxY="155 " width="150" height="42" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="3" type="1" portrait="" port_side="0" name="" text="장교의 능력치는 총 네가지가 있습니다."
+          guide="1" poxX="1004" poxY="304" width="310" height="220" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="4" type="1" portrait="" port_side="0" name="" text="공격지휘와 방어지휘는 각각 병사들의 공격력과 방어력이 상승시킵니다."
+          guide="1" poxX="1004" poxY="304" width="310" height="220" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="5" type="1" portrait="" port_side="0" name="" text="전술 지휘와 전술 방어는 각각 아이템에 대한 공격력과 방어력을 증가시킵니다."
+          guide="1" poxX="1004" poxY="304" width="310" height="220" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="6" type="1" portrait="" port_side="0" name="" text="또한 장교는 전투 중에 발동되는 특기도 갖고  있습니다."
+          guide="1" poxX="913" poxY="406" width="490" height="80" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="7" type="1" portrait="" port_side="0" name="" text="특기는 아군 병사들에게 이로운 효과 부여하거나 적군에게 해로운 효과를 일으킵니다."
+          guide="1" poxX="913" poxY="406" width="490" height="80" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="8" type="1" portrait="2011" port_side="2" name="제시카" text="장교 고용을 선택하여 더 뛰어난 장교를 고용하실 수 있습니다. 장군님."
+          guide="5" poxX="90" poxY="278" width="196" height="140" guide_text="장교 고용하기"
+          btn_name="btnLeftArmy1" is_trigger="1" 
+          />
+  </tutorial>
+
+	
+<!--병력 튜터리얼-->
+  <tutorial id="4" precede_id="1" next_id="0" condition="1" panel_name="PanelUnit" >
+    <step step="1" type="1" portrait="2011" port_side="1" name="제시카" text="병사를 훈련시키고 전차를 생산하는 명령을 하실 수 있습니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="2" type="1" portrait="" port_side="0" name="" text="병사와 전차는 장교와 달리 사망하면 치료가 불가능합니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="3" type="1" portrait="" port_side="0" name="" text="언제나 다음 전투에 대비하여 꾸준히 병력을 훈련하십시오."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />	
+  </tutorial>
+
+<!--병력배치 튜터리얼-->
+   <tutorial id="5" precede_id="1" next_id="0" condition="1" panel_name="PanelArrange" >
+    <step step="1" type="1" portrait="2011" port_side="1" name="제시카" text="병력 배치는 장교에게 병력을 배치하여 전투에 참가할 부대를 편성합니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="2" type="1" portrait="" port_side="0" name="" text="편성이 완료된 부대는 투입 버튼으로 전투에 참가하게 됩니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="3" type="1" portrait="" port_side="0" name="" text="새로운 부대를 편성하시고 전장 메뉴를 선택하여 전투에 참여하십시오."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          /><!---->
+  </tutorial>
+	
+				
+<!--아이템 튜터리얼-->
+   <tutorial id="6" precede_id="0" next_id="0" condition="1" panel_name="PanelItem" >
+    <step step="1" type="1" portrait="2011" port_side="2" name="제시카" text="아이템 메뉴는 창고 이용과 전투아이템을 생산 명령을 내릴 수 있는 곳입니다."
+          guide="1" poxX="60" poxY="44" width="146" height="110" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="2" type="1" portrait="" port_side="2" name="" text="창고는 획득한 아이템을 보관하고 판매할 수 있습니다."
+          guide="1" poxX="90" poxY="152" width="196" height="140" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="3" type="1" portrait="2011" port_side="2" name="제시카" text="생산은 전투에서 사용하는 아이템의 생산 명령을 내릴 수 있습니다."
+          guide="5" poxX="90" poxY="278" width="196" height="140" guide_text="생산 선택하기"
+          btn_name="btnLeftItem1" is_trigger="1" 
+          />
+  </tutorial>
+  
+  <!--아이템 생산 튜터리얼-->
+  <tutorial id="7" precede_id="0" next_id="0" condition="1" panel_name="PanelMaking" >
+    <step step="1" type="1" portrait="2011" port_side="2" name="제시카" text="전투아이템은 장교에게 착용한 후 전투시 아군 차례에 사용할 수 있습니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="2" type="1" portrait="" port_side="0" name="" text="전투아이템의 효과는 장군의 전술 지휘 능력치가 높을수록 증가합니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="3" type="1" portrait="" port_side="0" name="" text="남은 병력이 없을때 사용하면 반전을 노려볼 수 있을 것 같습니다. 장군님."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="4" type="1" portrait="" port_side="0" name="" text="전투아이템 생산 명령을 내려주십시오."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+  </tutorial>
+	
+	
+<!--전장 튜터리얼-->
+   <tutorial id="8" precede_id="0" next_id="0" condition="1" panel_name="PanelMap" >
+	  <step step="1" type="1" portrait="2011" port_side="2" name="제시카" text="이곳은 상대진영과 전투가 벌어지고 있는 전장입니다. 장군님."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="2" type="1" portrait="" port_side="0" name="" text="육각형 타일의 색상은 현재 점령 중인 진영을 의미합니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />		
+	  <step step="3" type="1" portrait="" port_side="0" name="" text="붉은 색 제국군, 파란색은 연합군이 점령하고 있는 지역입니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />		
+	  <step step="4" type="1" portrait="" port_side="0" name="" text="양 진영이 맞붙어 있는 반짝이는 지역은 PvP 지역으로 점령전이 진행 중입니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          /><!--랜덤한 점령전 타일 포커싱-->		
+	  <step step="5" type="1" portrait="" port_side="0" name="" text="반대로 아군 지역에서는 침투한 NPC를 격퇴하는 섬멸전이 진행되고 있습니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          /><!--랜덤한 섬멸전 타일 포커싱-->		
+	  <step step="6" type="1" portrait="" port_side="0" name="" text="섬멸전은 총 5단계의 난이도로 구성되어 있습니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />		
+	  <step step="7" type="1" portrait="" port_side="0" name="" text="장군님께서는 매우 쉬움을 선택하여 침투한 NPC를 격퇴시켜주십시오."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />		
+	  <step step="8" type="1" portrait="" port_side="0" name="" text="승전보를 기다리고 있겠습니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />		
+  </tutorial>	
+	
+	
+<!--점령전 튜터리얼-->
+   <tutorial id="9" precede_id="1" next_id="0" condition="1" panel_name="PopupPvp" >
+    <step step="1" type="1" portrait="2011" port_side="1" name="제시카" text="점령전은 지역 점령을 통해 받는 이로운 효과를 놓고 상대 진영과 경쟁하게 됩니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0"
+          />
+    <step step="2" type="1" portrait="" port_side="0" name="" text="전쟁 시간동안 누적된 전투 점수가 높은 진영이 해당 지역을 점령하게 됩니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+	  <step step="3" type="1" portrait="" port_side="0" name="" text="채워진 색상이 붉은 색이면 제국군, 푸른색이면 연합군이 우세한 상황입니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />
+    <step step="4" type="1" portrait="" port_side="0" name="" text="마지막으로 점령전은 상대 진영 유저와 전투가 진행되니 만반의 준비가 필요합니다."
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          />		
+    <step step="5" type="1" portrait="" port_side="0" name="" text="준비가 끝나셨다면 승리를 위해 진격하십시오!"
+          guide="0" poxX="0" poxY="0" width="0" height="0" guide_text=""
+          btn_name="" is_trigger="0" 
+          /><!--전장 진입 버튼 선택 btn_name="btnBattleStart" is_trigger="1" -->			
+  </tutorial>	
+	
+
+<!--마스터 버전용 튜터리얼-->
+  <tutorial id="101" precede_id="0" next_id="0" condition="2" panel_name="PanelTown" >
+    <step step="1" type="1" portrait="2011" port_side="1" name="제시카" text="전투에 투입할 부대를 편성하십시오."
+          guide="4" poxX="1220" poxY="286" width="136" height="136" guide_text="군대 선택하기"
+          btn_name="btn02Army" is_trigger="1"
+          />
+	  <step step="2" type="1" portrait="2011" port_side="2" name="제시카" text="병력 배치에서 부대를 투입시킬 수 있습니다."
+          guide="4" poxX="90" poxY="530" width="196" height="140" guide_text="병력 배치 선택하기"
+          btn_name="" is_trigger="0"
+          /><!--병력 배치 버튼 선택-->
+	  <step step="2" type="1" portrait="2011" port_side="1" name="제시카" text="부대를 전투에 투입시키십시오."
+          guide="4" poxX="0" poxY="0" width="0" height="0" guide_text="투입 선택하기"
+          btn_name="" is_trigger="0"
+          /><!--병력 배치 버튼 선택-->
+  </tutorial>	
+
+
+
+
+</tutorialinfo>
